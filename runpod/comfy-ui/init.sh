@@ -1,6 +1,6 @@
 #!/bin/bash
 
-manager_git="https://github.com/SeargeDP/ComfyUI-Manager"
+manager_git="https://github.com/ltdrdata/ComfyUI-Manager"
 manager_dir="/opt/ComfyUI/custom_nodes/ComfyUI-Manager"
 
 searge_git="https://github.com/SeargeDP/SeargeSDXL"
