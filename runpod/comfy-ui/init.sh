@@ -15,6 +15,8 @@ else
     cd $manager_dir && git pull
 fi
 
+python -m pip install opencv-python
+mkdir -p /opt/ComfyUI/models/annotators
 if [[ ! -d $searge_dir ]]; then
     git clone $searge_git $searge_dir
 else
