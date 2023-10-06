@@ -7,6 +7,8 @@ loras_dir=${models_dir}/loras
 upscale_dir=${models_dir}/upscale_models
 annotators_dir=${models_dir}/annotators
 
+mkdir -p $annotators_dir
+
 base_model_file=${checkpoints_dir}/sd_xl_base_1.0_0.9vae.safetensors
 base_model_url=https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0_0.9vae.safetensors
 refiner_model_file=${checkpoints_dir}/sd_xl_refiner_1.0_0.9vae.safetensors
