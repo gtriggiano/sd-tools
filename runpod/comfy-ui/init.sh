@@ -1,5 +1,12 @@
 #!/bin/bash
 
+############
+# Base deps
+############
+
+apt update
+apt install build-essential -y
+
 manager_git="https://github.com/ltdrdata/ComfyUI-Manager"
 manager_dir="/opt/ComfyUI/custom_nodes/ComfyUI-Manager"
 if [[ ! -d $manager_dir ]]; then
