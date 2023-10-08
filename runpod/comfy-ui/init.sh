@@ -7,22 +7,6 @@
 apt update
 apt install build-essential -y
 
-manager_git="https://github.com/ltdrdata/ComfyUI-Manager"
-manager_dir="/opt/ComfyUI/custom_nodes/ComfyUI-Manager"
-if [[ ! -d $manager_dir ]]; then
-    git clone $manager_git $manager_dir
-else
-    cd $manager_dir && git pull
-fi
-
-styler_git=https://github.com/ali1234/sdxl_prompt_styler
-styler_dir="/opt/ComfyUI/custom_nodes/sdxl_prompt_styler"
-if [[ ! -d $styler_dir ]]; then
-    git clone $styler_git $styler_dir
-else
-    cd $styler_dir && git pull
-fi
-
 tools_git="https://github.com/gtriggiano/sd-tools"
 tools_dir="/sd-tools"
 if [[ ! -d $tools_dir ]]; then
@@ -31,4 +15,43 @@ else
     cd $tools_dir && git pull
 fi
 
-bash /sd-tools/runpod/comfy-ui/install-base-models.sh
+source /sd-tools/runpod/comfy-ui/fn.sh
+
+install_custom_node "ComfyUI-Manager" "https://github.com/ltdrdata/ComfyUI-Manager"
+install_custom_node "ComfyUI-Impact-Pack" "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
+install_custom_node "ComfyUI-Workflow-Component" "https://github.com/ltdrdata/ComfyUI-Workflow-Component"
+install_custom_node "sdxl_prompt_styler" "https://github.com/ali1234/sdxl_prompt_styler"
+install_custom_node "efficiency-nodes-comfyui" "https://github.com/LucianoCirino/efficiency-nodes-comfyui"
+
+if [[ $INSTALL_DREAMSHAPER_XL = "true" ]]; then
+    bash /sd-tools/runpod/comfy-ui/install-dreamshaper-xl.sh
+fi
+
+if [[ $INSTALL_IPADAPTER_PLUS = "true" ]]; then
+    bash /sd-tools/runpod/comfy-ui/install-ipadapter-plus.sh
+fi
+
+if [[ $INSTALL_JUGGERNAUT_XL = "true" ]]; then
+    bash /sd-tools/runpod/comfy-ui/install-juggernaut-xl.sh
+fi
+
+if [[ $INSTALL_LORAS = "true" ]]; then
+    bash /sd-tools/runpod/comfy-ui/install-loras.sh
+fi
+
+if [[ $INSTALL_REALISTICVISION = "true" ]]; then
+    bash /sd-tools/runpod/comfy-ui/install-realisticvision.sh
+fi
+
+if [[ $INSTALL_REALVISXL = "true" ]]; then
+    bash /sd-tools/runpod/comfy-ui/install-realvis-xl.sh
+fi
+
+if [[ $INSTALL_SDXL = "true" ]]; then
+    bash /sd-tools/runpod/comfy-ui/install-sdxl.sh
+fi
+
+
+
+
+
