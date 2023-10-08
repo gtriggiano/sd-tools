@@ -19,9 +19,8 @@ source /sd-tools/runpod/comfy-ui/fn.sh
 
 install_custom_node "ComfyUI-Manager" "https://github.com/ltdrdata/ComfyUI-Manager"
 install_custom_node "ComfyUI-Impact-Pack" "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
-install_custom_node "ComfyUI-Workflow-Component" "https://github.com/ltdrdata/ComfyUI-Workflow-Component"
 install_custom_node "sdxl_prompt_styler" "https://github.com/ali1234/sdxl_prompt_styler"
-install_custom_node "efficiency-nodes-comfyui" "https://github.com/LucianoCirino/efficiency-nodes-comfyui"
+
 
 if [[ $INSTALL_DREAMSHAPER_XL = "true" ]]; then
     bash /sd-tools/runpod/comfy-ui/install-dreamshaper-xl.sh
