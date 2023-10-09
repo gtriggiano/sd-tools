@@ -1,6 +1,6 @@
 #!/bin/bash
 
-annotator_dir=/opt/ComfyUI/models//annotators
+annotator_dir=/opt/ComfyUI/models/annotators
 checkpoint_dir=/opt/ComfyUI/models/checkpoints
 clip_vision_dir=/opt/ComfyUI/models/clip_vision
 custom_node_dir=/opt/ComfyUI/custom_nodes
@@ -60,4 +60,8 @@ install_vae () {
     local vae_file="${vae_dir}/$1"
     local vae_url=$2
     download_if_missing $vae_file $vae_url
+}
+
+restart_comfyui() {
+    supervisorctl restart comfyui
 }

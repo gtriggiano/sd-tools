@@ -18,39 +18,30 @@ fi
 source /sd-tools/runpod/comfy-ui/fn.sh
 
 install_custom_node "ComfyUI-Manager" "https://github.com/ltdrdata/ComfyUI-Manager"
-install_custom_node "ComfyUI-Impact-Pack" "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
-install_custom_node "sdxl_prompt_styler" "https://github.com/ali1234/sdxl_prompt_styler"
-
 
 if [[ $INSTALL_DREAMSHAPER_XL = "true" ]]; then
-    bash /sd-tools/runpod/comfy-ui/install-dreamshaper-xl.sh
-fi
-
-if [[ $INSTALL_IPADAPTER_PLUS = "true" ]]; then
-    bash /sd-tools/runpod/comfy-ui/install-ipadapter-plus.sh
+    bash /sd-tools/runpod/comfy-ui/install-checkpoint/dreamshaper-xl.sh
 fi
 
 if [[ $INSTALL_JUGGERNAUT_XL = "true" ]]; then
-    bash /sd-tools/runpod/comfy-ui/install-juggernaut-xl.sh
+    bash /sd-tools/runpod/comfy-ui/install-checkpoint/juggernaut-xl.sh
+fi
+
+if [[ $INSTALL_REALISTICVISION = "true" ]]; then
+    bash /sd-tools/runpod/comfy-ui/install-checkpoint/realisticvision.sh
+fi
+
+if [[ $INSTALL_REALVISXL = "true" ]]; then
+    bash /sd-tools/runpod/comfy-ui/install-checkpoint/realvis-xl.sh
+fi
+
+if [[ $INSTALL_SDXL = "true" ]]; then
+    bash /sd-tools/runpod/comfy-ui/install-checkpoint/sdxl.sh
 fi
 
 if [[ $INSTALL_LORAS = "true" ]]; then
     bash /sd-tools/runpod/comfy-ui/install-loras.sh
 fi
-
-if [[ $INSTALL_REALISTICVISION = "true" ]]; then
-    bash /sd-tools/runpod/comfy-ui/install-realisticvision.sh
-fi
-
-if [[ $INSTALL_REALVISXL = "true" ]]; then
-    bash /sd-tools/runpod/comfy-ui/install-realvis-xl.sh
-fi
-
-if [[ $INSTALL_SDXL = "true" ]]; then
-    bash /sd-tools/runpod/comfy-ui/install-sdxl.sh
-fi
-
-
 
 
 
