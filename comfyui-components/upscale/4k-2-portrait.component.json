@@ -26,7 +26,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "CONDITIONING",
+          "type": "*",
           "links": [
             17
           ],
@@ -62,7 +62,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "CONDITIONING",
+          "type": "*",
           "links": [
             18
           ],
@@ -134,7 +134,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "CONDITIONING",
+          "type": "*",
           "links": [
             25
           ],
@@ -170,7 +170,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "CONDITIONING",
+          "type": "*",
           "links": [
             23
           ],
@@ -206,7 +206,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "MODEL",
+          "type": "*",
           "links": [
             24
           ],
@@ -278,9 +278,8 @@
       "outputs": [
         {
           "name": "",
-          "type": "MODEL",
+          "type": "*",
           "links": [
-            31,
             36
           ],
           "slot_index": 0
@@ -315,7 +314,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "CONDITIONING",
+          "type": "*",
           "links": [
             30,
             37
@@ -352,7 +351,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "CONDITIONING",
+          "type": "*",
           "links": [
             29,
             38
@@ -372,10 +371,10 @@
         2126,
         493
       ],
-      "size": [
-        315,
-        262
-      ],
+      "size": {
+        "0": 315,
+        "1": 262
+      },
       "flags": {},
       "order": 24,
       "mode": 0,
@@ -383,7 +382,7 @@
         {
           "name": "model",
           "type": "MODEL",
-          "link": 31
+          "link": null
         },
         {
           "name": "positive",
@@ -403,7 +402,7 @@
         {
           "name": "seed",
           "type": "INT",
-          "link": 318,
+          "link": null,
           "widget": {
             "name": "seed",
             "config": [
@@ -501,9 +500,8 @@
       "outputs": [
         {
           "name": "",
-          "type": "MODEL",
+          "type": "*",
           "links": [
-            44,
             135
           ],
           "slot_index": 0
@@ -538,7 +536,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "CONDITIONING",
+          "type": "*",
           "links": [
             43,
             136
@@ -575,7 +573,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "CONDITIONING",
+          "type": "*",
           "links": [
             42,
             137
@@ -612,7 +610,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "CONDITIONING",
+          "type": "*",
           "links": [
             142,
             143,
@@ -650,7 +648,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "CONDITIONING",
+          "type": "*",
           "links": [
             145,
             153,
@@ -688,7 +686,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "CONDITIONING",
+          "type": "*",
           "links": [
             146,
             155,
@@ -726,7 +724,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "CONDITIONING",
+          "type": "*",
           "links": [
             148,
             163,
@@ -764,7 +762,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "CONDITIONING",
+          "type": "*",
           "links": [
             147,
             165,
@@ -802,11 +800,10 @@
       "outputs": [
         {
           "name": "",
-          "type": "MODEL",
+          "type": "*",
           "links": [
             139,
-            167,
-            168
+            167
           ],
           "slot_index": 0
         }
@@ -840,11 +837,10 @@
       "outputs": [
         {
           "name": "",
-          "type": "MODEL",
+          "type": "*",
           "links": [
             140,
-            169,
-            170
+            169
           ],
           "slot_index": 0
         }
@@ -878,11 +874,9 @@
       "outputs": [
         {
           "name": "",
-          "type": "MODEL",
+          "type": "*",
           "links": [
-            141,
-            171,
-            172
+            141
           ],
           "slot_index": 0
         }
@@ -916,7 +910,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "CONDITIONING",
+          "type": "*",
           "links": [
             149,
             161,
@@ -937,10 +931,10 @@
         3123,
         498
       ],
-      "size": [
-        315,
-        262
-      ],
+      "size": {
+        "0": 315,
+        "1": 262
+      },
       "flags": {},
       "order": 39,
       "mode": 0,
@@ -948,7 +942,7 @@
         {
           "name": "model",
           "type": "MODEL",
-          "link": 44
+          "link": null
         },
         {
           "name": "positive",
@@ -968,7 +962,7 @@
         {
           "name": "seed",
           "type": "INT",
-          "link": 320,
+          "link": null,
           "widget": {
             "name": "seed",
             "config": [
@@ -1368,7 +1362,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "CONDITIONING",
+          "type": "*",
           "links": [
             159,
             160,
@@ -1406,10 +1400,8 @@
       "outputs": [
         {
           "name": "",
-          "type": "MODEL",
+          "type": "*",
           "links": [
-            173,
-            174,
             245
           ],
           "slot_index": 0
@@ -1444,7 +1436,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "CONDITIONING",
+          "type": "*",
           "links": [
             157,
             158,
@@ -1482,7 +1474,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "CONDITIONING",
+          "type": "*",
           "links": [
             248
           ],
@@ -1518,7 +1510,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "CONDITIONING",
+          "type": "*",
           "links": [
             249
           ],
@@ -1554,10 +1546,8 @@
       "outputs": [
         {
           "name": "",
-          "type": "MODEL",
-          "links": [
-            250
-          ],
+          "type": "*",
+          "links": [],
           "slot_index": 0
         }
       ],
@@ -1953,10 +1943,10 @@
         5501,
         966
       ],
-      "size": [
-        315,
-        262
-      ],
+      "size": {
+        "0": 315,
+        "1": 262
+      },
       "flags": {},
       "order": 69,
       "mode": 0,
@@ -1964,7 +1954,7 @@
         {
           "name": "model",
           "type": "MODEL",
-          "link": 168
+          "link": null
         },
         {
           "name": "positive",
@@ -1984,7 +1974,7 @@
         {
           "name": "seed",
           "type": "INT",
-          "link": 323,
+          "link": null,
           "widget": {
             "name": "seed",
             "config": [
@@ -2029,10 +2019,10 @@
         5858,
         973
       ],
-      "size": [
-        315,
-        262
-      ],
+      "size": {
+        "0": 315,
+        "1": 262
+      },
       "flags": {},
       "order": 70,
       "mode": 0,
@@ -2040,7 +2030,7 @@
         {
           "name": "model",
           "type": "MODEL",
-          "link": 170
+          "link": null
         },
         {
           "name": "positive",
@@ -2060,7 +2050,7 @@
         {
           "name": "seed",
           "type": "INT",
-          "link": 326,
+          "link": null,
           "widget": {
             "name": "seed",
             "config": [
@@ -2105,10 +2095,10 @@
         6193,
         642
       ],
-      "size": [
-        315,
-        262
-      ],
+      "size": {
+        "0": 315,
+        "1": 262
+      },
       "flags": {},
       "order": 68,
       "mode": 0,
@@ -2116,7 +2106,7 @@
         {
           "name": "model",
           "type": "MODEL",
-          "link": 171
+          "link": null
         },
         {
           "name": "positive",
@@ -2136,7 +2126,7 @@
         {
           "name": "seed",
           "type": "INT",
-          "link": 328,
+          "link": null,
           "widget": {
             "name": "seed",
             "config": [
@@ -2181,10 +2171,10 @@
         6202,
         977
       ],
-      "size": [
-        315,
-        262
-      ],
+      "size": {
+        "0": 315,
+        "1": 262
+      },
       "flags": {},
       "order": 71,
       "mode": 0,
@@ -2192,7 +2182,7 @@
         {
           "name": "model",
           "type": "MODEL",
-          "link": 172
+          "link": null
         },
         {
           "name": "positive",
@@ -2212,7 +2202,7 @@
         {
           "name": "seed",
           "type": "INT",
-          "link": 329,
+          "link": null,
           "widget": {
             "name": "seed",
             "config": [
@@ -2257,10 +2247,10 @@
         6554,
         972
       ],
-      "size": [
-        315,
-        262
-      ],
+      "size": {
+        "0": 315,
+        "1": 262
+      },
       "flags": {},
       "order": 72,
       "mode": 0,
@@ -2268,7 +2258,7 @@
         {
           "name": "model",
           "type": "MODEL",
-          "link": 174
+          "link": null
         },
         {
           "name": "positive",
@@ -2288,7 +2278,7 @@
         {
           "name": "seed",
           "type": "INT",
-          "link": 332,
+          "link": null,
           "widget": {
             "name": "seed",
             "config": [
@@ -2333,10 +2323,10 @@
         6552,
         643
       ],
-      "size": [
-        315,
-        262
-      ],
+      "size": {
+        "0": 315,
+        "1": 262
+      },
       "flags": {},
       "order": 73,
       "mode": 0,
@@ -2344,7 +2334,7 @@
         {
           "name": "model",
           "type": "MODEL",
-          "link": 173
+          "link": null
         },
         {
           "name": "positive",
@@ -2364,7 +2354,7 @@
         {
           "name": "seed",
           "type": "INT",
-          "link": 331,
+          "link": null,
           "widget": {
             "name": "seed",
             "config": [
@@ -2451,10 +2441,10 @@
         7045,
         1619
       ],
-      "size": [
-        315,
-        262
-      ],
+      "size": {
+        "0": 315,
+        "1": 262
+      },
       "flags": {},
       "order": 75,
       "mode": 0,
@@ -2462,7 +2452,7 @@
         {
           "name": "model",
           "type": "MODEL",
-          "link": 250
+          "link": null
         },
         {
           "name": "positive",
@@ -2482,7 +2472,7 @@
         {
           "name": "seed",
           "type": "INT",
-          "link": 334,
+          "link": null,
           "widget": {
             "name": "seed",
             "config": [
@@ -2686,7 +2676,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "MODEL",
+          "type": "*",
           "links": [
             19
           ],
@@ -2722,7 +2712,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "INT",
+          "type": "*",
           "links": [
             317
           ],
@@ -2758,7 +2748,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "INT",
+          "type": "*",
           "links": [
             316
           ],
@@ -2794,9 +2784,8 @@
       "outputs": [
         {
           "name": "",
-          "type": "INT",
+          "type": "*",
           "links": [
-            318,
             319
           ],
           "slot_index": 0
@@ -2831,9 +2820,8 @@
       "outputs": [
         {
           "name": "",
-          "type": "INT",
+          "type": "*",
           "links": [
-            320,
             321
           ],
           "slot_index": 0
@@ -2851,10 +2839,10 @@
         5502,
         643
       ],
-      "size": [
-        315,
-        262
-      ],
+      "size": {
+        "0": 315,
+        "1": 262
+      },
       "flags": {},
       "order": 66,
       "mode": 0,
@@ -2882,7 +2870,7 @@
         {
           "name": "seed",
           "type": "INT",
-          "link": 322,
+          "link": null,
           "widget": {
             "name": "seed",
             "config": [
@@ -2944,10 +2932,8 @@
       "outputs": [
         {
           "name": "",
-          "type": "INT",
+          "type": "*",
           "links": [
-            322,
-            323,
             324
           ],
           "slot_index": 0
@@ -2965,10 +2951,10 @@
         5854,
         646
       ],
-      "size": [
-        315,
-        262
-      ],
+      "size": {
+        "0": 315,
+        "1": 262
+      },
       "flags": {},
       "order": 67,
       "mode": 0,
@@ -2996,7 +2982,7 @@
         {
           "name": "seed",
           "type": "INT",
-          "link": 325,
+          "link": null,
           "widget": {
             "name": "seed",
             "config": [
@@ -3058,10 +3044,8 @@
       "outputs": [
         {
           "name": "",
-          "type": "INT",
+          "type": "*",
           "links": [
-            325,
-            326,
             327
           ],
           "slot_index": 0
@@ -3096,10 +3080,8 @@
       "outputs": [
         {
           "name": "",
-          "type": "INT",
+          "type": "*",
           "links": [
-            328,
-            329,
             330
           ],
           "slot_index": 0
@@ -3134,10 +3116,8 @@
       "outputs": [
         {
           "name": "",
-          "type": "INT",
+          "type": "*",
           "links": [
-            331,
-            332,
             333
           ],
           "slot_index": 0
@@ -3172,10 +3152,8 @@
       "outputs": [
         {
           "name": "",
-          "type": "INT",
-          "links": [
-            334
-          ],
+          "type": "*",
+          "links": [],
           "slot_index": 0
         }
       ],
@@ -3262,10 +3240,10 @@
         1146,
         459
       ],
-      "size": [
-        315,
-        262
-      ],
+      "size": {
+        "0": 315,
+        "1": 262
+      },
       "flags": {},
       "order": 9,
       "mode": 0,
@@ -3347,7 +3325,7 @@
       "outputs": [
         {
           "name": "positive",
-          "type": "CONDITIONING",
+          "type": "*",
           "links": [
             265
           ],
@@ -3552,14 +3530,6 @@
       "CONDITIONING"
     ],
     [
-      31,
-      23,
-      0,
-      25,
-      0,
-      "MODEL"
-    ],
-    [
       35,
       25,
       0,
@@ -3622,14 +3592,6 @@
       35,
       1,
       "CONDITIONING"
-    ],
-    [
-      44,
-      30,
-      0,
-      35,
-      0,
-      "MODEL"
     ],
     [
       49,
@@ -4000,58 +3962,10 @@
       "MODEL"
     ],
     [
-      168,
-      109,
-      0,
-      105,
-      0,
-      "MODEL"
-    ],
-    [
       169,
       113,
       0,
       102,
-      0,
-      "MODEL"
-    ],
-    [
-      170,
-      113,
-      0,
-      106,
-      0,
-      "MODEL"
-    ],
-    [
-      171,
-      114,
-      0,
-      103,
-      0,
-      "MODEL"
-    ],
-    [
-      172,
-      114,
-      0,
-      107,
-      0,
-      "MODEL"
-    ],
-    [
-      173,
-      115,
-      0,
-      104,
-      0,
-      "MODEL"
-    ],
-    [
-      174,
-      115,
-      0,
-      108,
       0,
       "MODEL"
     ],
@@ -4118,14 +4032,6 @@
       158,
       1,
       "CONDITIONING"
-    ],
-    [
-      250,
-      160,
-      0,
-      158,
-      0,
-      "MODEL"
     ],
     [
       257,
@@ -4336,28 +4242,12 @@
       "*"
     ],
     [
-      318,
-      177,
-      0,
-      25,
-      4,
-      "INT"
-    ],
-    [
       319,
       177,
       0,
       178,
       0,
       "*"
-    ],
-    [
-      320,
-      178,
-      0,
-      35,
-      4,
-      "INT"
     ],
     [
       321,
@@ -4368,44 +4258,12 @@
       "*"
     ],
     [
-      322,
-      179,
-      0,
-      93,
-      4,
-      "INT"
-    ],
-    [
-      323,
-      179,
-      0,
-      105,
-      4,
-      "INT"
-    ],
-    [
       324,
       179,
       0,
       180,
       0,
       "*"
-    ],
-    [
-      325,
-      180,
-      0,
-      102,
-      4,
-      "INT"
-    ],
-    [
-      326,
-      180,
-      0,
-      106,
-      4,
-      "INT"
     ],
     [
       327,
@@ -4416,22 +4274,6 @@
       "*"
     ],
     [
-      328,
-      181,
-      0,
-      103,
-      4,
-      "INT"
-    ],
-    [
-      329,
-      181,
-      0,
-      107,
-      4,
-      "INT"
-    ],
-    [
       330,
       181,
       0,
@@ -4440,36 +4282,12 @@
       "*"
     ],
     [
-      331,
-      182,
-      0,
-      104,
-      4,
-      "INT"
-    ],
-    [
-      332,
-      182,
-      0,
-      108,
-      4,
-      "INT"
-    ],
-    [
       333,
       182,
       0,
       183,
       0,
       "*"
-    ],
-    [
-      334,
-      183,
-      0,
-      158,
-      4,
-      "INT"
     ],
     [
       335,
@@ -4491,5 +4309,586 @@
   "groups": [],
   "config": {},
   "extra": {},
-  "version": 0.4
+  "version": 0.4,
+  "output": {
+    "3": {
+      "inputs": {
+        "seed": [
+          "175",
+          0
+        ],
+        "steps": 10,
+        "cfg": 8,
+        "sampler_name": "euler",
+        "scheduler": "normal",
+        "denoise": 0.15999999999999995,
+        "model": [
+          "165",
+          0
+        ],
+        "positive": [
+          "166",
+          0
+        ],
+        "latent_image": [
+          "184",
+          0
+        ]
+      },
+      "class_type": "KSampler"
+    },
+    "25": {
+      "inputs": {
+        "steps": 20,
+        "cfg": 8,
+        "sampler_name": "dpmpp_2s_ancestral",
+        "scheduler": "karras",
+        "denoise": 0.6533325195312514,
+        "positive": [
+          "166",
+          0
+        ],
+        "negative": [
+          "167",
+          0
+        ],
+        "latent_image": [
+          "3",
+          0
+        ]
+      },
+      "class_type": "KSampler"
+    },
+    "29": {
+      "inputs": {
+        "upscale_method": "nearest-exact",
+        "width": 2048,
+        "height": 1024,
+        "crop": "disabled",
+        "samples": [
+          "25",
+          0
+        ]
+      },
+      "class_type": "LatentUpscale"
+    },
+    "35": {
+      "inputs": {
+        "steps": 20,
+        "cfg": 8,
+        "sampler_name": "dpmpp_2s_ancestral",
+        "scheduler": "karras",
+        "denoise": 0.5200012207031256,
+        "positive": [
+          "166",
+          0
+        ],
+        "negative": [
+          "167",
+          0
+        ],
+        "latent_image": [
+          "29",
+          0
+        ]
+      },
+      "class_type": "KSampler"
+    },
+    "39": {
+      "inputs": {
+        "width": 520,
+        "height": 520,
+        "x": 0,
+        "y": 0,
+        "samples": [
+          "35",
+          0
+        ]
+      },
+      "class_type": "LatentCrop"
+    },
+    "40": {
+      "inputs": {
+        "width": 520,
+        "height": 520,
+        "x": 512,
+        "y": 0,
+        "samples": [
+          "35",
+          0
+        ]
+      },
+      "class_type": "LatentCrop"
+    },
+    "41": {
+      "inputs": {
+        "width": 520,
+        "height": 520,
+        "x": 1024,
+        "y": 0,
+        "samples": [
+          "35",
+          0
+        ]
+      },
+      "class_type": "LatentCrop"
+    },
+    "42": {
+      "inputs": {
+        "width": 520,
+        "height": 520,
+        "x": 1536,
+        "y": 0,
+        "samples": [
+          "35",
+          0
+        ]
+      },
+      "class_type": "LatentCrop"
+    },
+    "44": {
+      "inputs": {
+        "width": 520,
+        "height": 520,
+        "x": 0,
+        "y": 512,
+        "samples": [
+          "35",
+          0
+        ]
+      },
+      "class_type": "LatentCrop"
+    },
+    "60": {
+      "inputs": {
+        "width": 520,
+        "height": 520,
+        "x": 512,
+        "y": 512,
+        "samples": [
+          "35",
+          0
+        ]
+      },
+      "class_type": "LatentCrop"
+    },
+    "61": {
+      "inputs": {
+        "width": 520,
+        "height": 520,
+        "x": 1024,
+        "y": 512,
+        "samples": [
+          "35",
+          0
+        ]
+      },
+      "class_type": "LatentCrop"
+    },
+    "62": {
+      "inputs": {
+        "width": 520,
+        "height": 520,
+        "x": 1536,
+        "y": 512,
+        "samples": [
+          "35",
+          0
+        ]
+      },
+      "class_type": "LatentCrop"
+    },
+    "93": {
+      "inputs": {
+        "steps": 20,
+        "cfg": 8,
+        "sampler_name": "dpmpp_2s_ancestral",
+        "scheduler": "karras",
+        "denoise": 0.48000122070312556,
+        "model": [
+          "165",
+          0
+        ],
+        "positive": [
+          "166",
+          0
+        ],
+        "negative": [
+          "167",
+          0
+        ],
+        "latent_image": [
+          "94",
+          0
+        ]
+      },
+      "class_type": "KSampler"
+    },
+    "94": {
+      "inputs": {
+        "upscale_method": "nearest-exact",
+        "width": 1032,
+        "height": 1032,
+        "crop": "disabled",
+        "samples": [
+          "39",
+          0
+        ]
+      },
+      "class_type": "LatentUpscale"
+    },
+    "95": {
+      "inputs": {
+        "upscale_method": "nearest-exact",
+        "width": 1032,
+        "height": 1032,
+        "crop": "disabled",
+        "samples": [
+          "40",
+          0
+        ]
+      },
+      "class_type": "LatentUpscale"
+    },
+    "96": {
+      "inputs": {
+        "upscale_method": "nearest-exact",
+        "width": 1032,
+        "height": 1032,
+        "crop": "disabled",
+        "samples": [
+          "41",
+          0
+        ]
+      },
+      "class_type": "LatentUpscale"
+    },
+    "97": {
+      "inputs": {
+        "upscale_method": "nearest-exact",
+        "width": 1032,
+        "height": 1032,
+        "crop": "disabled",
+        "samples": [
+          "42",
+          0
+        ]
+      },
+      "class_type": "LatentUpscale"
+    },
+    "98": {
+      "inputs": {
+        "upscale_method": "nearest-exact",
+        "width": 1032,
+        "height": 1032,
+        "crop": "disabled",
+        "samples": [
+          "62",
+          0
+        ]
+      },
+      "class_type": "LatentUpscale"
+    },
+    "99": {
+      "inputs": {
+        "upscale_method": "nearest-exact",
+        "width": 1032,
+        "height": 1032,
+        "crop": "disabled",
+        "samples": [
+          "61",
+          0
+        ]
+      },
+      "class_type": "LatentUpscale"
+    },
+    "100": {
+      "inputs": {
+        "upscale_method": "nearest-exact",
+        "width": 1032,
+        "height": 1032,
+        "crop": "disabled",
+        "samples": [
+          "60",
+          0
+        ]
+      },
+      "class_type": "LatentUpscale"
+    },
+    "101": {
+      "inputs": {
+        "upscale_method": "nearest-exact",
+        "width": 1032,
+        "height": 1032,
+        "crop": "disabled",
+        "samples": [
+          "44",
+          0
+        ]
+      },
+      "class_type": "LatentUpscale"
+    },
+    "102": {
+      "inputs": {
+        "steps": 20,
+        "cfg": 8,
+        "sampler_name": "dpmpp_2s_ancestral",
+        "scheduler": "karras",
+        "denoise": 0.48000122070312556,
+        "model": [
+          "165",
+          0
+        ],
+        "positive": [
+          "166",
+          0
+        ],
+        "negative": [
+          "167",
+          0
+        ],
+        "latent_image": [
+          "95",
+          0
+        ]
+      },
+      "class_type": "KSampler"
+    },
+    "103": {
+      "inputs": {
+        "steps": 20,
+        "cfg": 8,
+        "sampler_name": "dpmpp_2s_ancestral",
+        "scheduler": "karras",
+        "denoise": 0.48000122070312556,
+        "positive": [
+          "166",
+          0
+        ],
+        "negative": [
+          "167",
+          0
+        ],
+        "latent_image": [
+          "96",
+          0
+        ]
+      },
+      "class_type": "KSampler"
+    },
+    "104": {
+      "inputs": {
+        "steps": 20,
+        "cfg": 8,
+        "sampler_name": "dpmpp_2s_ancestral",
+        "scheduler": "karras",
+        "denoise": 0.48000122070312556,
+        "positive": [
+          "166",
+          0
+        ],
+        "negative": [
+          "167",
+          0
+        ],
+        "latent_image": [
+          "97",
+          0
+        ]
+      },
+      "class_type": "KSampler"
+    },
+    "105": {
+      "inputs": {
+        "steps": 20,
+        "cfg": 8,
+        "sampler_name": "dpmpp_2s_ancestral",
+        "scheduler": "karras",
+        "denoise": 0.48000122070312556,
+        "positive": [
+          "166",
+          0
+        ],
+        "negative": [
+          "167",
+          0
+        ],
+        "latent_image": [
+          "101",
+          0
+        ]
+      },
+      "class_type": "KSampler"
+    },
+    "106": {
+      "inputs": {
+        "steps": 20,
+        "cfg": 8,
+        "sampler_name": "dpmpp_2s_ancestral",
+        "scheduler": "karras",
+        "denoise": 0.48000122070312556,
+        "positive": [
+          "166",
+          0
+        ],
+        "negative": [
+          "167",
+          0
+        ],
+        "latent_image": [
+          "100",
+          0
+        ]
+      },
+      "class_type": "KSampler"
+    },
+    "107": {
+      "inputs": {
+        "steps": 20,
+        "cfg": 8,
+        "sampler_name": "dpmpp_2s_ancestral",
+        "scheduler": "karras",
+        "denoise": 0.48000122070312556,
+        "positive": [
+          "166",
+          0
+        ],
+        "negative": [
+          "167",
+          0
+        ],
+        "latent_image": [
+          "99",
+          0
+        ]
+      },
+      "class_type": "KSampler"
+    },
+    "108": {
+      "inputs": {
+        "steps": 20,
+        "cfg": 8,
+        "sampler_name": "dpmpp_2s_ancestral",
+        "scheduler": "karras",
+        "denoise": 0.48000122070312556,
+        "positive": [
+          "166",
+          0
+        ],
+        "negative": [
+          "167",
+          0
+        ],
+        "latent_image": [
+          "98",
+          0
+        ]
+      },
+      "class_type": "KSampler"
+    },
+    "153": {
+      "inputs": {
+        "MultiLatentComposite-Canvas": null,
+        "index": 7,
+        "x": 3072,
+        "y": 1024,
+        "feather": 0,
+        "samples_to": [
+          "154",
+          0
+        ],
+        "samples_from0": [
+          "93",
+          0
+        ],
+        "samples_from1": [
+          "102",
+          0
+        ],
+        "samples_from2": [
+          "103",
+          0
+        ],
+        "samples_from3": [
+          "104",
+          0
+        ],
+        "samples_from4": [
+          "105",
+          0
+        ],
+        "samples_from5": [
+          "106",
+          0
+        ],
+        "samples_from6": [
+          "107",
+          0
+        ],
+        "samples_from7": [
+          "108",
+          0
+        ]
+      },
+      "class_type": "MultiLatentComposite"
+    },
+    "154": {
+      "inputs": {
+        "upscale_method": "nearest-exact",
+        "width": 4096,
+        "height": 2048,
+        "crop": "disabled",
+        "samples": [
+          "35",
+          0
+        ]
+      },
+      "class_type": "LatentUpscale"
+    },
+    "158": {
+      "inputs": {
+        "steps": 20,
+        "cfg": 8,
+        "sampler_name": "euler",
+        "scheduler": "normal",
+        "denoise": 0.36444458007812514,
+        "positive": [
+          "166",
+          0
+        ],
+        "negative": [
+          "167",
+          0
+        ],
+        "latent_image": [
+          "153",
+          0
+        ]
+      },
+      "class_type": "KSampler"
+    },
+    "165": {
+      "inputs": {}
+    },
+    "166": {
+      "inputs": {}
+    },
+    "167": {
+      "inputs": {}
+    },
+    "170": {
+      "inputs": {
+        "LATENT": [
+          "158",
+          0
+        ]
+      }
+    },
+    "175": {
+      "inputs": {}
+    },
+    "184": {
+      "inputs": {}
+    }
+  }
 }
