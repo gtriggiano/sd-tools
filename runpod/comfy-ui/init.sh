@@ -17,8 +17,6 @@ fi
 
 source /sd-tools/runpod/comfy-ui/fn.sh
 
-install_custom_node "ComfyUI-Manager" "https://github.com/ltdrdata/ComfyUI-Manager"
-
 if [[ $INSTALL_DREAMSHAPER_XL = "true" ]]; then
     bash /sd-tools/runpod/comfy-ui/install-checkpoint/dreamshaper-xl.sh
 fi
