@@ -6,8 +6,8 @@
       "id": 229,
       "type": "Floor",
       "pos": [
-        1518.5206845953412,
-        894.7417803606611
+        1508.3254135015918,
+        903.9976245012857
       ],
       "size": {
         "0": 210,
@@ -24,16 +24,7 @@
           "type": "FLOAT",
           "link": 409,
           "widget": {
-            "name": "Value",
-            "config": [
-              "FLOAT",
-              {
-                "default": 1,
-                "min": -1.7976931348623157e+308,
-                "max": 1.7976931348623157e+308,
-                "step": 0.01
-              }
-            ]
+            "name": "Value"
           }
         }
       ],
@@ -79,16 +70,7 @@
           "type": "INT",
           "link": 476,
           "widget": {
-            "name": "Value",
-            "config": [
-              "INT",
-              {
-                "default": 1,
-                "min": -9223372036854776000,
-                "max": 9223372036854776000,
-                "step": 1
-              }
-            ]
+            "name": "Value"
           }
         }
       ],
@@ -133,16 +115,7 @@
           "type": "FLOAT",
           "link": 456,
           "widget": {
-            "name": "Value",
-            "config": [
-              "FLOAT",
-              {
-                "default": 1,
-                "min": -1.7976931348623157e+308,
-                "max": 1.7976931348623157e+308,
-                "step": 0.01
-              }
-            ]
+            "name": "Value"
           }
         }
       ],
@@ -188,16 +161,7 @@
           "type": "FLOAT",
           "link": 433,
           "widget": {
-            "name": "Value",
-            "config": [
-              "FLOAT",
-              {
-                "default": 1,
-                "min": -1.7976931348623157e+308,
-                "max": 1.7976931348623157e+308,
-                "step": 0.01
-              }
-            ]
+            "name": "Value"
           }
         }
       ],
@@ -242,16 +206,7 @@
           "type": "FLOAT",
           "link": 475,
           "widget": {
-            "name": "Value_A",
-            "config": [
-              "FLOAT",
-              {
-                "default": 1,
-                "min": -1.7976931348623157e+308,
-                "max": 1.7976931348623157e+308,
-                "step": 0.01
-              }
-            ]
+            "name": "Value_A"
           }
         }
       ],
@@ -446,16 +401,7 @@
           "type": "INT",
           "link": 472,
           "widget": {
-            "name": "width",
-            "config": [
-              "INT",
-              {
-                "default": 512,
-                "min": 0,
-                "max": 8192,
-                "step": 8
-              }
-            ]
+            "name": "width"
           }
         },
         {
@@ -463,16 +409,7 @@
           "type": "INT",
           "link": 473,
           "widget": {
-            "name": "height",
-            "config": [
-              "INT",
-              {
-                "default": 512,
-                "min": 0,
-                "max": 8192,
-                "step": 8
-              }
-            ]
+            "name": "height"
           }
         }
       ],
@@ -519,16 +456,7 @@
           "type": "FLOAT",
           "link": 479,
           "widget": {
-            "name": "Value",
-            "config": [
-              "FLOAT",
-              {
-                "default": 1,
-                "min": -1.7976931348623157e+308,
-                "max": 1.7976931348623157e+308,
-                "step": 0.01
-              }
-            ]
+            "name": "Value"
           }
         }
       ],
@@ -570,16 +498,7 @@
           "type": "FLOAT",
           "link": 480,
           "widget": {
-            "name": "Value_A",
-            "config": [
-              "FLOAT",
-              {
-                "default": 1,
-                "min": -1.7976931348623157e+308,
-                "max": 1.7976931348623157e+308,
-                "step": 0.01
-              }
-            ]
+            "name": "Value_A"
           }
         },
         {
@@ -587,16 +506,7 @@
           "type": "FLOAT",
           "link": 478,
           "widget": {
-            "name": "Value_B",
-            "config": [
-              "FLOAT",
-              {
-                "default": 1,
-                "min": -1.7976931348623157e+308,
-                "max": 1.7976931348623157e+308,
-                "step": 0.01
-              }
-            ]
+            "name": "Value_B"
           }
         }
       ],
@@ -648,16 +558,7 @@
           "type": "FLOAT",
           "link": 465,
           "widget": {
-            "name": "Value",
-            "config": [
-              "FLOAT",
-              {
-                "default": 1,
-                "min": -1.7976931348623157e+308,
-                "max": 1.7976931348623157e+308,
-                "step": 0.01
-              }
-            ]
+            "name": "Value"
           },
           "slot_index": 1
         }
@@ -708,16 +609,7 @@
           "type": "FLOAT",
           "link": 593,
           "widget": {
-            "name": "Value",
-            "config": [
-              "FLOAT",
-              {
-                "default": 1,
-                "min": -1.7976931348623157e+308,
-                "max": 1.7976931348623157e+308,
-                "step": 0.01
-              }
-            ]
+            "name": "Value"
           },
           "slot_index": 1
         }
@@ -793,8 +685,8 @@
       "id": 227,
       "type": "Multiply",
       "pos": [
-        1517.3102597906536,
-        797.472004970036
+        1507.1149886969042,
+        806.7278491106606
       ],
       "size": {
         "0": 247.7947235107422,
@@ -811,16 +703,7 @@
           "type": "FLOAT",
           "link": 406,
           "widget": {
-            "name": "Value_A",
-            "config": [
-              "FLOAT",
-              {
-                "default": 1,
-                "min": -1.7976931348623157e+308,
-                "max": 1.7976931348623157e+308,
-                "step": 0.01
-              }
-            ]
+            "name": "Value_A"
           },
           "label": "steps"
         },
@@ -829,16 +712,7 @@
           "type": "FLOAT",
           "link": 599,
           "widget": {
-            "name": "Value_B",
-            "config": [
-              "FLOAT",
-              {
-                "default": 1,
-                "min": -1.7976931348623157e+308,
-                "max": 1.7976931348623157e+308,
-                "step": 0.01
-              }
-            ]
+            "name": "Value_B"
           },
           "slot_index": 1,
           "label": "denoise_ratio"
@@ -1080,16 +954,7 @@
           "type": "INT",
           "link": 395,
           "widget": {
-            "name": "width",
-            "config": [
-              "INT",
-              {
-                "default": 512,
-                "min": 0,
-                "max": 8192,
-                "step": 8
-              }
-            ]
+            "name": "width"
           }
         },
         {
@@ -1097,16 +962,7 @@
           "type": "INT",
           "link": 396,
           "widget": {
-            "name": "height",
-            "config": [
-              "INT",
-              {
-                "default": 512,
-                "min": 0,
-                "max": 8192,
-                "step": 8
-              }
-            ]
+            "name": "height"
           }
         }
       ],
@@ -1417,8 +1273,8 @@
       "id": 255,
       "type": "Int to float",
       "pos": [
-        1937,
-        1034
+        1926.804728906251,
+        1043.255844140625
       ],
       "size": {
         "0": 315,
@@ -1435,16 +1291,7 @@
           "type": "INT",
           "link": 474,
           "widget": {
-            "name": "Value",
-            "config": [
-              "INT",
-              {
-                "default": 1,
-                "min": -9223372036854776000,
-                "max": 9223372036854776000,
-                "step": 1
-              }
-            ]
+            "name": "Value"
           }
         }
       ],
@@ -1492,7 +1339,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "INT",
+          "type": "*",
           "links": [
             675,
             705
@@ -1529,7 +1376,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "INT",
+          "type": "*",
           "links": [
             678,
             706
@@ -1546,8 +1393,8 @@
       "id": 224,
       "type": "Int to float",
       "pos": [
-        1518.5206845953412,
-        718.7417803606609
+        1508.3254135015918,
+        727.9976245012855
       ],
       "size": {
         "0": 210,
@@ -1564,16 +1411,7 @@
           "type": "INT",
           "link": 576,
           "widget": {
-            "name": "Value",
-            "config": [
-              "INT",
-              {
-                "default": 1,
-                "min": -9223372036854776000,
-                "max": 9223372036854776000,
-                "step": 1
-              }
-            ]
+            "name": "Value"
           }
         }
       ],
@@ -1646,16 +1484,7 @@
           "type": "FLOAT",
           "link": 707,
           "widget": {
-            "name": "Value_A",
-            "config": [
-              "FLOAT",
-              {
-                "default": 1,
-                "min": -1.7976931348623157e+308,
-                "max": 1.7976931348623157e+308,
-                "step": 0.01
-              }
-            ]
+            "name": "Value_A"
           },
           "label": "steps"
         },
@@ -1664,16 +1493,7 @@
           "type": "FLOAT",
           "link": 708,
           "widget": {
-            "name": "Value_B",
-            "config": [
-              "FLOAT",
-              {
-                "default": 1,
-                "min": -1.7976931348623157e+308,
-                "max": 1.7976931348623157e+308,
-                "step": 0.01
-              }
-            ]
+            "name": "Value_B"
           },
           "label": "first_upscale_denoise",
           "slot_index": 1
@@ -1723,7 +1543,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "FLOAT",
+          "type": "*",
           "links": [
             680,
             709
@@ -1942,7 +1762,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "INT",
+          "type": "*",
           "links": [
             717
           ],
@@ -1978,7 +1798,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "INT",
+          "type": "*",
           "links": [
             718
           ],
@@ -2014,7 +1834,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "FLOAT",
+          "type": "*",
           "links": [
             719
           ],
@@ -2120,16 +1940,7 @@
           "type": "FLOAT",
           "link": 588,
           "widget": {
-            "name": "Value_A",
-            "config": [
-              "FLOAT",
-              {
-                "default": 1,
-                "min": -1.7976931348623157e+308,
-                "max": 1.7976931348623157e+308,
-                "step": 0.01
-              }
-            ]
+            "name": "Value_A"
           }
         }
       ],
@@ -2175,16 +1986,7 @@
           "type": "FLOAT",
           "link": 589,
           "widget": {
-            "name": "Value",
-            "config": [
-              "FLOAT",
-              {
-                "default": 1,
-                "min": -1.7976931348623157e+308,
-                "max": 1.7976931348623157e+308,
-                "step": 0.01
-              }
-            ]
+            "name": "Value"
           }
         }
       ],
@@ -2211,13 +2013,13 @@
       "id": 210,
       "type": "KSamplerAdvanced",
       "pos": [
-        1518.5206845953412,
-        977.7417803606612
+        1508.3254135015918,
+        986.9976245012857
       ],
-      "size": [
-        315,
-        334
-      ],
+      "size": {
+        "0": 315,
+        "1": 334
+      },
       "flags": {
         "collapsed": false
       },
@@ -2249,10 +2051,7 @@
           "type": "COMBO",
           "link": 693,
           "widget": {
-            "name": "sampler_name",
-            "config": [
-              []
-            ]
+            "name": "sampler_name"
           },
           "slot_index": 5
         },
@@ -2261,10 +2060,7 @@
           "type": "COMBO",
           "link": 694,
           "widget": {
-            "name": "scheduler",
-            "config": [
-              []
-            ]
+            "name": "scheduler"
           },
           "slot_index": 6
         },
@@ -2273,15 +2069,7 @@
           "type": "INT",
           "link": 724,
           "widget": {
-            "name": "steps",
-            "config": [
-              "INT",
-              {
-                "default": 20,
-                "min": 1,
-                "max": 10000
-              }
-            ]
+            "name": "steps"
           },
           "slot_index": 7
         },
@@ -2290,15 +2078,7 @@
           "type": "INT",
           "link": 411,
           "widget": {
-            "name": "end_at_step",
-            "config": [
-              "INT",
-              {
-                "default": 10000,
-                "min": 0,
-                "max": 10000
-              }
-            ]
+            "name": "end_at_step"
           }
         },
         {
@@ -2306,15 +2086,7 @@
           "type": "INT",
           "link": 723,
           "widget": {
-            "name": "noise_seed",
-            "config": [
-              "INT",
-              {
-                "default": 0,
-                "min": 0,
-                "max": 18446744073709552000
-              }
-            ]
+            "name": "noise_seed"
           }
         },
         {
@@ -2322,17 +2094,7 @@
           "type": "FLOAT",
           "link": 726,
           "widget": {
-            "name": "cfg",
-            "config": [
-              "FLOAT",
-              {
-                "default": 8,
-                "min": 0,
-                "max": 100,
-                "step": 0.5,
-                "round": 0.01
-              }
-            ]
+            "name": "cfg"
           }
         }
       ],
@@ -2457,10 +2219,10 @@
         2173,
         762
       ],
-      "size": [
-        315,
-        58
-      ],
+      "size": {
+        "0": 315,
+        "1": 58
+      },
       "flags": {
         "collapsed": false
       },
@@ -2477,16 +2239,7 @@
           "type": "FLOAT",
           "link": 727,
           "widget": {
-            "name": "Value",
-            "config": [
-              "FLOAT",
-              {
-                "default": 1,
-                "min": -1.7976931348623157e+308,
-                "max": 1.7976931348623157e+308,
-                "step": 0.01
-              }
-            ]
+            "name": "Value"
           }
         }
       ],
@@ -2545,10 +2298,10 @@
         3624,
         747
       ],
-      "size": [
-        315,
-        58
-      ],
+      "size": {
+        "0": 315,
+        "1": 58
+      },
       "flags": {
         "collapsed": false
       },
@@ -2565,16 +2318,7 @@
           "type": "FLOAT",
           "link": 728,
           "widget": {
-            "name": "Value",
-            "config": [
-              "FLOAT",
-              {
-                "default": 1,
-                "min": -1.7976931348623157e+308,
-                "max": 1.7976931348623157e+308,
-                "step": 0.01
-              }
-            ]
+            "name": "Value"
           }
         }
       ],
@@ -2666,15 +2410,7 @@
           "type": "INT",
           "link": 705,
           "widget": {
-            "name": "noise_seed",
-            "config": [
-              "INT",
-              {
-                "default": 0,
-                "min": 0,
-                "max": 18446744073709552000
-              }
-            ]
+            "name": "noise_seed"
           }
         },
         {
@@ -2682,16 +2418,7 @@
           "type": "INT",
           "link": 462,
           "widget": {
-            "name": "tile_width",
-            "config": [
-              "INT",
-              {
-                "default": 512,
-                "min": 256,
-                "max": 8192,
-                "step": 64
-              }
-            ]
+            "name": "tile_width"
           }
         },
         {
@@ -2699,16 +2426,7 @@
           "type": "INT",
           "link": 463,
           "widget": {
-            "name": "tile_height",
-            "config": [
-              "INT",
-              {
-                "default": 512,
-                "min": 256,
-                "max": 8192,
-                "step": 64
-              }
-            ]
+            "name": "tile_height"
           }
         },
         {
@@ -2716,15 +2434,7 @@
           "type": "INT",
           "link": 706,
           "widget": {
-            "name": "steps",
-            "config": [
-              "INT",
-              {
-                "default": 20,
-                "min": 1,
-                "max": 10000
-              }
-            ]
+            "name": "steps"
           }
         },
         {
@@ -2732,15 +2442,7 @@
           "type": "FLOAT",
           "link": 709,
           "widget": {
-            "name": "cfg",
-            "config": [
-              "FLOAT",
-              {
-                "default": 8,
-                "min": 0,
-                "max": 100
-              }
-            ]
+            "name": "cfg"
           }
         },
         {
@@ -2748,10 +2450,7 @@
           "type": "COMBO",
           "link": 710,
           "widget": {
-            "name": "sampler_name",
-            "config": [
-              []
-            ]
+            "name": "sampler_name"
           }
         },
         {
@@ -2759,10 +2458,7 @@
           "type": "COMBO",
           "link": 711,
           "widget": {
-            "name": "scheduler",
-            "config": [
-              []
-            ]
+            "name": "scheduler"
           }
         },
         {
@@ -2770,15 +2466,7 @@
           "type": "INT",
           "link": 452,
           "widget": {
-            "name": "start_at_step",
-            "config": [
-              "INT",
-              {
-                "default": 0,
-                "min": 0,
-                "max": 10000
-              }
-            ]
+            "name": "start_at_step"
           }
         },
         {
@@ -2786,15 +2474,7 @@
           "type": "INT",
           "link": 458,
           "widget": {
-            "name": "end_at_step",
-            "config": [
-              "INT",
-              {
-                "default": 10000,
-                "min": 0,
-                "max": 10000
-              }
-            ]
+            "name": "end_at_step"
           }
         },
         {
@@ -2802,10 +2482,7 @@
           "type": "COMBO",
           "link": 459,
           "widget": {
-            "name": "tiling_strategy",
-            "config": [
-              []
-            ]
+            "name": "tiling_strategy"
           },
           "slot_index": 13
         }
@@ -2841,6 +2518,30 @@
         "enable",
         "disable"
       ]
+    },
+    {
+      "id": 304,
+      "type": "ComponentOutput",
+      "pos": [
+        5246,
+        920
+      ],
+      "size": {
+        "0": 178,
+        "1": 26
+      },
+      "flags": {},
+      "order": 60,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "link": 729,
+          "label": null
+        }
+      ],
+      "properties": {}
     },
     {
       "id": 262,
@@ -2883,15 +2584,7 @@
           "type": "INT",
           "link": 717,
           "widget": {
-            "name": "noise_seed",
-            "config": [
-              "INT",
-              {
-                "default": 0,
-                "min": 0,
-                "max": 18446744073709552000
-              }
-            ]
+            "name": "noise_seed"
           }
         },
         {
@@ -2899,16 +2592,7 @@
           "type": "INT",
           "link": 594,
           "widget": {
-            "name": "tile_width",
-            "config": [
-              "INT",
-              {
-                "default": 512,
-                "min": 256,
-                "max": 8192,
-                "step": 64
-              }
-            ]
+            "name": "tile_width"
           }
         },
         {
@@ -2916,16 +2600,7 @@
           "type": "INT",
           "link": 595,
           "widget": {
-            "name": "tile_height",
-            "config": [
-              "INT",
-              {
-                "default": 512,
-                "min": 256,
-                "max": 8192,
-                "step": 64
-              }
-            ]
+            "name": "tile_height"
           }
         },
         {
@@ -2933,15 +2608,7 @@
           "type": "INT",
           "link": 718,
           "widget": {
-            "name": "steps",
-            "config": [
-              "INT",
-              {
-                "default": 20,
-                "min": 1,
-                "max": 10000
-              }
-            ]
+            "name": "steps"
           }
         },
         {
@@ -2949,15 +2616,7 @@
           "type": "FLOAT",
           "link": 719,
           "widget": {
-            "name": "cfg",
-            "config": [
-              "FLOAT",
-              {
-                "default": 8,
-                "min": 0,
-                "max": 100
-              }
-            ]
+            "name": "cfg"
           }
         },
         {
@@ -2965,10 +2624,7 @@
           "type": "COMBO",
           "link": 720,
           "widget": {
-            "name": "sampler_name",
-            "config": [
-              []
-            ]
+            "name": "sampler_name"
           }
         },
         {
@@ -2976,10 +2632,7 @@
           "type": "COMBO",
           "link": 721,
           "widget": {
-            "name": "scheduler",
-            "config": [
-              []
-            ]
+            "name": "scheduler"
           }
         },
         {
@@ -2987,15 +2640,7 @@
           "type": "INT",
           "link": 590,
           "widget": {
-            "name": "start_at_step",
-            "config": [
-              "INT",
-              {
-                "default": 0,
-                "min": 0,
-                "max": 10000
-              }
-            ]
+            "name": "start_at_step"
           }
         },
         {
@@ -3003,10 +2648,7 @@
           "type": "COMBO",
           "link": 596,
           "widget": {
-            "name": "tiling_strategy",
-            "config": [
-              []
-            ]
+            "name": "tiling_strategy"
           },
           "slot_index": 13
         }
@@ -3041,32 +2683,8 @@
         0,
         10000,
         "disable",
-        "disable"
+        "enable"
       ]
-    },
-    {
-      "id": 304,
-      "type": "ComponentOutput",
-      "pos": [
-        5246,
-        920
-      ],
-      "size": {
-        "0": 178,
-        "1": 26
-      },
-      "flags": {},
-      "order": 60,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "LATENT",
-          "type": "LATENT",
-          "link": 729,
-          "label": null
-        }
-      ],
-      "properties": {}
     }
   ],
   "links": [
@@ -3779,8 +3397,8 @@
     {
       "title": "First Denoise",
       "bounding": [
-        1482,
-        628,
+        1472,
+        637,
         647,
         690
       ],

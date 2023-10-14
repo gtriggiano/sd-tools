@@ -6,8 +6,8 @@
       "id": 229,
       "type": "Floor",
       "pos": [
-        1518.5206845953412,
-        894.7417803606611
+        1508.3254135015918,
+        903.9976245012857
       ],
       "size": {
         "0": 210,
@@ -793,8 +793,8 @@
       "id": 227,
       "type": "Multiply",
       "pos": [
-        1517.3102597906536,
-        797.472004970036
+        1507.1149886969042,
+        806.7278491106606
       ],
       "size": {
         "0": 247.7947235107422,
@@ -1417,8 +1417,8 @@
       "id": 255,
       "type": "Int to float",
       "pos": [
-        1937,
-        1034
+        1926.804728906251,
+        1043.255844140625
       ],
       "size": {
         "0": 315,
@@ -1492,7 +1492,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "INT",
+          "type": "*",
           "links": [
             675,
             705
@@ -1529,7 +1529,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "INT",
+          "type": "*",
           "links": [
             678,
             706
@@ -1546,8 +1546,8 @@
       "id": 224,
       "type": "Int to float",
       "pos": [
-        1518.5206845953412,
-        718.7417803606609
+        1508.3254135015918,
+        727.9976245012855
       ],
       "size": {
         "0": 210,
@@ -1723,7 +1723,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "FLOAT",
+          "type": "*",
           "links": [
             680,
             709
@@ -1942,7 +1942,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "INT",
+          "type": "*",
           "links": [
             717
           ],
@@ -1978,7 +1978,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "INT",
+          "type": "*",
           "links": [
             718
           ],
@@ -2014,7 +2014,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "FLOAT",
+          "type": "*",
           "links": [
             719
           ],
@@ -2211,13 +2211,13 @@
       "id": 210,
       "type": "KSamplerAdvanced",
       "pos": [
-        1518.5206845953412,
-        977.7417803606612
+        1508.3254135015918,
+        986.9976245012857
       ],
-      "size": [
-        315,
-        334
-      ],
+      "size": {
+        "0": 315,
+        "1": 334
+      },
       "flags": {
         "collapsed": false
       },
@@ -2457,10 +2457,10 @@
         2173,
         762
       ],
-      "size": [
-        315,
-        58
-      ],
+      "size": {
+        "0": 315,
+        "1": 58
+      },
       "flags": {
         "collapsed": false
       },
@@ -2545,10 +2545,10 @@
         3624,
         747
       ],
-      "size": [
-        315,
-        58
-      ],
+      "size": {
+        "0": 315,
+        "1": 58
+      },
       "flags": {
         "collapsed": false
       },
@@ -2843,6 +2843,30 @@
       ]
     },
     {
+      "id": 304,
+      "type": "ComponentOutput",
+      "pos": [
+        5246,
+        920
+      ],
+      "size": {
+        "0": 178,
+        "1": 26
+      },
+      "flags": {},
+      "order": 60,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "link": 729,
+          "label": null
+        }
+      ],
+      "properties": {}
+    },
+    {
       "id": 262,
       "type": "BNK_TiledKSamplerAdvanced",
       "pos": [
@@ -3041,32 +3065,8 @@
         0,
         10000,
         "disable",
-        "disable"
+        "enable"
       ]
-    },
-    {
-      "id": 304,
-      "type": "ComponentOutput",
-      "pos": [
-        5246,
-        920
-      ],
-      "size": {
-        "0": 178,
-        "1": 26
-      },
-      "flags": {},
-      "order": 60,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "LATENT",
-          "type": "LATENT",
-          "link": 729,
-          "label": null
-        }
-      ],
-      "properties": {}
     }
   ],
   "links": [
@@ -3779,8 +3779,8 @@
     {
       "title": "First Denoise",
       "bounding": [
-        1482,
-        628,
+        1472,
+        637,
         647,
         690
       ],
@@ -4269,7 +4269,7 @@
         ],
         "end_at_step": 10000,
         "return_with_leftover_noise": "disable",
-        "preview": "disable",
+        "preview": "enable",
         "model": [
           "165",
           0
