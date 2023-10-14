@@ -1,6 +1,6 @@
 {
-  "last_node_id": 295,
-  "last_link_id": 638,
+  "last_node_id": 303,
+  "last_link_id": 685,
   "nodes": [
     {
       "id": 224,
@@ -16,7 +16,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 23,
+      "order": 20,
       "mode": 0,
       "inputs": [
         {
@@ -24,16 +24,7 @@
           "type": "INT",
           "link": 576,
           "widget": {
-            "name": "Value",
-            "config": [
-              "INT",
-              {
-                "default": 1,
-                "min": -9223372036854776000,
-                "max": 9223372036854776000,
-                "step": 1
-              }
-            ]
+            "name": "Value"
           }
         }
       ],
@@ -71,7 +62,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 51,
+      "order": 57,
       "mode": 0,
       "inputs": [
         {
@@ -79,16 +70,7 @@
           "type": "INT",
           "link": 474,
           "widget": {
-            "name": "Value",
-            "config": [
-              "INT",
-              {
-                "default": 1,
-                "min": -9223372036854776000,
-                "max": 9223372036854776000,
-                "step": 1
-              }
-            ]
+            "name": "Value"
           }
         }
       ],
@@ -134,16 +116,7 @@
           "type": "FLOAT",
           "link": 409,
           "widget": {
-            "name": "Value",
-            "config": [
-              "FLOAT",
-              {
-                "default": 1,
-                "min": -1.7976931348623157e+308,
-                "max": 1.7976931348623157e+308,
-                "step": 0.01
-              }
-            ]
+            "name": "Value"
           }
         }
       ],
@@ -181,7 +154,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 52,
+      "order": 58,
       "mode": 0,
       "inputs": [
         {
@@ -189,16 +162,7 @@
           "type": "INT",
           "link": 476,
           "widget": {
-            "name": "Value",
-            "config": [
-              "INT",
-              {
-                "default": 1,
-                "min": -9223372036854776000,
-                "max": 9223372036854776000,
-                "step": 1
-              }
-            ]
+            "name": "Value"
           }
         }
       ],
@@ -243,16 +207,7 @@
           "type": "FLOAT",
           "link": 456,
           "widget": {
-            "name": "Value",
-            "config": [
-              "FLOAT",
-              {
-                "default": 1,
-                "min": -1.7976931348623157e+308,
-                "max": 1.7976931348623157e+308,
-                "step": 0.01
-              }
-            ]
+            "name": "Value"
           }
         }
       ],
@@ -290,7 +245,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 62,
+      "order": 63,
       "mode": 0,
       "inputs": [
         {
@@ -298,16 +253,7 @@
           "type": "FLOAT",
           "link": 433,
           "widget": {
-            "name": "Value",
-            "config": [
-              "FLOAT",
-              {
-                "default": 1,
-                "min": -1.7976931348623157e+308,
-                "max": 1.7976931348623157e+308,
-                "step": 0.01
-              }
-            ]
+            "name": "Value"
           }
         }
       ],
@@ -344,7 +290,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 56,
+      "order": 61,
       "mode": 0,
       "inputs": [
         {
@@ -352,16 +298,7 @@
           "type": "FLOAT",
           "link": 475,
           "widget": {
-            "name": "Value_A",
-            "config": [
-              "FLOAT",
-              {
-                "default": 1,
-                "min": -1.7976931348623157e+308,
-                "max": 1.7976931348623157e+308,
-                "step": 0.01
-              }
-            ]
+            "name": "Value_A"
           }
         }
       ],
@@ -399,7 +336,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 59,
+      "order": 47,
       "mode": 0,
       "inputs": [
         {
@@ -447,7 +384,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 60,
+      "order": 48,
       "mode": 0,
       "inputs": [
         {
@@ -482,481 +419,6 @@
       }
     },
     {
-      "id": 275,
-      "type": "Reroute",
-      "pos": [
-        2550,
-        180
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 28,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 563
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "MODEL",
-          "links": [
-            564,
-            566
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 272,
-      "type": "Reroute",
-      "pos": [
-        2550,
-        210
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 29,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 556
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "CONDITIONING",
-          "links": [
-            557,
-            558
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 32,
-      "type": "Reroute",
-      "pos": [
-        2550,
-        250
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 30,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 415
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "CONDITIONING",
-          "links": [
-            514
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 178,
-      "type": "Reroute",
-      "pos": [
-        2550,
-        280
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 31,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 378
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "INT",
-          "links": [
-            511,
-            548
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 237,
-      "type": "Reroute",
-      "pos": [
-        2550,
-        330
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 32,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 529
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "INT",
-          "links": [
-            530,
-            545
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 261,
-      "type": "Reroute",
-      "pos": [
-        2550,
-        370
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 35,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 505
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "FLOAT",
-          "links": [
-            519,
-            581
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 234,
-      "type": "Reroute",
-      "pos": [
-        2550,
-        410
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 36,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 425
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "COMBO",
-          "links": [
-            516,
-            578
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 207,
-      "type": "BNK_TiledKSamplerAdvanced",
-      "pos": [
-        2794.5773515036567,
-        1002.8496870127971
-      ],
-      "size": {
-        "0": 751.765380859375,
-        "1": 366
-      },
-      "flags": {},
-      "order": 66,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 566,
-          "slot_index": 0
-        },
-        {
-          "name": "positive",
-          "type": "CONDITIONING",
-          "link": 557
-        },
-        {
-          "name": "negative",
-          "type": "CONDITIONING",
-          "link": null
-        },
-        {
-          "name": "latent_image",
-          "type": "LATENT",
-          "link": 446
-        },
-        {
-          "name": "noise_seed",
-          "type": "INT",
-          "link": 548,
-          "widget": {
-            "name": "noise_seed",
-            "config": [
-              "INT",
-              {
-                "default": 0,
-                "min": 0,
-                "max": 18446744073709552000
-              }
-            ]
-          }
-        },
-        {
-          "name": "tile_width",
-          "type": "INT",
-          "link": 462,
-          "widget": {
-            "name": "tile_width",
-            "config": [
-              "INT",
-              {
-                "default": 512,
-                "min": 256,
-                "max": 8192,
-                "step": 64
-              }
-            ]
-          }
-        },
-        {
-          "name": "tile_height",
-          "type": "INT",
-          "link": 463,
-          "widget": {
-            "name": "tile_height",
-            "config": [
-              "INT",
-              {
-                "default": 512,
-                "min": 256,
-                "max": 8192,
-                "step": 64
-              }
-            ]
-          }
-        },
-        {
-          "name": "steps",
-          "type": "INT",
-          "link": 545,
-          "widget": {
-            "name": "steps",
-            "config": [
-              "INT",
-              {
-                "default": 20,
-                "min": 1,
-                "max": 10000
-              }
-            ]
-          }
-        },
-        {
-          "name": "cfg",
-          "type": "FLOAT",
-          "link": 581,
-          "widget": {
-            "name": "cfg",
-            "config": [
-              "FLOAT",
-              {
-                "default": 8,
-                "min": 0,
-                "max": 100
-              }
-            ]
-          }
-        },
-        {
-          "name": "sampler_name",
-          "type": "COMBO",
-          "link": 578,
-          "widget": {
-            "name": "sampler_name",
-            "config": [
-              []
-            ]
-          }
-        },
-        {
-          "name": "scheduler",
-          "type": "COMBO",
-          "link": 582,
-          "widget": {
-            "name": "scheduler",
-            "config": [
-              []
-            ]
-          }
-        },
-        {
-          "name": "start_at_step",
-          "type": "INT",
-          "link": 452,
-          "widget": {
-            "name": "start_at_step",
-            "config": [
-              "INT",
-              {
-                "default": 0,
-                "min": 0,
-                "max": 10000
-              }
-            ]
-          }
-        },
-        {
-          "name": "end_at_step",
-          "type": "INT",
-          "link": 458,
-          "widget": {
-            "name": "end_at_step",
-            "config": [
-              "INT",
-              {
-                "default": 10000,
-                "min": 0,
-                "max": 10000
-              }
-            ]
-          }
-        },
-        {
-          "name": "tiling_strategy",
-          "type": "COMBO",
-          "link": 459,
-          "widget": {
-            "name": "tiling_strategy",
-            "config": [
-              []
-            ]
-          },
-          "slot_index": 13
-        }
-      ],
-      "outputs": [
-        {
-          "name": "LATENT",
-          "type": "LATENT",
-          "links": [
-            469
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "title": "Denoise 2",
-      "properties": {
-        "Node name for S&R": "BNK_TiledKSamplerAdvanced"
-      },
-      "widgets_values": [
-        "disable",
-        0,
-        "randomize",
-        512,
-        512,
-        "random",
-        20,
-        8,
-        "euler",
-        "normal",
-        0,
-        10000,
-        "enable",
-        "disable"
-      ]
-    },
-    {
       "id": 213,
       "type": "Tuple to ints",
       "pos": [
@@ -970,7 +432,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 53,
+      "order": 34,
       "mode": 0,
       "inputs": [
         {
@@ -1018,7 +480,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 49,
+      "order": 23,
       "mode": 0,
       "inputs": [
         {
@@ -1031,16 +493,7 @@
           "type": "FLOAT",
           "link": 437,
           "widget": {
-            "name": "Value",
-            "config": [
-              "FLOAT",
-              {
-                "default": 1,
-                "min": -1.7976931348623157e+308,
-                "max": 1.7976931348623157e+308,
-                "step": 0.01
-              }
-            ]
+            "name": "Value"
           },
           "slot_index": 1
         }
@@ -1065,299 +518,6 @@
       "widgets_values": [
         1.5
       ]
-    },
-    {
-      "id": 29,
-      "type": "LatentUpscale",
-      "pos": [
-        2177.2492273437497,
-        956.362698046875
-      ],
-      "size": {
-        "0": 315,
-        "1": 130
-      },
-      "flags": {
-        "collapsed": false
-      },
-      "order": 58,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "samples",
-          "type": "LATENT",
-          "link": 393
-        },
-        {
-          "name": "width",
-          "type": "INT",
-          "link": 395,
-          "widget": {
-            "name": "width",
-            "config": [
-              "INT",
-              {
-                "default": 512,
-                "min": 0,
-                "max": 8192,
-                "step": 8
-              }
-            ]
-          }
-        },
-        {
-          "name": "height",
-          "type": "INT",
-          "link": 396,
-          "widget": {
-            "name": "height",
-            "config": [
-              "INT",
-              {
-                "default": 512,
-                "min": 0,
-                "max": 8192,
-                "step": 8
-              }
-            ]
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "LATENT",
-          "type": "LATENT",
-          "links": [
-            446
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "LatentUpscale"
-      },
-      "widgets_values": [
-        "nearest-exact",
-        2048,
-        1024,
-        "disabled"
-      ]
-    },
-    {
-      "id": 235,
-      "type": "Reroute",
-      "pos": [
-        2550,
-        460
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 37,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 580
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "COMBO",
-          "links": [
-            517,
-            582
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 270,
-      "type": "Reroute",
-      "pos": [
-        4130,
-        350
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 43,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 530
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "INT",
-          "links": [
-            546
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 264,
-      "type": "Reroute",
-      "pos": [
-        4130,
-        320
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 42,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 511
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "INT",
-          "links": [
-            549
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 273,
-      "type": "Reroute",
-      "pos": [
-        4130,
-        250
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 40,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 558
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "CONDITIONING",
-          "links": [
-            559
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 276,
-      "type": "Reroute",
-      "pos": [
-        4130,
-        210
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 39,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 564
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "MODEL",
-          "links": [
-            565
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 267,
-      "type": "Reroute",
-      "pos": [
-        4130,
-        280
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 41,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 514
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "CONDITIONING",
-          "links": [],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
     },
     {
       "id": 252,
@@ -1386,16 +546,7 @@
           "type": "INT",
           "link": 472,
           "widget": {
-            "name": "width",
-            "config": [
-              "INT",
-              {
-                "default": 512,
-                "min": 0,
-                "max": 8192,
-                "step": 8
-              }
-            ]
+            "name": "width"
           }
         },
         {
@@ -1403,16 +554,7 @@
           "type": "INT",
           "link": 473,
           "widget": {
-            "name": "height",
-            "config": [
-              "INT",
-              {
-                "default": 512,
-                "min": 0,
-                "max": 8192,
-                "step": 8
-              }
-            ]
+            "name": "height"
           }
         }
       ],
@@ -1438,114 +580,6 @@
       ]
     },
     {
-      "id": 271,
-      "type": "Reroute",
-      "pos": [
-        4130,
-        390
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 46,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 519
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "FLOAT",
-          "links": [
-            585
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 268,
-      "type": "Reroute",
-      "pos": [
-        4130,
-        420
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 47,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 516
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "COMBO",
-          "links": [
-            586
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 269,
-      "type": "Reroute",
-      "pos": [
-        4130,
-        460
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 48,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 517
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "COMBO",
-          "links": [
-            587
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
       "id": 258,
       "type": "Floor",
       "pos": [
@@ -1559,7 +593,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 63,
+      "order": 64,
       "mode": 0,
       "inputs": [
         {
@@ -1567,16 +601,7 @@
           "type": "FLOAT",
           "link": 479,
           "widget": {
-            "name": "Value",
-            "config": [
-              "FLOAT",
-              {
-                "default": 1,
-                "min": -1.7976931348623157e+308,
-                "max": 1.7976931348623157e+308,
-                "step": 0.01
-              }
-            ]
+            "name": "Value"
           }
         }
       ],
@@ -1610,7 +635,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 57,
+      "order": 62,
       "mode": 0,
       "inputs": [
         {
@@ -1618,16 +643,7 @@
           "type": "FLOAT",
           "link": 480,
           "widget": {
-            "name": "Value_A",
-            "config": [
-              "FLOAT",
-              {
-                "default": 1,
-                "min": -1.7976931348623157e+308,
-                "max": 1.7976931348623157e+308,
-                "step": 0.01
-              }
-            ]
+            "name": "Value_A"
           }
         },
         {
@@ -1635,16 +651,7 @@
           "type": "FLOAT",
           "link": 478,
           "widget": {
-            "name": "Value_B",
-            "config": [
-              "FLOAT",
-              {
-                "default": 1,
-                "min": -1.7976931348623157e+308,
-                "max": 1.7976931348623157e+308,
-                "step": 0.01
-              }
-            ]
+            "name": "Value_B"
           }
         }
       ],
@@ -1683,7 +690,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 64,
+      "order": 65,
       "mode": 0,
       "inputs": [
         {
@@ -1691,16 +698,7 @@
           "type": "FLOAT",
           "link": 588,
           "widget": {
-            "name": "Value_A",
-            "config": [
-              "FLOAT",
-              {
-                "default": 1,
-                "min": -1.7976931348623157e+308,
-                "max": 1.7976931348623157e+308,
-                "step": 0.01
-              }
-            ]
+            "name": "Value_A"
           }
         }
       ],
@@ -1738,7 +736,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 54,
+      "order": 35,
       "mode": 0,
       "inputs": [
         {
@@ -1751,16 +749,7 @@
           "type": "FLOAT",
           "link": 465,
           "widget": {
-            "name": "Value",
-            "config": [
-              "FLOAT",
-              {
-                "default": 1,
-                "min": -1.7976931348623157e+308,
-                "max": 1.7976931348623157e+308,
-                "step": 0.01
-              }
-            ]
+            "name": "Value"
           },
           "slot_index": 1
         }
@@ -1798,7 +787,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 55,
+      "order": 36,
       "mode": 0,
       "inputs": [
         {
@@ -1811,16 +800,7 @@
           "type": "FLOAT",
           "link": 467,
           "widget": {
-            "name": "Value",
-            "config": [
-              "FLOAT",
-              {
-                "default": 1,
-                "min": -1.7976931348623157e+308,
-                "max": 1.7976931348623157e+308,
-                "step": 0.01
-              }
-            ]
+            "name": "Value"
           },
           "slot_index": 1
         }
@@ -1859,7 +839,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 61,
+      "order": 49,
       "mode": 0,
       "inputs": [
         {
@@ -1872,16 +852,7 @@
           "type": "FLOAT",
           "link": 593,
           "widget": {
-            "name": "Value",
-            "config": [
-              "FLOAT",
-              {
-                "default": 1,
-                "min": -1.7976931348623157e+308,
-                "max": 1.7976931348623157e+308,
-                "step": 0.01
-              }
-            ]
+            "name": "Value"
           },
           "slot_index": 1
         }
@@ -1927,16 +898,7 @@
           "type": "FLOAT",
           "link": 589,
           "widget": {
-            "name": "Value",
-            "config": [
-              "FLOAT",
-              {
-                "default": 1,
-                "min": -1.7976931348623157e+308,
-                "max": 1.7976931348623157e+308,
-                "step": 0.01
-              }
-            ]
+            "name": "Value"
           }
         }
       ],
@@ -1973,7 +935,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 65,
+      "order": 59,
       "mode": 0,
       "inputs": [
         {
@@ -2025,18 +987,18 @@
         {
           "name": "model",
           "type": "MODEL",
-          "link": 565,
+          "link": 669,
           "slot_index": 0
         },
         {
           "name": "positive",
           "type": "CONDITIONING",
-          "link": 559
+          "link": 671
         },
         {
           "name": "negative",
           "type": "CONDITIONING",
-          "link": null
+          "link": 673
         },
         {
           "name": "latent_image",
@@ -2046,17 +1008,9 @@
         {
           "name": "noise_seed",
           "type": "INT",
-          "link": 549,
+          "link": 676,
           "widget": {
-            "name": "noise_seed",
-            "config": [
-              "INT",
-              {
-                "default": 0,
-                "min": 0,
-                "max": 18446744073709552000
-              }
-            ]
+            "name": "noise_seed"
           }
         },
         {
@@ -2064,16 +1018,7 @@
           "type": "INT",
           "link": 594,
           "widget": {
-            "name": "tile_width",
-            "config": [
-              "INT",
-              {
-                "default": 512,
-                "min": 256,
-                "max": 8192,
-                "step": 64
-              }
-            ]
+            "name": "tile_width"
           }
         },
         {
@@ -2081,70 +1026,39 @@
           "type": "INT",
           "link": 595,
           "widget": {
-            "name": "tile_height",
-            "config": [
-              "INT",
-              {
-                "default": 512,
-                "min": 256,
-                "max": 8192,
-                "step": 64
-              }
-            ]
+            "name": "tile_height"
           }
         },
         {
           "name": "steps",
           "type": "INT",
-          "link": 546,
+          "link": 679,
           "widget": {
-            "name": "steps",
-            "config": [
-              "INT",
-              {
-                "default": 20,
-                "min": 1,
-                "max": 10000
-              }
-            ]
+            "name": "steps"
           }
         },
         {
           "name": "cfg",
           "type": "FLOAT",
-          "link": 585,
+          "link": 681,
           "widget": {
-            "name": "cfg",
-            "config": [
-              "FLOAT",
-              {
-                "default": 8,
-                "min": 0,
-                "max": 100
-              }
-            ]
+            "name": "cfg"
           }
         },
         {
           "name": "sampler_name",
           "type": "COMBO",
-          "link": 586,
+          "link": 683,
           "widget": {
-            "name": "sampler_name",
-            "config": [
-              []
-            ]
+            "name": "sampler_name"
           }
         },
         {
           "name": "scheduler",
           "type": "COMBO",
-          "link": 587,
+          "link": 685,
           "widget": {
-            "name": "scheduler",
-            "config": [
-              []
-            ]
+            "name": "scheduler"
           }
         },
         {
@@ -2152,15 +1066,7 @@
           "type": "INT",
           "link": 590,
           "widget": {
-            "name": "start_at_step",
-            "config": [
-              "INT",
-              {
-                "default": 0,
-                "min": 0,
-                "max": 10000
-              }
-            ]
+            "name": "start_at_step"
           }
         },
         {
@@ -2168,10 +1074,7 @@
           "type": "COMBO",
           "link": 596,
           "widget": {
-            "name": "tiling_strategy",
-            "config": [
-              []
-            ]
+            "name": "tiling_strategy"
           },
           "slot_index": 13
         }
@@ -2247,7 +1150,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 33,
+      "order": 31,
       "mode": 0,
       "inputs": [
         {
@@ -2255,16 +1158,7 @@
           "type": "FLOAT",
           "link": 406,
           "widget": {
-            "name": "Value_A",
-            "config": [
-              "FLOAT",
-              {
-                "default": 1,
-                "min": -1.7976931348623157e+308,
-                "max": 1.7976931348623157e+308,
-                "step": 0.01
-              }
-            ]
+            "name": "Value_A"
           },
           "label": "steps"
         },
@@ -2273,16 +1167,7 @@
           "type": "FLOAT",
           "link": 599,
           "widget": {
-            "name": "Value_B",
-            "config": [
-              "FLOAT",
-              {
-                "default": 1,
-                "min": -1.7976931348623157e+308,
-                "max": 1.7976931348623157e+308,
-                "step": 0.01
-              }
-            ]
+            "name": "Value_B"
           },
           "slot_index": 1,
           "label": "denoise_ratio"
@@ -2309,43 +1194,6 @@
       ]
     },
     {
-      "id": 274,
-      "type": "Reroute",
-      "pos": [
-        1190,
-        180
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 18,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 630
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "MODEL",
-          "links": [
-            563,
-            601
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
       "id": 236,
       "type": "Reroute",
       "pos": [
@@ -2357,7 +1205,7 @@
         26
       ],
       "flags": {},
-      "order": 22,
+      "order": 19,
       "mode": 0,
       "inputs": [
         {
@@ -2383,144 +1231,448 @@
       }
     },
     {
-      "id": 241,
+      "id": 287,
       "type": "Reroute",
       "pos": [
-        1190,
-        390
+        1194,
+        539
       ],
       "size": [
         75,
         26
       ],
       "flags": {},
-      "order": 24,
+      "order": 21,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 438
+          "link": 635
         }
       ],
       "outputs": [
         {
           "name": "",
+          "type": "*",
+          "links": [
+            619
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 221,
+      "type": "ComponentInput",
+      "pos": [
+        648,
+        525
+      ],
+      "size": {
+        "0": 178,
+        "1": 26
+      },
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "steps",
+          "type": "INT",
+          "links": [
+            429,
+            576
+          ],
+          "label": "steps",
+          "slot_index": 0
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 184,
+      "type": "ComponentInput",
+      "pos": [
+        649,
+        835
+      ],
+      "size": {
+        "0": 178,
+        "1": 26
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "latent_image",
+          "type": "*",
+          "links": [
+            635
+          ],
+          "slot_index": 0,
+          "label": "latent"
+        }
+      ],
+      "title": "2. Component Input",
+      "properties": {}
+    },
+    {
+      "id": 228,
+      "type": "ComponentInput",
+      "pos": [
+        650,
+        912
+      ],
+      "size": {
+        "0": 178,
+        "1": 26
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "Value_B",
           "type": "FLOAT",
           "links": [
-            505,
-            608
+            599
           ],
+          "slot_index": 0,
+          "label": "initial_denoise"
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 240,
+      "type": "ComponentInput",
+      "pos": [
+        650,
+        1035
+      ],
+      "size": {
+        "0": 211.60000610351562,
+        "1": 26
+      },
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "Value",
+          "type": "FLOAT",
+          "links": [
+            437
+          ],
+          "label": "first_upscale_factor",
           "slot_index": 0
         }
       ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
+      "properties": {}
     },
     {
-      "id": 232,
-      "type": "Reroute",
+      "id": 248,
+      "type": "ComponentInput",
       "pos": [
-        1190,
-        430
+        647,
+        1156
       ],
-      "size": [
-        75,
-        26
-      ],
+      "size": {
+        "0": 262,
+        "1": 26
+      },
       "flags": {},
-      "order": 25,
+      "order": 4,
       "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 421
-        }
-      ],
       "outputs": [
         {
-          "name": "",
+          "name": "Value",
+          "type": "FLOAT",
+          "links": [
+            465
+          ],
+          "label": "first_upscale_tile_percentage"
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 245,
+      "type": "ComponentInput",
+      "pos": [
+        647,
+        1219
+      ],
+      "size": {
+        "0": 262,
+        "1": 26
+      },
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "tiling_strategy",
           "type": "COMBO",
           "links": [
-            425,
-            609
+            459
           ],
+          "label": "first_upscale_tiling_strategy"
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 249,
+      "type": "ComponentInput",
+      "pos": [
+        653,
+        1333
+      ],
+      "size": {
+        "0": 220,
+        "1": 26
+      },
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "Value",
+          "type": "FLOAT",
+          "links": [
+            467
+          ],
+          "label": "second_upscale_factor",
           "slot_index": 0
         }
       ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
+      "properties": {}
     },
     {
-      "id": 233,
-      "type": "Reroute",
+      "id": 243,
+      "type": "ComponentInput",
       "pos": [
-        1190,
-        480
+        647,
+        1095
       ],
-      "size": [
-        75,
-        26
-      ],
+      "size": {
+        "0": 186.39999389648438,
+        "1": 26
+      },
       "flags": {},
-      "order": 26,
+      "order": 7,
       "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 422
-        }
-      ],
       "outputs": [
         {
-          "name": "",
+          "name": "Value_B",
+          "type": "FLOAT",
+          "links": [],
+          "label": "first_upscale_denoise"
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 259,
+      "type": "ComponentInput",
+      "pos": [
+        651,
+        1471
+      ],
+      "size": {
+        "0": 262,
+        "1": 26
+      },
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "tiling_strategy",
           "type": "COMBO",
           "links": [
-            580,
-            610
+            596
           ],
+          "label": "second_upscale_tiling_strategy",
           "slot_index": 0
         }
       ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
+      "properties": {}
     },
     {
-      "id": 200,
+      "id": 260,
+      "type": "ComponentInput",
+      "pos": [
+        651,
+        1543
+      ],
+      "size": {
+        "0": 262,
+        "1": 26
+      },
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "Value",
+          "type": "FLOAT",
+          "links": [
+            593
+          ],
+          "label": "second_upscale_tile_percentage",
+          "slot_index": 0
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 295,
+      "type": "ComponentInput",
+      "pos": [
+        658,
+        1401
+      ],
+      "size": {
+        "0": 194.8000030517578,
+        "1": 26
+      },
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "Value_B",
+          "type": "FLOAT",
+          "links": [
+            638
+          ],
+          "label": "second_upscale_denoise",
+          "slot_index": 0
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 242,
+      "type": "Multiply",
+      "pos": [
+        2986,
+        754
+      ],
+      "size": {
+        "0": 247.7947235107422,
+        "1": 58
+      },
+      "flags": {
+        "collapsed": true
+      },
+      "order": 32,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Value_A",
+          "type": "FLOAT",
+          "link": 453,
+          "widget": {
+            "name": "Value_A"
+          },
+          "label": "steps"
+        },
+        {
+          "name": "Value_B",
+          "type": "FLOAT",
+          "link": 638,
+          "widget": {
+            "name": "Value_B"
+          },
+          "label": "second_denoise_ratio",
+          "slot_index": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            456
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "Denoise 2 steps calc",
+      "properties": {
+        "Node name for S&R": "Multiply"
+      },
+      "widgets_values": [
+        1,
+        0.4
+      ]
+    },
+    {
+      "id": 175,
+      "type": "ComponentInput",
+      "pos": [
+        644,
+        449
+      ],
+      "size": {
+        "0": 178,
+        "1": 26
+      },
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "seed",
+          "type": "INT",
+          "links": [
+            377
+          ],
+          "slot_index": 0,
+          "label": "seed"
+        }
+      ],
+      "title": "1. Component Input",
+      "properties": {}
+    },
+    {
+      "id": 209,
       "type": "Reroute",
       "pos": [
-        1190,
-        220
+        1189,
+        304
       ],
       "size": [
         75,
         26
       ],
       "flags": {},
-      "order": 19,
+      "order": 22,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 631
+          "link": 377
         }
       ],
       "outputs": [
         {
           "name": "",
-          "type": "CONDITIONING",
+          "type": "INT",
           "links": [
-            556,
-            611
+            378,
+            641
           ],
           "slot_index": 0
         }
@@ -2542,15 +1694,15 @@
         "1": 98
       },
       "flags": {
-        "collapsed": false
+        "collapsed": true
       },
-      "order": 38,
+      "order": 12,
       "mode": 0,
       "inputs": [
         {
           "name": "latent",
           "type": "LATENT",
-          "link": 618
+          "link": null
         }
       ],
       "outputs": [
@@ -2587,41 +1739,92 @@
       ]
     },
     {
-      "id": 287,
-      "type": "Reroute",
+      "id": 29,
+      "type": "LatentUpscale",
       "pos": [
-        1194,
-        539
+        2177.2492273437497,
+        956.362698046875
       ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 27,
+      "size": {
+        "0": 315,
+        "1": 130
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 60,
       "mode": 0,
       "inputs": [
         {
-          "name": "",
-          "type": "*",
-          "link": 635
+          "name": "samples",
+          "type": "LATENT",
+          "link": 393
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "link": 395,
+          "widget": {
+            "name": "width"
+          }
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "link": 396,
+          "widget": {
+            "name": "height"
+          }
         }
       ],
       "outputs": [
         {
-          "name": "",
+          "name": "LATENT",
           "type": "LATENT",
           "links": [
-            618,
-            619
+            446
           ],
+          "shape": 3,
           "slot_index": 0
         }
       ],
       "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
+        "Node name for S&R": "LatentUpscale"
+      },
+      "widgets_values": [
+        "nearest-exact",
+        2048,
+        1024,
+        "disabled"
+      ]
+    },
+    {
+      "id": 165,
+      "type": "ComponentInput",
+      "pos": [
+        635,
+        201
+      ],
+      "size": {
+        "0": 178,
+        "1": 26
+      },
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "links": [
+            630
+          ],
+          "slot_index": 0,
+          "label": "model"
+        }
+      ],
+      "title": "0. Component Input",
+      "properties": {}
     },
     {
       "id": 210,
@@ -2637,23 +1840,23 @@
       "flags": {
         "collapsed": false
       },
-      "order": 50,
+      "order": 56,
       "mode": 0,
       "inputs": [
         {
           "name": "model",
           "type": "MODEL",
-          "link": 601
+          "link": 646
         },
         {
           "name": "positive",
           "type": "CONDITIONING",
-          "link": 611
+          "link": 651
         },
         {
           "name": "negative",
           "type": "CONDITIONING",
-          "link": 634
+          "link": 654
         },
         {
           "name": "latent_image",
@@ -2663,40 +1866,26 @@
         {
           "name": "noise_seed",
           "type": "INT",
-          "link": 629,
+          "link": 641,
           "widget": {
-            "name": "noise_seed",
-            "config": [
-              "INT",
-              {
-                "default": 0,
-                "min": 0,
-                "max": 18446744073709552000
-              }
-            ]
+            "name": "noise_seed"
           }
         },
         {
           "name": "sampler_name",
           "type": "COMBO",
-          "link": 609,
+          "link": 663,
           "widget": {
-            "name": "sampler_name",
-            "config": [
-              []
-            ]
+            "name": "sampler_name"
           },
           "slot_index": 5
         },
         {
           "name": "scheduler",
           "type": "COMBO",
-          "link": 610,
+          "link": 666,
           "widget": {
-            "name": "scheduler",
-            "config": [
-              []
-            ]
+            "name": "scheduler"
           },
           "slot_index": 6
         },
@@ -2705,15 +1894,7 @@
           "type": "INT",
           "link": 607,
           "widget": {
-            "name": "steps",
-            "config": [
-              "INT",
-              {
-                "default": 20,
-                "min": 1,
-                "max": 10000
-              }
-            ]
+            "name": "steps"
           },
           "slot_index": 7
         },
@@ -2722,33 +1903,15 @@
           "type": "INT",
           "link": 411,
           "widget": {
-            "name": "end_at_step",
-            "config": [
-              "INT",
-              {
-                "default": 10000,
-                "min": 0,
-                "max": 10000
-              }
-            ]
+            "name": "end_at_step"
           }
         },
         {
           "name": "cfg",
           "type": "FLOAT",
-          "link": 608,
+          "link": 660,
           "widget": {
-            "name": "cfg",
-            "config": [
-              "FLOAT",
-              {
-                "default": 8,
-                "min": 0,
-                "max": 100,
-                "step": 0.5,
-                "round": 0.01
-              }
-            ]
+            "name": "cfg"
           },
           "slot_index": 9
         }
@@ -2782,70 +1945,33 @@
       ]
     },
     {
-      "id": 209,
-      "type": "Reroute",
-      "pos": [
-        1189,
-        304
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 21,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 377
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "INT",
-          "links": [
-            378,
-            629
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 201,
+      "id": 274,
       "type": "Reroute",
       "pos": [
         1190,
-        270
+        180
       ],
       "size": [
         75,
         26
       ],
       "flags": {},
-      "order": 20,
+      "order": 24,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 632
+          "link": 630
         }
       ],
       "outputs": [
         {
           "name": "",
-          "type": "CONDITIONING",
+          "type": "MODEL",
           "links": [
-            415,
-            634
+            563,
+            646
           ],
           "slot_index": 0
         }
@@ -2854,34 +1980,6 @@
         "showOutputText": false,
         "horizontal": false
       }
-    },
-    {
-      "id": 165,
-      "type": "ComponentInput",
-      "pos": [
-        635,
-        201
-      ],
-      "size": {
-        "0": 178,
-        "1": 26
-      },
-      "flags": {},
-      "order": 0,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "links": [
-            630
-          ],
-          "slot_index": 0,
-          "label": "model"
-        }
-      ],
-      "title": "0. Component Input",
-      "properties": {}
     },
     {
       "id": 166,
@@ -2895,7 +1993,7 @@
         "1": 26
       },
       "flags": {},
-      "order": 1,
+      "order": 14,
       "mode": 0,
       "outputs": [
         {
@@ -2912,6 +2010,43 @@
       "properties": {}
     },
     {
+      "id": 200,
+      "type": "Reroute",
+      "pos": [
+        1190,
+        220
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 25,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 631
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "CONDITIONING",
+          "links": [
+            556,
+            651
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
       "id": 285,
       "type": "ComponentInput",
       "pos": [
@@ -2923,7 +2058,7 @@
         "1": 26
       },
       "flags": {},
-      "order": 2,
+      "order": 15,
       "mode": 0,
       "outputs": [
         {
@@ -2940,60 +2075,41 @@
       "properties": {}
     },
     {
-      "id": 175,
-      "type": "ComponentInput",
+      "id": 201,
+      "type": "Reroute",
       "pos": [
-        644,
-        449
+        1190,
+        270
       ],
-      "size": {
-        "0": 178,
-        "1": 26
-      },
+      "size": [
+        75,
+        26
+      ],
       "flags": {},
-      "order": 3,
+      "order": 26,
       "mode": 0,
-      "outputs": [
+      "inputs": [
         {
-          "name": "seed",
-          "type": "INT",
-          "links": [
-            377
-          ],
-          "slot_index": 0,
-          "label": "seed"
+          "name": "",
+          "type": "*",
+          "link": 632
         }
       ],
-      "title": "1. Component Input",
-      "properties": {}
-    },
-    {
-      "id": 221,
-      "type": "ComponentInput",
-      "pos": [
-        648,
-        525
-      ],
-      "size": {
-        "0": 178,
-        "1": 26
-      },
-      "flags": {},
-      "order": 4,
-      "mode": 0,
       "outputs": [
         {
-          "name": "steps",
-          "type": "INT",
+          "name": "",
+          "type": "CONDITIONING",
           "links": [
-            429,
-            576
+            415,
+            654
           ],
-          "label": "steps",
           "slot_index": 0
         }
       ],
-      "properties": {}
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
     },
     {
       "id": 230,
@@ -3007,7 +2123,7 @@
         "1": 26
       },
       "flags": {},
-      "order": 5,
+      "order": 16,
       "mode": 0,
       "outputs": [
         {
@@ -3023,6 +2139,43 @@
       "properties": {}
     },
     {
+      "id": 241,
+      "type": "Reroute",
+      "pos": [
+        1190,
+        390
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 27,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 438
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "FLOAT",
+          "links": [
+            505,
+            660
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
       "id": 211,
       "type": "ComponentInput",
       "pos": [
@@ -3034,7 +2187,7 @@
         "1": 26
       },
       "flags": {},
-      "order": 6,
+      "order": 17,
       "mode": 0,
       "outputs": [
         {
@@ -3050,6 +2203,43 @@
       "properties": {}
     },
     {
+      "id": 232,
+      "type": "Reroute",
+      "pos": [
+        1190,
+        430
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 28,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 421
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "COMBO",
+          "links": [
+            425,
+            663
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
       "id": 212,
       "type": "ComponentInput",
       "pos": [
@@ -3061,7 +2251,7 @@
         "1": 26
       },
       "flags": {},
-      "order": 7,
+      "order": 18,
       "mode": 0,
       "outputs": [
         {
@@ -3077,345 +2267,775 @@
       "properties": {}
     },
     {
-      "id": 184,
-      "type": "ComponentInput",
+      "id": 233,
+      "type": "Reroute",
       "pos": [
-        649,
-        835
+        1190,
+        480
       ],
-      "size": {
-        "0": 178,
-        "1": 26
-      },
+      "size": [
+        75,
+        26
+      ],
       "flags": {},
-      "order": 8,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "latent_image",
-          "type": "LATENT",
-          "links": [
-            635
-          ],
-          "slot_index": 0,
-          "label": "latent"
-        }
-      ],
-      "title": "2. Component Input",
-      "properties": {}
-    },
-    {
-      "id": 228,
-      "type": "ComponentInput",
-      "pos": [
-        650,
-        912
-      ],
-      "size": {
-        "0": 178,
-        "1": 26
-      },
-      "flags": {},
-      "order": 9,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "Value_B",
-          "type": "FLOAT",
-          "links": [
-            599
-          ],
-          "slot_index": 0,
-          "label": "initial_denoise"
-        }
-      ],
-      "properties": {}
-    },
-    {
-      "id": 240,
-      "type": "ComponentInput",
-      "pos": [
-        650,
-        1035
-      ],
-      "size": {
-        "0": 211.60000610351562,
-        "1": 26
-      },
-      "flags": {},
-      "order": 10,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "Value",
-          "type": "FLOAT",
-          "links": [
-            437
-          ],
-          "label": "first_upscale_factor",
-          "slot_index": 0
-        }
-      ],
-      "properties": {}
-    },
-    {
-      "id": 248,
-      "type": "ComponentInput",
-      "pos": [
-        647,
-        1156
-      ],
-      "size": {
-        "0": 262,
-        "1": 26
-      },
-      "flags": {},
-      "order": 11,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "Value",
-          "type": "FLOAT",
-          "links": [
-            465
-          ],
-          "label": "first_upscale_tile_percentage"
-        }
-      ],
-      "properties": {}
-    },
-    {
-      "id": 245,
-      "type": "ComponentInput",
-      "pos": [
-        647,
-        1219
-      ],
-      "size": {
-        "0": 262,
-        "1": 26
-      },
-      "flags": {},
-      "order": 12,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "tiling_strategy",
-          "type": "COMBO",
-          "links": [
-            459
-          ],
-          "label": "first_upscale_tiling_strategy"
-        }
-      ],
-      "properties": {}
-    },
-    {
-      "id": 249,
-      "type": "ComponentInput",
-      "pos": [
-        653,
-        1333
-      ],
-      "size": {
-        "0": 220,
-        "1": 26
-      },
-      "flags": {},
-      "order": 13,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "Value",
-          "type": "FLOAT",
-          "links": [
-            467
-          ],
-          "label": "second_upscale_factor",
-          "slot_index": 0
-        }
-      ],
-      "properties": {}
-    },
-    {
-      "id": 243,
-      "type": "ComponentInput",
-      "pos": [
-        647,
-        1095
-      ],
-      "size": {
-        "0": 178,
-        "1": 26
-      },
-      "flags": {},
-      "order": 14,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "Value_B",
-          "type": "FLOAT",
-          "links": [],
-          "label": "first_upscale_denoise"
-        }
-      ],
-      "properties": {}
-    },
-    {
-      "id": 259,
-      "type": "ComponentInput",
-      "pos": [
-        651,
-        1471
-      ],
-      "size": {
-        "0": 262,
-        "1": 26
-      },
-      "flags": {},
-      "order": 15,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "tiling_strategy",
-          "type": "COMBO",
-          "links": [
-            596
-          ],
-          "label": "second_upscale_tiling_strategy",
-          "slot_index": 0
-        }
-      ],
-      "properties": {}
-    },
-    {
-      "id": 260,
-      "type": "ComponentInput",
-      "pos": [
-        651,
-        1543
-      ],
-      "size": {
-        "0": 262,
-        "1": 26
-      },
-      "flags": {},
-      "order": 16,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "Value",
-          "type": "FLOAT",
-          "links": [
-            593
-          ],
-          "label": "second_upscale_tile_percentage",
-          "slot_index": 0
-        }
-      ],
-      "properties": {}
-    },
-    {
-      "id": 295,
-      "type": "ComponentInput",
-      "pos": [
-        658,
-        1401
-      ],
-      "size": {
-        "0": 178,
-        "1": 26
-      },
-      "flags": {},
-      "order": 17,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "Value_B",
-          "type": "FLOAT",
-          "links": [
-            638
-          ],
-          "label": "second_upscale_denoise",
-          "slot_index": 0
-        }
-      ],
-      "properties": {}
-    },
-    {
-      "id": 242,
-      "type": "Multiply",
-      "pos": [
-        2986,
-        754
-      ],
-      "size": {
-        "0": 247.7947235107422,
-        "1": 58
-      },
-      "flags": {
-        "collapsed": true
-      },
-      "order": 34,
+      "order": 29,
       "mode": 0,
       "inputs": [
         {
-          "name": "Value_A",
-          "type": "FLOAT",
-          "link": 453,
-          "widget": {
-            "name": "Value_A",
-            "config": [
-              "FLOAT",
-              {
-                "default": 1,
-                "min": -1.7976931348623157e+308,
-                "max": 1.7976931348623157e+308,
-                "step": 0.01
-              }
-            ]
-          },
-          "label": "steps"
-        },
-        {
-          "name": "Value_B",
-          "type": "FLOAT",
-          "link": 638,
-          "widget": {
-            "name": "Value_B",
-            "config": [
-              "FLOAT",
-              {
-                "default": 1,
-                "min": -1.7976931348623157e+308,
-                "max": 1.7976931348623157e+308,
-                "step": 0.01
-              }
-            ]
-          },
-          "label": "second_denoise_ratio",
-          "slot_index": 1
+          "name": "",
+          "type": "*",
+          "link": 422
         }
       ],
       "outputs": [
         {
-          "name": "FLOAT",
-          "type": "FLOAT",
+          "name": "",
+          "type": "COMBO",
           "links": [
-            456
+            580,
+            666
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 275,
+      "type": "Reroute",
+      "pos": [
+        2550,
+        180
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 37,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 563
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "MODEL",
+          "links": [
+            647,
+            668
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 296,
+      "type": "Reroute",
+      "pos": [
+        4090,
+        160
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 50,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 668
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "MODEL",
+          "links": [
+            669
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 272,
+      "type": "Reroute",
+      "pos": [
+        2550,
+        210
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 38,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 556
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "CONDITIONING",
+          "links": [
+            652,
+            670
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 297,
+      "type": "Reroute",
+      "pos": [
+        4090,
+        200
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 51,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 670
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "CONDITIONING",
+          "links": [
+            671
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 32,
+      "type": "Reroute",
+      "pos": [
+        2550,
+        250
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 39,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 415
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "CONDITIONING",
+          "links": [
+            655,
+            672
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 298,
+      "type": "Reroute",
+      "pos": [
+        4090,
+        270
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 52,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 672
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "CONDITIONING",
+          "links": [
+            673
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 178,
+      "type": "Reroute",
+      "pos": [
+        2550,
+        280
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 33,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 378
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "INT",
+          "links": [
+            674,
+            675
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 299,
+      "type": "Reroute",
+      "pos": [
+        4090,
+        310
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 46,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 675
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "INT",
+          "links": [
+            676
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 207,
+      "type": "BNK_TiledKSamplerAdvanced",
+      "pos": [
+        2794.5773515036567,
+        1002.8496870127971
+      ],
+      "size": {
+        "0": 751.765380859375,
+        "1": 366
+      },
+      "flags": {},
+      "order": 66,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 647,
+          "slot_index": 0
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 652
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 655
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 446
+        },
+        {
+          "name": "noise_seed",
+          "type": "INT",
+          "link": 674,
+          "widget": {
+            "name": "noise_seed"
+          }
+        },
+        {
+          "name": "tile_width",
+          "type": "INT",
+          "link": 462,
+          "widget": {
+            "name": "tile_width"
+          }
+        },
+        {
+          "name": "tile_height",
+          "type": "INT",
+          "link": 463,
+          "widget": {
+            "name": "tile_height"
+          }
+        },
+        {
+          "name": "steps",
+          "type": "INT",
+          "link": 677,
+          "widget": {
+            "name": "steps"
+          }
+        },
+        {
+          "name": "cfg",
+          "type": "FLOAT",
+          "link": 661,
+          "widget": {
+            "name": "cfg"
+          }
+        },
+        {
+          "name": "sampler_name",
+          "type": "COMBO",
+          "link": 664,
+          "widget": {
+            "name": "sampler_name"
+          }
+        },
+        {
+          "name": "scheduler",
+          "type": "COMBO",
+          "link": 667,
+          "widget": {
+            "name": "scheduler"
+          }
+        },
+        {
+          "name": "start_at_step",
+          "type": "INT",
+          "link": 452,
+          "widget": {
+            "name": "start_at_step"
+          }
+        },
+        {
+          "name": "end_at_step",
+          "type": "INT",
+          "link": 458,
+          "widget": {
+            "name": "end_at_step"
+          }
+        },
+        {
+          "name": "tiling_strategy",
+          "type": "COMBO",
+          "link": 459,
+          "widget": {
+            "name": "tiling_strategy"
+          },
+          "slot_index": 13
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            469
           ],
           "shape": 3,
           "slot_index": 0
         }
       ],
-      "title": "Denoise 2 steps calc",
+      "title": "Denoise 2",
       "properties": {
-        "Node name for S&R": "Multiply"
+        "Node name for S&R": "BNK_TiledKSamplerAdvanced"
       },
       "widgets_values": [
-        1,
-        0.4
+        "disable",
+        0,
+        "randomize",
+        512,
+        512,
+        "random",
+        20,
+        8,
+        "euler",
+        "normal",
+        0,
+        10000,
+        "enable",
+        "disable"
       ]
+    },
+    {
+      "id": 237,
+      "type": "Reroute",
+      "pos": [
+        2550,
+        330
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 30,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 529
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "INT",
+          "links": [
+            677,
+            678
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 300,
+      "type": "Reroute",
+      "pos": [
+        4090,
+        360
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 43,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 678
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "INT",
+          "links": [
+            679
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 261,
+      "type": "Reroute",
+      "pos": [
+        2550,
+        370
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 40,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 505
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "FLOAT",
+          "links": [
+            661,
+            680
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 301,
+      "type": "Reroute",
+      "pos": [
+        4090,
+        400
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 53,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 680
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "FLOAT",
+          "links": [
+            681
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 234,
+      "type": "Reroute",
+      "pos": [
+        2550,
+        410
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 41,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 425
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "COMBO",
+          "links": [
+            664,
+            682
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 302,
+      "type": "Reroute",
+      "pos": [
+        4090,
+        440
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 54,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 682
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "COMBO",
+          "links": [
+            683
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 235,
+      "type": "Reroute",
+      "pos": [
+        2550,
+        460
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 42,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 580
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "COMBO",
+          "links": [
+            667,
+            684
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 303,
+      "type": "Reroute",
+      "pos": [
+        4100,
+        490
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 55,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 684
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "COMBO",
+          "links": [
+            685
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
     }
   ],
   "links": [
@@ -3756,92 +3376,12 @@
       "*"
     ],
     [
-      511,
-      178,
-      0,
-      264,
-      0,
-      "*"
-    ],
-    [
-      514,
-      32,
-      0,
-      267,
-      0,
-      "*"
-    ],
-    [
-      516,
-      234,
-      0,
-      268,
-      0,
-      "*"
-    ],
-    [
-      517,
-      235,
-      0,
-      269,
-      0,
-      "*"
-    ],
-    [
-      519,
-      261,
-      0,
-      271,
-      0,
-      "*"
-    ],
-    [
       529,
       236,
       0,
       237,
       0,
       "*"
-    ],
-    [
-      530,
-      237,
-      0,
-      270,
-      0,
-      "*"
-    ],
-    [
-      545,
-      237,
-      0,
-      207,
-      7,
-      "INT"
-    ],
-    [
-      546,
-      270,
-      0,
-      262,
-      7,
-      "INT"
-    ],
-    [
-      548,
-      178,
-      0,
-      207,
-      4,
-      "INT"
-    ],
-    [
-      549,
-      264,
-      0,
-      262,
-      4,
-      "INT"
     ],
     [
       556,
@@ -3852,60 +3392,12 @@
       "*"
     ],
     [
-      557,
-      272,
-      0,
-      207,
-      1,
-      "CONDITIONING"
-    ],
-    [
-      558,
-      272,
-      0,
-      273,
-      0,
-      "*"
-    ],
-    [
-      559,
-      273,
-      0,
-      262,
-      1,
-      "CONDITIONING"
-    ],
-    [
       563,
       274,
       0,
       275,
       0,
       "*"
-    ],
-    [
-      564,
-      275,
-      0,
-      276,
-      0,
-      "*"
-    ],
-    [
-      565,
-      276,
-      0,
-      262,
-      0,
-      "MODEL"
-    ],
-    [
-      566,
-      275,
-      0,
-      207,
-      0,
-      "MODEL"
     ],
     [
       576,
@@ -3916,14 +3408,6 @@
       "INT"
     ],
     [
-      578,
-      234,
-      0,
-      207,
-      9,
-      "COMBO"
-    ],
-    [
       580,
       233,
       0,
@@ -3932,52 +3416,12 @@
       "*"
     ],
     [
-      581,
-      261,
-      0,
-      207,
-      8,
-      "FLOAT"
-    ],
-    [
-      582,
-      235,
-      0,
-      207,
-      10,
-      "COMBO"
-    ],
-    [
       584,
       252,
       0,
       262,
       3,
       "LATENT"
-    ],
-    [
-      585,
-      271,
-      0,
-      262,
-      8,
-      "FLOAT"
-    ],
-    [
-      586,
-      268,
-      0,
-      262,
-      9,
-      "COMBO"
-    ],
-    [
-      587,
-      269,
-      0,
-      262,
-      10,
-      "COMBO"
     ],
     [
       588,
@@ -4068,14 +3512,6 @@
       "FLOAT"
     ],
     [
-      601,
-      274,
-      0,
-      210,
-      0,
-      "MODEL"
-    ],
-    [
       607,
       236,
       0,
@@ -4084,60 +3520,12 @@
       "INT"
     ],
     [
-      608,
-      241,
-      0,
-      210,
-      9,
-      "FLOAT"
-    ],
-    [
-      609,
-      232,
-      0,
-      210,
-      5,
-      "COMBO"
-    ],
-    [
-      610,
-      233,
-      0,
-      210,
-      6,
-      "COMBO"
-    ],
-    [
-      611,
-      200,
-      0,
-      210,
-      1,
-      "CONDITIONING"
-    ],
-    [
-      618,
-      287,
-      0,
-      197,
-      0,
-      "LATENT"
-    ],
-    [
       619,
       287,
       0,
       210,
       3,
       "LATENT"
-    ],
-    [
-      629,
-      209,
-      0,
-      210,
-      4,
-      "INT"
     ],
     [
       630,
@@ -4164,14 +3552,6 @@
       "*"
     ],
     [
-      634,
-      201,
-      0,
-      210,
-      2,
-      "CONDITIONING"
-    ],
-    [
       635,
       184,
       0,
@@ -4186,6 +3566,254 @@
       242,
       1,
       "FLOAT"
+    ],
+    [
+      641,
+      209,
+      0,
+      210,
+      4,
+      "INT"
+    ],
+    [
+      646,
+      274,
+      0,
+      210,
+      0,
+      "MODEL"
+    ],
+    [
+      647,
+      275,
+      0,
+      207,
+      0,
+      "MODEL"
+    ],
+    [
+      651,
+      200,
+      0,
+      210,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      652,
+      272,
+      0,
+      207,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      654,
+      201,
+      0,
+      210,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      655,
+      32,
+      0,
+      207,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      660,
+      241,
+      0,
+      210,
+      9,
+      "FLOAT"
+    ],
+    [
+      661,
+      261,
+      0,
+      207,
+      8,
+      "FLOAT"
+    ],
+    [
+      663,
+      232,
+      0,
+      210,
+      5,
+      "COMBO"
+    ],
+    [
+      664,
+      234,
+      0,
+      207,
+      9,
+      "COMBO"
+    ],
+    [
+      666,
+      233,
+      0,
+      210,
+      6,
+      "COMBO"
+    ],
+    [
+      667,
+      235,
+      0,
+      207,
+      10,
+      "COMBO"
+    ],
+    [
+      668,
+      275,
+      0,
+      296,
+      0,
+      "*"
+    ],
+    [
+      669,
+      296,
+      0,
+      262,
+      0,
+      "MODEL"
+    ],
+    [
+      670,
+      272,
+      0,
+      297,
+      0,
+      "*"
+    ],
+    [
+      671,
+      297,
+      0,
+      262,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      672,
+      32,
+      0,
+      298,
+      0,
+      "*"
+    ],
+    [
+      673,
+      298,
+      0,
+      262,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      674,
+      178,
+      0,
+      207,
+      4,
+      "INT"
+    ],
+    [
+      675,
+      178,
+      0,
+      299,
+      0,
+      "*"
+    ],
+    [
+      676,
+      299,
+      0,
+      262,
+      4,
+      "INT"
+    ],
+    [
+      677,
+      237,
+      0,
+      207,
+      7,
+      "INT"
+    ],
+    [
+      678,
+      237,
+      0,
+      300,
+      0,
+      "*"
+    ],
+    [
+      679,
+      300,
+      0,
+      262,
+      7,
+      "INT"
+    ],
+    [
+      680,
+      261,
+      0,
+      301,
+      0,
+      "*"
+    ],
+    [
+      681,
+      301,
+      0,
+      262,
+      8,
+      "FLOAT"
+    ],
+    [
+      682,
+      234,
+      0,
+      302,
+      0,
+      "*"
+    ],
+    [
+      683,
+      302,
+      0,
+      262,
+      9,
+      "COMBO"
+    ],
+    [
+      684,
+      235,
+      0,
+      303,
+      0,
+      "*"
+    ],
+    [
+      685,
+      303,
+      0,
+      262,
+      10,
+      "COMBO"
     ]
   ],
   "groups": [
