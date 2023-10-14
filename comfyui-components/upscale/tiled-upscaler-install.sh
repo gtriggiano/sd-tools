@@ -1,0 +1,1 @@
+cp /sd-tools/comfyui-components/upscale/tiled-upscaler.component.json /opt/ComfyUI/custom_nodes/ComfyUI-Workflow-Component/components/util/tiled-upscaler.component.json
