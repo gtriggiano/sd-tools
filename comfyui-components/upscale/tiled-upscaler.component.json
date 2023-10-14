@@ -1,117 +1,7 @@
 {
   "last_node_id": 303,
-  "last_link_id": 685,
+  "last_link_id": 721,
   "nodes": [
-    {
-      "id": 224,
-      "type": "Int to float",
-      "pos": [
-        1518.5206845953412,
-        718.7417803606609
-      ],
-      "size": {
-        "0": 210,
-        "1": 34
-      },
-      "flags": {
-        "collapsed": false
-      },
-      "order": 20,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "Value",
-          "type": "INT",
-          "link": 576,
-          "widget": {
-            "name": "Value",
-            "config": [
-              "INT",
-              {
-                "default": 1,
-                "min": -9223372036854776000,
-                "max": 9223372036854776000,
-                "step": 1
-              }
-            ]
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "FLOAT",
-          "type": "FLOAT",
-          "links": [
-            406,
-            453
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "title": "Steps as float",
-      "properties": {
-        "Node name for S&R": "Int to float"
-      },
-      "widgets_values": [
-        1
-      ]
-    },
-    {
-      "id": 255,
-      "type": "Int to float",
-      "pos": [
-        1931.1683115182639,
-        1029.6288115679827
-      ],
-      "size": {
-        "0": 315,
-        "1": 58
-      },
-      "flags": {
-        "collapsed": true
-      },
-      "order": 57,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "Value",
-          "type": "INT",
-          "link": 474,
-          "widget": {
-            "name": "Value",
-            "config": [
-              "INT",
-              {
-                "default": 1,
-                "min": -9223372036854776000,
-                "max": 9223372036854776000,
-                "step": 1
-              }
-            ]
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "FLOAT",
-          "type": "FLOAT",
-          "links": [
-            475,
-            480
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "title": "Denoise 1 steps (f)",
-      "properties": {
-        "Node name for S&R": "Int to float"
-      },
-      "widgets_values": [
-        1
-      ]
-    },
     {
       "id": 229,
       "type": "Floor",
@@ -181,7 +71,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 58,
+      "order": 49,
       "mode": 0,
       "inputs": [
         {
@@ -290,7 +180,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 63,
+      "order": 53,
       "mode": 0,
       "inputs": [
         {
@@ -344,7 +234,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 61,
+      "order": 51,
       "mode": 0,
       "inputs": [
         {
@@ -399,7 +289,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 47,
+      "order": 41,
       "mode": 0,
       "inputs": [
         {
@@ -447,7 +337,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 48,
+      "order": 42,
       "mode": 0,
       "inputs": [
         {
@@ -495,7 +385,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 34,
+      "order": 28,
       "mode": 0,
       "inputs": [
         {
@@ -543,7 +433,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 23,
+      "order": 18,
       "mode": 0,
       "inputs": [
         {
@@ -605,7 +495,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 68,
+      "order": 58,
       "mode": 0,
       "inputs": [
         {
@@ -683,7 +573,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 64,
+      "order": 54,
       "mode": 0,
       "inputs": [
         {
@@ -734,7 +624,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 62,
+      "order": 52,
       "mode": 0,
       "inputs": [
         {
@@ -794,61 +684,6 @@
       ]
     },
     {
-      "id": 253,
-      "type": "Sum",
-      "pos": [
-        4397.960467529161,
-        742.6265430038952
-      ],
-      "size": {
-        "0": 315,
-        "1": 82
-      },
-      "flags": {
-        "collapsed": false
-      },
-      "order": 65,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "Value_A",
-          "type": "FLOAT",
-          "link": 588,
-          "widget": {
-            "name": "Value_A",
-            "config": [
-              "FLOAT",
-              {
-                "default": 1,
-                "min": -1.7976931348623157e+308,
-                "max": 1.7976931348623157e+308,
-                "step": 0.01
-              }
-            ]
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "FLOAT",
-          "type": "FLOAT",
-          "links": [
-            589
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "title": "Denoise 3 start calc",
-      "properties": {
-        "Node name for S&R": "Sum"
-      },
-      "widgets_values": [
-        1,
-        1
-      ]
-    },
-    {
       "id": 246,
       "type": "Tuple multiply",
       "pos": [
@@ -862,7 +697,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 35,
+      "order": 29,
       "mode": 0,
       "inputs": [
         {
@@ -922,7 +757,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 36,
+      "order": 30,
       "mode": 0,
       "inputs": [
         {
@@ -983,7 +818,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 49,
+      "order": 43,
       "mode": 0,
       "inputs": [
         {
@@ -1030,60 +865,6 @@
       ]
     },
     {
-      "id": 277,
-      "type": "Floor",
-      "pos": [
-        4407.960467529161,
-        872.6265430038953
-      ],
-      "size": {
-        "0": 210,
-        "1": 40.363216400146484
-      },
-      "flags": {
-        "collapsed": false
-      },
-      "order": 67,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "Value",
-          "type": "FLOAT",
-          "link": 589,
-          "widget": {
-            "name": "Value",
-            "config": [
-              "FLOAT",
-              {
-                "default": 1,
-                "min": -1.7976931348623157e+308,
-                "max": 1.7976931348623157e+308,
-                "step": 0.01
-              }
-            ]
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "INT",
-          "type": "INT",
-          "links": [
-            590
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "title": "Denoise 3 start",
-      "properties": {
-        "Node name for S&R": "Floor"
-      },
-      "widgets_values": [
-        1
-      ]
-    },
-    {
       "id": 278,
       "type": "Tuple to ints",
       "pos": [
@@ -1097,7 +878,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 59,
+      "order": 46,
       "mode": 0,
       "inputs": [
         {
@@ -1143,24 +924,24 @@
         "1": 370
       },
       "flags": {},
-      "order": 69,
+      "order": 59,
       "mode": 0,
       "inputs": [
         {
           "name": "model",
           "type": "MODEL",
-          "link": 669,
+          "link": 712,
           "slot_index": 0
         },
         {
           "name": "positive",
           "type": "CONDITIONING",
-          "link": 671
+          "link": 715
         },
         {
           "name": "negative",
           "type": "CONDITIONING",
-          "link": 673
+          "link": 716
         },
         {
           "name": "latent_image",
@@ -1170,7 +951,7 @@
         {
           "name": "noise_seed",
           "type": "INT",
-          "link": 676,
+          "link": 717,
           "widget": {
             "name": "noise_seed",
             "config": [
@@ -1220,7 +1001,7 @@
         {
           "name": "steps",
           "type": "INT",
-          "link": 679,
+          "link": 718,
           "widget": {
             "name": "steps",
             "config": [
@@ -1236,7 +1017,7 @@
         {
           "name": "cfg",
           "type": "FLOAT",
-          "link": 681,
+          "link": 719,
           "widget": {
             "name": "cfg",
             "config": [
@@ -1252,7 +1033,7 @@
         {
           "name": "sampler_name",
           "type": "COMBO",
-          "link": 683,
+          "link": 720,
           "widget": {
             "name": "sampler_name",
             "config": [
@@ -1263,7 +1044,7 @@
         {
           "name": "scheduler",
           "type": "COMBO",
-          "link": 685,
+          "link": 721,
           "widget": {
             "name": "scheduler",
             "config": [
@@ -1345,7 +1126,7 @@
         "1": 26
       },
       "flags": {},
-      "order": 70,
+      "order": 60,
       "mode": 0,
       "inputs": [
         {
@@ -1371,7 +1152,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 31,
+      "order": 38,
       "mode": 0,
       "inputs": [
         {
@@ -1433,135 +1214,6 @@
       ]
     },
     {
-      "id": 236,
-      "type": "Reroute",
-      "pos": [
-        1190,
-        350
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 19,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 429
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "INT",
-          "links": [
-            529,
-            607
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 287,
-      "type": "Reroute",
-      "pos": [
-        1194,
-        539
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 21,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 635
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "*",
-          "links": [
-            619
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 221,
-      "type": "ComponentInput",
-      "pos": [
-        648,
-        525
-      ],
-      "size": {
-        "0": 178,
-        "1": 26
-      },
-      "flags": {},
-      "order": 0,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "steps",
-          "type": "INT",
-          "links": [
-            429,
-            576
-          ],
-          "label": "steps",
-          "slot_index": 0
-        }
-      ],
-      "properties": {}
-    },
-    {
-      "id": 184,
-      "type": "ComponentInput",
-      "pos": [
-        649,
-        835
-      ],
-      "size": {
-        "0": 178,
-        "1": 26
-      },
-      "flags": {},
-      "order": 1,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "latent_image",
-          "type": "*",
-          "links": [
-            635
-          ],
-          "slot_index": 0,
-          "label": "latent"
-        }
-      ],
-      "title": "2. Component Input",
-      "properties": {}
-    },
-    {
       "id": 228,
       "type": "ComponentInput",
       "pos": [
@@ -1573,7 +1225,7 @@
         "1": 26
       },
       "flags": {},
-      "order": 2,
+      "order": 0,
       "mode": 0,
       "outputs": [
         {
@@ -1600,7 +1252,7 @@
         "1": 26
       },
       "flags": {},
-      "order": 3,
+      "order": 1,
       "mode": 0,
       "outputs": [
         {
@@ -1627,7 +1279,7 @@
         "1": 26
       },
       "flags": {},
-      "order": 4,
+      "order": 2,
       "mode": 0,
       "outputs": [
         {
@@ -1653,7 +1305,7 @@
         "1": 26
       },
       "flags": {},
-      "order": 5,
+      "order": 3,
       "mode": 0,
       "outputs": [
         {
@@ -1663,57 +1315,6 @@
             459
           ],
           "label": "first_upscale_tiling_strategy"
-        }
-      ],
-      "properties": {}
-    },
-    {
-      "id": 249,
-      "type": "ComponentInput",
-      "pos": [
-        653,
-        1333
-      ],
-      "size": {
-        "0": 220,
-        "1": 26
-      },
-      "flags": {},
-      "order": 6,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "Value",
-          "type": "FLOAT",
-          "links": [
-            467
-          ],
-          "label": "second_upscale_factor",
-          "slot_index": 0
-        }
-      ],
-      "properties": {}
-    },
-    {
-      "id": 243,
-      "type": "ComponentInput",
-      "pos": [
-        647,
-        1095
-      ],
-      "size": {
-        "0": 186.39999389648438,
-        "1": 26
-      },
-      "flags": {},
-      "order": 7,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "Value_B",
-          "type": "FLOAT",
-          "links": [],
-          "label": "first_upscale_denoise"
         }
       ],
       "properties": {}
@@ -1730,7 +1331,7 @@
         "1": 26
       },
       "flags": {},
-      "order": 8,
+      "order": 4,
       "mode": 0,
       "outputs": [
         {
@@ -1757,7 +1358,7 @@
         "1": 26
       },
       "flags": {},
-      "order": 9,
+      "order": 5,
       "mode": 0,
       "outputs": [
         {
@@ -1773,173 +1374,6 @@
       "properties": {}
     },
     {
-      "id": 295,
-      "type": "ComponentInput",
-      "pos": [
-        658,
-        1401
-      ],
-      "size": {
-        "0": 194.8000030517578,
-        "1": 26
-      },
-      "flags": {},
-      "order": 10,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "Value_B",
-          "type": "FLOAT",
-          "links": [
-            638
-          ],
-          "label": "second_upscale_denoise",
-          "slot_index": 0
-        }
-      ],
-      "properties": {}
-    },
-    {
-      "id": 242,
-      "type": "Multiply",
-      "pos": [
-        2986,
-        754
-      ],
-      "size": {
-        "0": 247.7947235107422,
-        "1": 58
-      },
-      "flags": {
-        "collapsed": true
-      },
-      "order": 32,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "Value_A",
-          "type": "FLOAT",
-          "link": 453,
-          "widget": {
-            "name": "Value_A",
-            "config": [
-              "FLOAT",
-              {
-                "default": 1,
-                "min": -1.7976931348623157e+308,
-                "max": 1.7976931348623157e+308,
-                "step": 0.01
-              }
-            ]
-          },
-          "label": "steps"
-        },
-        {
-          "name": "Value_B",
-          "type": "FLOAT",
-          "link": 638,
-          "widget": {
-            "name": "Value_B",
-            "config": [
-              "FLOAT",
-              {
-                "default": 1,
-                "min": -1.7976931348623157e+308,
-                "max": 1.7976931348623157e+308,
-                "step": 0.01
-              }
-            ]
-          },
-          "label": "second_denoise_ratio",
-          "slot_index": 1
-        }
-      ],
-      "outputs": [
-        {
-          "name": "FLOAT",
-          "type": "FLOAT",
-          "links": [
-            456
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "title": "Denoise 2 steps calc",
-      "properties": {
-        "Node name for S&R": "Multiply"
-      },
-      "widgets_values": [
-        1,
-        0.4
-      ]
-    },
-    {
-      "id": 175,
-      "type": "ComponentInput",
-      "pos": [
-        644,
-        449
-      ],
-      "size": {
-        "0": 178,
-        "1": 26
-      },
-      "flags": {},
-      "order": 11,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "seed",
-          "type": "INT",
-          "links": [
-            377
-          ],
-          "slot_index": 0,
-          "label": "seed"
-        }
-      ],
-      "title": "1. Component Input",
-      "properties": {}
-    },
-    {
-      "id": 209,
-      "type": "Reroute",
-      "pos": [
-        1189,
-        304
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 22,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 377
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "INT",
-          "links": [
-            378,
-            641
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
       "id": 197,
       "type": "Get latent size",
       "pos": [
@@ -1953,7 +1387,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 12,
+      "order": 6,
       "mode": 0,
       "inputs": [
         {
@@ -2009,7 +1443,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 60,
+      "order": 50,
       "mode": 0,
       "inputs": [
         {
@@ -2074,34 +1508,6 @@
       ]
     },
     {
-      "id": 165,
-      "type": "ComponentInput",
-      "pos": [
-        635,
-        201
-      ],
-      "size": {
-        "0": 178,
-        "1": 26
-      },
-      "flags": {},
-      "order": 13,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "links": [
-            630
-          ],
-          "slot_index": 0,
-          "label": "model"
-        }
-      ],
-      "title": "0. Component Input",
-      "properties": {}
-    },
-    {
       "id": 210,
       "type": "KSamplerAdvanced",
       "pos": [
@@ -2115,33 +1521,33 @@
       "flags": {
         "collapsed": false
       },
-      "order": 56,
+      "order": 47,
       "mode": 0,
       "inputs": [
         {
           "name": "model",
           "type": "MODEL",
-          "link": 646
+          "link": 689
         },
         {
           "name": "positive",
           "type": "CONDITIONING",
-          "link": 651
+          "link": 690
         },
         {
           "name": "negative",
           "type": "CONDITIONING",
-          "link": 654
+          "link": 691
         },
         {
           "name": "latent_image",
           "type": "LATENT",
-          "link": 619
+          "link": 686
         },
         {
           "name": "noise_seed",
           "type": "INT",
-          "link": 641,
+          "link": 692,
           "widget": {
             "name": "noise_seed",
             "config": [
@@ -2157,7 +1563,7 @@
         {
           "name": "sampler_name",
           "type": "COMBO",
-          "link": 663,
+          "link": 693,
           "widget": {
             "name": "sampler_name",
             "config": [
@@ -2169,7 +1575,7 @@
         {
           "name": "scheduler",
           "type": "COMBO",
-          "link": 666,
+          "link": 694,
           "widget": {
             "name": "scheduler",
             "config": [
@@ -2181,7 +1587,7 @@
         {
           "name": "steps",
           "type": "INT",
-          "link": 607,
+          "link": 695,
           "widget": {
             "name": "steps",
             "config": [
@@ -2214,7 +1620,7 @@
         {
           "name": "cfg",
           "type": "FLOAT",
-          "link": 660,
+          "link": 688,
           "widget": {
             "name": "cfg",
             "config": [
@@ -2260,365 +1666,6 @@
       ]
     },
     {
-      "id": 274,
-      "type": "Reroute",
-      "pos": [
-        1190,
-        180
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 24,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 630
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "MODEL",
-          "links": [
-            563,
-            646
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 166,
-      "type": "ComponentInput",
-      "pos": [
-        633,
-        278
-      ],
-      "size": {
-        "0": 178,
-        "1": 26
-      },
-      "flags": {},
-      "order": 14,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "positive",
-          "type": "CONDITIONING",
-          "links": [
-            631
-          ],
-          "slot_index": 0,
-          "label": "positive"
-        }
-      ],
-      "title": "3. Component Input",
-      "properties": {}
-    },
-    {
-      "id": 200,
-      "type": "Reroute",
-      "pos": [
-        1190,
-        220
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 25,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 631
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "CONDITIONING",
-          "links": [
-            556,
-            651
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 285,
-      "type": "ComponentInput",
-      "pos": [
-        635,
-        361
-      ],
-      "size": {
-        "0": 178,
-        "1": 26
-      },
-      "flags": {},
-      "order": 15,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "positive",
-          "type": "CONDITIONING",
-          "links": [
-            632
-          ],
-          "slot_index": 0,
-          "label": "negative"
-        }
-      ],
-      "title": "3. Component Input",
-      "properties": {}
-    },
-    {
-      "id": 201,
-      "type": "Reroute",
-      "pos": [
-        1190,
-        270
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 26,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 632
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "CONDITIONING",
-          "links": [
-            415,
-            654
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 230,
-      "type": "ComponentInput",
-      "pos": [
-        650,
-        600
-      ],
-      "size": {
-        "0": 178,
-        "1": 26
-      },
-      "flags": {},
-      "order": 16,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "cfg",
-          "type": "FLOAT",
-          "links": [
-            438
-          ],
-          "label": "cfg",
-          "slot_index": 0
-        }
-      ],
-      "properties": {}
-    },
-    {
-      "id": 241,
-      "type": "Reroute",
-      "pos": [
-        1190,
-        390
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 27,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 438
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "FLOAT",
-          "links": [
-            505,
-            660
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 211,
-      "type": "ComponentInput",
-      "pos": [
-        650,
-        674
-      ],
-      "size": {
-        "0": 178,
-        "1": 26
-      },
-      "flags": {},
-      "order": 17,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "sampler_name",
-          "type": "COMBO",
-          "links": [
-            421
-          ],
-          "label": "sampler_name",
-          "slot_index": 0
-        }
-      ],
-      "properties": {}
-    },
-    {
-      "id": 232,
-      "type": "Reroute",
-      "pos": [
-        1190,
-        430
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 28,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 421
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "COMBO",
-          "links": [
-            425,
-            663
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 212,
-      "type": "ComponentInput",
-      "pos": [
-        638,
-        760
-      ],
-      "size": {
-        "0": 178,
-        "1": 26
-      },
-      "flags": {},
-      "order": 18,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "scheduler",
-          "type": "COMBO",
-          "links": [
-            422
-          ],
-          "label": "scheduler",
-          "slot_index": 0
-        }
-      ],
-      "properties": {}
-    },
-    {
-      "id": 233,
-      "type": "Reroute",
-      "pos": [
-        1190,
-        480
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 29,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 422
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "COMBO",
-          "links": [
-            580,
-            666
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
       "id": 275,
       "type": "Reroute",
       "pos": [
@@ -2630,13 +1677,13 @@
         26
       ],
       "flags": {},
-      "order": 37,
+      "order": 20,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 563
+          "link": 703
         }
       ],
       "outputs": [
@@ -2646,42 +1693,6 @@
           "links": [
             647,
             668
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 296,
-      "type": "Reroute",
-      "pos": [
-        4090,
-        160
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 50,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 668
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "MODEL",
-          "links": [
-            669
           ],
           "slot_index": 0
         }
@@ -2703,13 +1714,13 @@
         26
       ],
       "flags": {},
-      "order": 38,
+      "order": 21,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 556
+          "link": 696
         }
       ],
       "outputs": [
@@ -2719,42 +1730,6 @@
           "links": [
             652,
             670
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 297,
-      "type": "Reroute",
-      "pos": [
-        4090,
-        200
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 51,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 670
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "CONDITIONING",
-          "links": [
-            671
           ],
           "slot_index": 0
         }
@@ -2776,13 +1751,13 @@
         26
       ],
       "flags": {},
-      "order": 39,
+      "order": 22,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 415
+          "link": 697
         }
       ],
       "outputs": [
@@ -2792,115 +1767,6 @@
           "links": [
             655,
             672
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 298,
-      "type": "Reroute",
-      "pos": [
-        4090,
-        270
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 52,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 672
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "CONDITIONING",
-          "links": [
-            673
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 178,
-      "type": "Reroute",
-      "pos": [
-        2550,
-        280
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 33,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 378
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "INT",
-          "links": [
-            674,
-            675
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 299,
-      "type": "Reroute",
-      "pos": [
-        4090,
-        310
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 46,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 675
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "INT",
-          "links": [
-            676
           ],
           "slot_index": 0
         }
@@ -2922,7 +1788,7 @@
         "1": 366
       },
       "flags": {},
-      "order": 66,
+      "order": 56,
       "mode": 0,
       "inputs": [
         {
@@ -2949,7 +1815,7 @@
         {
           "name": "noise_seed",
           "type": "INT",
-          "link": 674,
+          "link": 705,
           "widget": {
             "name": "noise_seed",
             "config": [
@@ -2999,7 +1865,7 @@
         {
           "name": "steps",
           "type": "INT",
-          "link": 677,
+          "link": 706,
           "widget": {
             "name": "steps",
             "config": [
@@ -3015,7 +1881,7 @@
         {
           "name": "cfg",
           "type": "FLOAT",
-          "link": 661,
+          "link": 709,
           "widget": {
             "name": "cfg",
             "config": [
@@ -3031,7 +1897,7 @@
         {
           "name": "sampler_name",
           "type": "COMBO",
-          "link": 664,
+          "link": 710,
           "widget": {
             "name": "sampler_name",
             "config": [
@@ -3042,7 +1908,7 @@
         {
           "name": "scheduler",
           "type": "COMBO",
-          "link": 667,
+          "link": 711,
           "widget": {
             "name": "scheduler",
             "config": [
@@ -3128,6 +1994,355 @@
       ]
     },
     {
+      "id": 184,
+      "type": "ComponentInput",
+      "pos": [
+        649,
+        835
+      ],
+      "size": {
+        "0": 178,
+        "1": 26
+      },
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "links": [
+            686
+          ],
+          "slot_index": 0,
+          "label": "latent"
+        }
+      ],
+      "title": "2. Component Input",
+      "properties": {}
+    },
+    {
+      "id": 230,
+      "type": "ComponentInput",
+      "pos": [
+        650,
+        600
+      ],
+      "size": {
+        "0": 178,
+        "1": 26
+      },
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "cfg",
+          "type": "FLOAT",
+          "links": [
+            688,
+            702
+          ],
+          "label": "cfg",
+          "slot_index": 0
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 165,
+      "type": "ComponentInput",
+      "pos": [
+        635,
+        201
+      ],
+      "size": {
+        "0": 178,
+        "1": 26
+      },
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "links": [
+            689,
+            703
+          ],
+          "slot_index": 0,
+          "label": "model"
+        }
+      ],
+      "title": "0. Component Input",
+      "properties": {}
+    },
+    {
+      "id": 166,
+      "type": "ComponentInput",
+      "pos": [
+        633,
+        278
+      ],
+      "size": {
+        "0": 178,
+        "1": 26
+      },
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "links": [
+            690,
+            696
+          ],
+          "slot_index": 0,
+          "label": "positive"
+        }
+      ],
+      "title": "3. Component Input",
+      "properties": {}
+    },
+    {
+      "id": 285,
+      "type": "ComponentInput",
+      "pos": [
+        635,
+        361
+      ],
+      "size": {
+        "0": 178,
+        "1": 26
+      },
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "links": [
+            691,
+            697
+          ],
+          "slot_index": 0,
+          "label": "negative"
+        }
+      ],
+      "title": "3. Component Input",
+      "properties": {}
+    },
+    {
+      "id": 175,
+      "type": "ComponentInput",
+      "pos": [
+        644,
+        449
+      ],
+      "size": {
+        "0": 178,
+        "1": 26
+      },
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "seed",
+          "type": "INT",
+          "links": [
+            692,
+            698
+          ],
+          "slot_index": 0,
+          "label": "seed"
+        }
+      ],
+      "title": "1. Component Input",
+      "properties": {}
+    },
+    {
+      "id": 211,
+      "type": "ComponentInput",
+      "pos": [
+        650,
+        674
+      ],
+      "size": {
+        "0": 178,
+        "1": 26
+      },
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "sampler_name",
+          "type": "COMBO",
+          "links": [
+            693,
+            699
+          ],
+          "label": "sampler_name",
+          "slot_index": 0
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 212,
+      "type": "ComponentInput",
+      "pos": [
+        638,
+        760
+      ],
+      "size": {
+        "0": 178,
+        "1": 26
+      },
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "scheduler",
+          "type": "COMBO",
+          "links": [
+            694,
+            700
+          ],
+          "label": "scheduler",
+          "slot_index": 0
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 221,
+      "type": "ComponentInput",
+      "pos": [
+        648,
+        525
+      ],
+      "size": {
+        "0": 178,
+        "1": 26
+      },
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "steps",
+          "type": "INT",
+          "links": [
+            576,
+            695,
+            701
+          ],
+          "label": "steps",
+          "slot_index": 0
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 255,
+      "type": "Int to float",
+      "pos": [
+        1937,
+        1034
+      ],
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {
+        "collapsed": true
+      },
+      "order": 48,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Value",
+          "type": "INT",
+          "link": 474,
+          "widget": {
+            "name": "Value",
+            "config": [
+              "INT",
+              {
+                "default": 1,
+                "min": -9223372036854776000,
+                "max": 9223372036854776000,
+                "step": 1
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            475,
+            480
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "Denoise 1 steps (f)",
+      "properties": {
+        "Node name for S&R": "Int to float"
+      },
+      "widgets_values": [
+        1
+      ]
+    },
+    {
+      "id": 178,
+      "type": "Reroute",
+      "pos": [
+        2550,
+        280
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 23,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 698
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "INT",
+          "links": [
+            675,
+            705
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
       "id": 237,
       "type": "Reroute",
       "pos": [
@@ -3139,13 +2354,13 @@
         26
       ],
       "flags": {},
-      "order": 30,
+      "order": 27,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 529
+          "link": 701
         }
       ],
       "outputs": [
@@ -3153,8 +2368,8 @@
           "name": "",
           "type": "INT",
           "links": [
-            677,
-            678
+            678,
+            706
           ],
           "slot_index": 0
         }
@@ -3165,40 +2380,188 @@
       }
     },
     {
-      "id": 300,
-      "type": "Reroute",
+      "id": 224,
+      "type": "Int to float",
       "pos": [
-        4090,
-        360
+        1518.5206845953412,
+        718.7417803606609
       ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 43,
+      "size": {
+        "0": 210,
+        "1": 34
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 26,
       "mode": 0,
       "inputs": [
         {
-          "name": "",
-          "type": "*",
-          "link": 678
+          "name": "Value",
+          "type": "INT",
+          "link": 576,
+          "widget": {
+            "name": "Value",
+            "config": [
+              "INT",
+              {
+                "default": 1,
+                "min": -9223372036854776000,
+                "max": 9223372036854776000,
+                "step": 1
+              }
+            ]
+          }
         }
       ],
       "outputs": [
         {
-          "name": "",
-          "type": "INT",
+          "name": "FLOAT",
+          "type": "FLOAT",
           "links": [
-            679
+            406,
+            707
           ],
+          "shape": 3,
           "slot_index": 0
         }
       ],
+      "title": "Steps as float",
       "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
+        "Node name for S&R": "Int to float"
+      },
+      "widgets_values": [
+        1
+      ]
+    },
+    {
+      "id": 243,
+      "type": "ComponentInput",
+      "pos": [
+        647,
+        1095
+      ],
+      "size": {
+        "0": 186.39999389648438,
+        "1": 26
+      },
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "Value_B",
+          "type": "FLOAT",
+          "links": [
+            708
+          ],
+          "label": "first_upscale_denoise",
+          "slot_index": 0
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 242,
+      "type": "Multiply",
+      "pos": [
+        2988,
+        729
+      ],
+      "size": {
+        "0": 247.7947235107422,
+        "1": 58
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 39,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Value_A",
+          "type": "FLOAT",
+          "link": 707,
+          "widget": {
+            "name": "Value_A",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": -1.7976931348623157e+308,
+                "max": 1.7976931348623157e+308,
+                "step": 0.01
+              }
+            ]
+          },
+          "label": "steps"
+        },
+        {
+          "name": "Value_B",
+          "type": "FLOAT",
+          "link": 708,
+          "widget": {
+            "name": "Value_B",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": -1.7976931348623157e+308,
+                "max": 1.7976931348623157e+308,
+                "step": 0.01
+              }
+            ]
+          },
+          "label": "first_upscale_denoise",
+          "slot_index": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            456
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "Denoise 2 steps calc",
+      "properties": {
+        "Node name for S&R": "Multiply"
+      },
+      "widgets_values": [
+        1,
+        0.4
+      ]
+    },
+    {
+      "id": 249,
+      "type": "ComponentInput",
+      "pos": [
+        651,
+        1397
+      ],
+      "size": {
+        "0": 220,
+        "1": 26
+      },
+      "flags": {},
+      "order": 17,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "Value",
+          "type": "FLOAT",
+          "links": [
+            467
+          ],
+          "label": "second_upscale_factor",
+          "slot_index": 0
+        }
+      ],
+      "properties": {}
     },
     {
       "id": 261,
@@ -3212,13 +2575,13 @@
         26
       ],
       "flags": {},
-      "order": 40,
+      "order": 19,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 505
+          "link": 702
         }
       ],
       "outputs": [
@@ -3226,44 +2589,8 @@
           "name": "",
           "type": "FLOAT",
           "links": [
-            661,
-            680
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 301,
-      "type": "Reroute",
-      "pos": [
-        4090,
-        400
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 53,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 680
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "FLOAT",
-          "links": [
-            681
+            680,
+            709
           ],
           "slot_index": 0
         }
@@ -3285,13 +2612,13 @@
         26
       ],
       "flags": {},
-      "order": 41,
+      "order": 24,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 425
+          "link": 699
         }
       ],
       "outputs": [
@@ -3299,44 +2626,8 @@
           "name": "",
           "type": "COMBO",
           "links": [
-            664,
-            682
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 302,
-      "type": "Reroute",
-      "pos": [
-        4090,
-        440
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 54,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 682
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "COMBO",
-          "links": [
-            683
+            682,
+            710
           ],
           "slot_index": 0
         }
@@ -3358,13 +2649,13 @@
         26
       ],
       "flags": {},
-      "order": 42,
+      "order": 25,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 580
+          "link": 700
         }
       ],
       "outputs": [
@@ -3372,8 +2663,260 @@
           "name": "",
           "type": "COMBO",
           "links": [
-            667,
-            684
+            684,
+            711
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 296,
+      "type": "Reroute",
+      "pos": [
+        4090,
+        160
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 32,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 668
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "MODEL",
+          "links": [
+            712
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 297,
+      "type": "Reroute",
+      "pos": [
+        4090,
+        200
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 33,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 670
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "CONDITIONING",
+          "links": [
+            715
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 298,
+      "type": "Reroute",
+      "pos": [
+        4090,
+        270
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 34,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 672
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "CONDITIONING",
+          "links": [
+            716
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 299,
+      "type": "Reroute",
+      "pos": [
+        4090,
+        310
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 35,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 675
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "INT",
+          "links": [
+            717
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 300,
+      "type": "Reroute",
+      "pos": [
+        4090,
+        360
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 40,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 678
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "INT",
+          "links": [
+            718
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 301,
+      "type": "Reroute",
+      "pos": [
+        4090,
+        400
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 31,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 680
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "FLOAT",
+          "links": [
+            719
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 302,
+      "type": "Reroute",
+      "pos": [
+        4090,
+        440
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 36,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 682
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "COMBO",
+          "links": [
+            720
           ],
           "slot_index": 0
         }
@@ -3395,7 +2938,7 @@
         26
       ],
       "flags": {},
-      "order": 55,
+      "order": 37,
       "mode": 0,
       "inputs": [
         {
@@ -3409,7 +2952,7 @@
           "name": "",
           "type": "COMBO",
           "links": [
-            685
+            721
           ],
           "slot_index": 0
         }
@@ -3418,6 +2961,115 @@
         "showOutputText": false,
         "horizontal": false
       }
+    },
+    {
+      "id": 253,
+      "type": "Sum",
+      "pos": [
+        4407,
+        818
+      ],
+      "size": {
+        "0": 315,
+        "1": 82
+      },
+      "flags": {
+        "collapsed": true
+      },
+      "order": 55,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Value_A",
+          "type": "FLOAT",
+          "link": 588,
+          "widget": {
+            "name": "Value_A",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": -1.7976931348623157e+308,
+                "max": 1.7976931348623157e+308,
+                "step": 0.01
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            589
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "Denoise 3 start calc",
+      "properties": {
+        "Node name for S&R": "Sum"
+      },
+      "widgets_values": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": 277,
+      "type": "Floor",
+      "pos": [
+        4412,
+        860
+      ],
+      "size": {
+        "0": 210,
+        "1": 40.363216400146484
+      },
+      "flags": {
+        "collapsed": true
+      },
+      "order": 57,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Value",
+          "type": "FLOAT",
+          "link": 589,
+          "widget": {
+            "name": "Value",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1,
+                "min": -1.7976931348623157e+308,
+                "max": 1.7976931348623157e+308,
+                "step": 0.01
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            590
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "Denoise 3 start",
+      "properties": {
+        "Node name for S&R": "Floor"
+      },
+      "widgets_values": [
+        1
+      ]
     }
   ],
   "links": [
@@ -3428,22 +3080,6 @@
       198,
       0,
       "TUPLE"
-    ],
-    [
-      377,
-      175,
-      0,
-      209,
-      0,
-      "*"
-    ],
-    [
-      378,
-      209,
-      0,
-      178,
-      0,
-      "*"
     ],
     [
       393,
@@ -3502,46 +3138,6 @@
       "INT"
     ],
     [
-      415,
-      201,
-      0,
-      32,
-      0,
-      "*"
-    ],
-    [
-      421,
-      211,
-      0,
-      232,
-      0,
-      "*"
-    ],
-    [
-      422,
-      212,
-      0,
-      233,
-      0,
-      "*"
-    ],
-    [
-      425,
-      232,
-      0,
-      234,
-      0,
-      "*"
-    ],
-    [
-      429,
-      221,
-      0,
-      236,
-      0,
-      "*"
-    ],
-    [
       433,
       238,
       0,
@@ -3558,14 +3154,6 @@
       "FLOAT"
     ],
     [
-      438,
-      230,
-      0,
-      241,
-      0,
-      "*"
-    ],
-    [
       446,
       29,
       0,
@@ -3580,14 +3168,6 @@
       207,
       11,
       "INT"
-    ],
-    [
-      453,
-      224,
-      0,
-      242,
-      0,
-      "FLOAT"
     ],
     [
       456,
@@ -3750,52 +3330,12 @@
       "FLOAT"
     ],
     [
-      505,
-      241,
-      0,
-      261,
-      0,
-      "*"
-    ],
-    [
-      529,
-      236,
-      0,
-      237,
-      0,
-      "*"
-    ],
-    [
-      556,
-      200,
-      0,
-      272,
-      0,
-      "*"
-    ],
-    [
-      563,
-      274,
-      0,
-      275,
-      0,
-      "*"
-    ],
-    [
       576,
       221,
       0,
       224,
       0,
       "INT"
-    ],
-    [
-      580,
-      233,
-      0,
-      235,
-      0,
-      "*"
     ],
     [
       584,
@@ -3894,78 +3434,6 @@
       "FLOAT"
     ],
     [
-      607,
-      236,
-      0,
-      210,
-      7,
-      "INT"
-    ],
-    [
-      619,
-      287,
-      0,
-      210,
-      3,
-      "LATENT"
-    ],
-    [
-      630,
-      165,
-      0,
-      274,
-      0,
-      "*"
-    ],
-    [
-      631,
-      166,
-      0,
-      200,
-      0,
-      "*"
-    ],
-    [
-      632,
-      285,
-      0,
-      201,
-      0,
-      "*"
-    ],
-    [
-      635,
-      184,
-      0,
-      287,
-      0,
-      "*"
-    ],
-    [
-      638,
-      295,
-      0,
-      242,
-      1,
-      "FLOAT"
-    ],
-    [
-      641,
-      209,
-      0,
-      210,
-      4,
-      "INT"
-    ],
-    [
-      646,
-      274,
-      0,
-      210,
-      0,
-      "MODEL"
-    ],
-    [
       647,
       275,
       0,
@@ -3974,27 +3442,11 @@
       "MODEL"
     ],
     [
-      651,
-      200,
-      0,
-      210,
-      1,
-      "CONDITIONING"
-    ],
-    [
       652,
       272,
       0,
       207,
       1,
-      "CONDITIONING"
-    ],
-    [
-      654,
-      201,
-      0,
-      210,
-      2,
       "CONDITIONING"
     ],
     [
@@ -4006,68 +3458,12 @@
       "CONDITIONING"
     ],
     [
-      660,
-      241,
-      0,
-      210,
-      9,
-      "FLOAT"
-    ],
-    [
-      661,
-      261,
-      0,
-      207,
-      8,
-      "FLOAT"
-    ],
-    [
-      663,
-      232,
-      0,
-      210,
-      5,
-      "COMBO"
-    ],
-    [
-      664,
-      234,
-      0,
-      207,
-      9,
-      "COMBO"
-    ],
-    [
-      666,
-      233,
-      0,
-      210,
-      6,
-      "COMBO"
-    ],
-    [
-      667,
-      235,
-      0,
-      207,
-      10,
-      "COMBO"
-    ],
-    [
       668,
       275,
       0,
       296,
       0,
       "*"
-    ],
-    [
-      669,
-      296,
-      0,
-      262,
-      0,
-      "MODEL"
     ],
     [
       670,
@@ -4078,36 +3474,12 @@
       "*"
     ],
     [
-      671,
-      297,
-      0,
-      262,
-      1,
-      "CONDITIONING"
-    ],
-    [
       672,
       32,
       0,
       298,
       0,
       "*"
-    ],
-    [
-      673,
-      298,
-      0,
-      262,
-      2,
-      "CONDITIONING"
-    ],
-    [
-      674,
-      178,
-      0,
-      207,
-      4,
-      "INT"
     ],
     [
       675,
@@ -4118,36 +3490,12 @@
       "*"
     ],
     [
-      676,
-      299,
-      0,
-      262,
-      4,
-      "INT"
-    ],
-    [
-      677,
-      237,
-      0,
-      207,
-      7,
-      "INT"
-    ],
-    [
       678,
       237,
       0,
       300,
       0,
       "*"
-    ],
-    [
-      679,
-      300,
-      0,
-      262,
-      7,
-      "INT"
     ],
     [
       680,
@@ -4158,28 +3506,12 @@
       "*"
     ],
     [
-      681,
-      301,
-      0,
-      262,
-      8,
-      "FLOAT"
-    ],
-    [
       682,
       234,
       0,
       302,
       0,
       "*"
-    ],
-    [
-      683,
-      302,
-      0,
-      262,
-      9,
-      "COMBO"
     ],
     [
       684,
@@ -4190,7 +3522,255 @@
       "*"
     ],
     [
-      685,
+      686,
+      184,
+      0,
+      210,
+      3,
+      "LATENT"
+    ],
+    [
+      688,
+      230,
+      0,
+      210,
+      9,
+      "FLOAT"
+    ],
+    [
+      689,
+      165,
+      0,
+      210,
+      0,
+      "MODEL"
+    ],
+    [
+      690,
+      166,
+      0,
+      210,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      691,
+      285,
+      0,
+      210,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      692,
+      175,
+      0,
+      210,
+      4,
+      "INT"
+    ],
+    [
+      693,
+      211,
+      0,
+      210,
+      5,
+      "COMBO"
+    ],
+    [
+      694,
+      212,
+      0,
+      210,
+      6,
+      "COMBO"
+    ],
+    [
+      695,
+      221,
+      0,
+      210,
+      7,
+      "INT"
+    ],
+    [
+      696,
+      166,
+      0,
+      272,
+      0,
+      "*"
+    ],
+    [
+      697,
+      285,
+      0,
+      32,
+      0,
+      "*"
+    ],
+    [
+      698,
+      175,
+      0,
+      178,
+      0,
+      "*"
+    ],
+    [
+      699,
+      211,
+      0,
+      234,
+      0,
+      "*"
+    ],
+    [
+      700,
+      212,
+      0,
+      235,
+      0,
+      "*"
+    ],
+    [
+      701,
+      221,
+      0,
+      237,
+      0,
+      "*"
+    ],
+    [
+      702,
+      230,
+      0,
+      261,
+      0,
+      "*"
+    ],
+    [
+      703,
+      165,
+      0,
+      275,
+      0,
+      "*"
+    ],
+    [
+      705,
+      178,
+      0,
+      207,
+      4,
+      "INT"
+    ],
+    [
+      706,
+      237,
+      0,
+      207,
+      7,
+      "INT"
+    ],
+    [
+      707,
+      224,
+      0,
+      242,
+      0,
+      "FLOAT"
+    ],
+    [
+      708,
+      243,
+      0,
+      242,
+      1,
+      "FLOAT"
+    ],
+    [
+      709,
+      261,
+      0,
+      207,
+      8,
+      "FLOAT"
+    ],
+    [
+      710,
+      234,
+      0,
+      207,
+      9,
+      "COMBO"
+    ],
+    [
+      711,
+      235,
+      0,
+      207,
+      10,
+      "COMBO"
+    ],
+    [
+      712,
+      296,
+      0,
+      262,
+      0,
+      "MODEL"
+    ],
+    [
+      715,
+      297,
+      0,
+      262,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      716,
+      298,
+      0,
+      262,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      717,
+      299,
+      0,
+      262,
+      4,
+      "INT"
+    ],
+    [
+      718,
+      300,
+      0,
+      262,
+      7,
+      "INT"
+    ],
+    [
+      719,
+      301,
+      0,
+      262,
+      8,
+      "FLOAT"
+    ],
+    [
+      720,
+      302,
+      0,
+      262,
+      9,
+      "COMBO"
+    ],
+    [
+      721,
       303,
       0,
       262,
@@ -4505,7 +4085,7 @@
           0
         ],
         "Value_B": [
-          "295",
+          "243",
           0
         ]
       },
@@ -4752,9 +4332,6 @@
       }
     },
     "285": {
-      "inputs": {}
-    },
-    "295": {
       "inputs": {}
     }
   }
