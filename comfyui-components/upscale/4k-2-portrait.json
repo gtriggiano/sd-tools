@@ -1,6 +1,6 @@
 {
-  "last_node_id": 185,
-  "last_link_id": 336,
+  "last_node_id": 187,
+  "last_link_id": 342,
   "nodes": [
     {
       "id": 12,
@@ -14,13 +14,13 @@
         26
       ],
       "flags": {},
-      "order": 6,
+      "order": 9,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 265
+          "link": 341
         }
       ],
       "outputs": [
@@ -50,7 +50,7 @@
         26
       ],
       "flags": {},
-      "order": 7,
+      "order": 6,
       "mode": 0,
       "inputs": [
         {
@@ -62,7 +62,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "CONDITIONING",
+          "type": "*",
           "links": [
             18
           ],
@@ -86,7 +86,7 @@
         26
       ],
       "flags": {},
-      "order": 14,
+      "order": 13,
       "mode": 0,
       "inputs": [
         {
@@ -122,7 +122,7 @@
         26
       ],
       "flags": {},
-      "order": 11,
+      "order": 14,
       "mode": 0,
       "inputs": [
         {
@@ -158,7 +158,7 @@
         26
       ],
       "flags": {},
-      "order": 12,
+      "order": 11,
       "mode": 0,
       "inputs": [
         {
@@ -170,7 +170,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "CONDITIONING",
+          "type": "*",
           "links": [
             23
           ],
@@ -206,7 +206,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "MODEL",
+          "type": "*",
           "links": [
             24
           ],
@@ -230,7 +230,7 @@
         26
       ],
       "flags": {},
-      "order": 19,
+      "order": 18,
       "mode": 0,
       "inputs": [
         {
@@ -278,9 +278,8 @@
       "outputs": [
         {
           "name": "",
-          "type": "MODEL",
+          "type": "*",
           "links": [
-            31,
             36
           ],
           "slot_index": 0
@@ -303,7 +302,7 @@
         26
       ],
       "flags": {},
-      "order": 17,
+      "order": 16,
       "mode": 0,
       "inputs": [
         {
@@ -315,7 +314,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "CONDITIONING",
+          "type": "*",
           "links": [
             30,
             37
@@ -340,7 +339,7 @@
         26
       ],
       "flags": {},
-      "order": 16,
+      "order": 19,
       "mode": 0,
       "inputs": [
         {
@@ -372,18 +371,18 @@
         2126,
         493
       ],
-      "size": [
-        315,
-        262
-      ],
+      "size": {
+        "0": 315,
+        "1": 262
+      },
       "flags": {},
-      "order": 24,
+      "order": 23,
       "mode": 0,
       "inputs": [
         {
           "name": "model",
           "type": "MODEL",
-          "link": 31
+          "link": null
         },
         {
           "name": "positive",
@@ -403,17 +402,9 @@
         {
           "name": "seed",
           "type": "INT",
-          "link": 318,
+          "link": null,
           "widget": {
-            "name": "seed",
-            "config": [
-              "INT",
-              {
-                "default": 0,
-                "min": 0,
-                "max": 18446744073709552000
-              }
-            ]
+            "name": "seed"
           }
         }
       ],
@@ -453,7 +444,7 @@
         26
       ],
       "flags": {},
-      "order": 34,
+      "order": 33,
       "mode": 0,
       "inputs": [
         {
@@ -501,9 +492,8 @@
       "outputs": [
         {
           "name": "",
-          "type": "MODEL",
+          "type": "*",
           "links": [
-            44,
             135
           ],
           "slot_index": 0
@@ -526,7 +516,7 @@
         26
       ],
       "flags": {},
-      "order": 22,
+      "order": 21,
       "mode": 0,
       "inputs": [
         {
@@ -538,85 +528,10 @@
       "outputs": [
         {
           "name": "",
-          "type": "CONDITIONING",
+          "type": "*",
           "links": [
             43,
             136
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 32,
-      "type": "Reroute",
-      "pos": [
-        2995,
-        372
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 21,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 38
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "CONDITIONING",
-          "links": [
-            42,
-            137
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 111,
-      "type": "Reroute",
-      "pos": [
-        5337,
-        374
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 26,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 137
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "CONDITIONING",
-          "links": [
-            142,
-            143,
-            144
           ],
           "slot_index": 0
         }
@@ -638,7 +553,7 @@
         26
       ],
       "flags": {},
-      "order": 31,
+      "order": 34,
       "mode": 0,
       "inputs": [
         {
@@ -652,9 +567,7 @@
           "name": "",
           "type": "CONDITIONING",
           "links": [
-            145,
-            153,
-            154
+            145
           ],
           "slot_index": 0
         }
@@ -676,7 +589,7 @@
         26
       ],
       "flags": {},
-      "order": 36,
+      "order": 39,
       "mode": 0,
       "inputs": [
         {
@@ -690,9 +603,7 @@
           "name": "",
           "type": "CONDITIONING",
           "links": [
-            146,
-            155,
-            156
+            146
           ],
           "slot_index": 0
         }
@@ -714,7 +625,7 @@
         26
       ],
       "flags": {},
-      "order": 32,
+      "order": 31,
       "mode": 0,
       "inputs": [
         {
@@ -726,7 +637,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "CONDITIONING",
+          "type": "*",
           "links": [
             148,
             163,
@@ -752,7 +663,7 @@
         26
       ],
       "flags": {},
-      "order": 27,
+      "order": 26,
       "mode": 0,
       "inputs": [
         {
@@ -764,7 +675,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "CONDITIONING",
+          "type": "*",
           "links": [
             147,
             165,
@@ -802,11 +713,10 @@
       "outputs": [
         {
           "name": "",
-          "type": "MODEL",
+          "type": "*",
           "links": [
             139,
-            167,
-            168
+            167
           ],
           "slot_index": 0
         }
@@ -840,11 +750,10 @@
       "outputs": [
         {
           "name": "",
-          "type": "MODEL",
+          "type": "*",
           "links": [
             140,
-            169,
-            170
+            169
           ],
           "slot_index": 0
         }
@@ -878,11 +787,9 @@
       "outputs": [
         {
           "name": "",
-          "type": "MODEL",
+          "type": "*",
           "links": [
-            141,
-            171,
-            172
+            141
           ],
           "slot_index": 0
         }
@@ -904,7 +811,7 @@
         26
       ],
       "flags": {},
-      "order": 37,
+      "order": 36,
       "mode": 0,
       "inputs": [
         {
@@ -916,7 +823,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "CONDITIONING",
+          "type": "*",
           "links": [
             149,
             161,
@@ -931,90 +838,6 @@
       }
     },
     {
-      "id": 35,
-      "type": "KSampler",
-      "pos": [
-        3123,
-        498
-      ],
-      "size": [
-        315,
-        262
-      ],
-      "flags": {},
-      "order": 39,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 44
-        },
-        {
-          "name": "positive",
-          "type": "CONDITIONING",
-          "link": 43
-        },
-        {
-          "name": "negative",
-          "type": "CONDITIONING",
-          "link": 42
-        },
-        {
-          "name": "latent_image",
-          "type": "LATENT",
-          "link": 41
-        },
-        {
-          "name": "seed",
-          "type": "INT",
-          "link": 320,
-          "widget": {
-            "name": "seed",
-            "config": [
-              "INT",
-              {
-                "default": 0,
-                "min": 0,
-                "max": 18446744073709552000
-              }
-            ]
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "LATENT",
-          "type": "LATENT",
-          "links": [
-            49,
-            50,
-            51,
-            73,
-            74,
-            75,
-            76,
-            203,
-            291
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "KSampler"
-      },
-      "widgets_values": [
-        1110838681723842,
-        "fixed",
-        20,
-        8,
-        "dpmpp_2s_ancestral",
-        "karras",
-        0.5200012207031256
-      ]
-    },
-    {
       "id": 44,
       "type": "LatentCrop",
       "pos": [
@@ -1026,7 +849,7 @@
         "1": 130
       },
       "flags": {},
-      "order": 47,
+      "order": 46,
       "mode": 0,
       "inputs": [
         {
@@ -1068,7 +891,7 @@
         "1": 130
       },
       "flags": {},
-      "order": 44,
+      "order": 43,
       "mode": 0,
       "inputs": [
         {
@@ -1110,7 +933,7 @@
         "1": 130
       },
       "flags": {},
-      "order": 45,
+      "order": 44,
       "mode": 0,
       "inputs": [
         {
@@ -1152,7 +975,7 @@
         "1": 130
       },
       "flags": {},
-      "order": 46,
+      "order": 45,
       "mode": 0,
       "inputs": [
         {
@@ -1194,7 +1017,7 @@
         "1": 130
       },
       "flags": {},
-      "order": 48,
+      "order": 47,
       "mode": 0,
       "inputs": [
         {
@@ -1236,7 +1059,7 @@
         "1": 130
       },
       "flags": {},
-      "order": 49,
+      "order": 48,
       "mode": 0,
       "inputs": [
         {
@@ -1278,7 +1101,7 @@
         "1": 130
       },
       "flags": {},
-      "order": 65,
+      "order": 64,
       "mode": 0,
       "inputs": [
         {
@@ -1320,7 +1143,7 @@
         26
       ],
       "flags": {},
-      "order": 51,
+      "order": 50,
       "mode": 0,
       "inputs": [
         {
@@ -1356,7 +1179,7 @@
         26
       ],
       "flags": {},
-      "order": 42,
+      "order": 41,
       "mode": 0,
       "inputs": [
         {
@@ -1368,7 +1191,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "CONDITIONING",
+          "type": "*",
           "links": [
             159,
             160,
@@ -1406,10 +1229,8 @@
       "outputs": [
         {
           "name": "",
-          "type": "MODEL",
+          "type": "*",
           "links": [
-            173,
-            174,
             245
           ],
           "slot_index": 0
@@ -1432,7 +1253,7 @@
         26
       ],
       "flags": {},
-      "order": 41,
+      "order": 52,
       "mode": 0,
       "inputs": [
         {
@@ -1446,8 +1267,6 @@
           "name": "",
           "type": "CONDITIONING",
           "links": [
-            157,
-            158,
             246
           ],
           "slot_index": 0
@@ -1470,7 +1289,7 @@
         26
       ],
       "flags": {},
-      "order": 54,
+      "order": 65,
       "mode": 0,
       "inputs": [
         {
@@ -1483,9 +1302,7 @@
         {
           "name": "",
           "type": "CONDITIONING",
-          "links": [
-            248
-          ],
+          "links": [],
           "slot_index": 0
         }
       ],
@@ -1506,7 +1323,7 @@
         26
       ],
       "flags": {},
-      "order": 55,
+      "order": 54,
       "mode": 0,
       "inputs": [
         {
@@ -1518,7 +1335,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "CONDITIONING",
+          "type": "*",
           "links": [
             249
           ],
@@ -1554,10 +1371,8 @@
       "outputs": [
         {
           "name": "",
-          "type": "MODEL",
-          "links": [
-            250
-          ],
+          "type": "*",
+          "links": [],
           "slot_index": 0
         }
       ],
@@ -1565,48 +1380,6 @@
         "showOutputText": false,
         "horizontal": false
       }
-    },
-    {
-      "id": 29,
-      "type": "LatentUpscale",
-      "pos": [
-        2471,
-        497
-      ],
-      "size": {
-        "0": 315,
-        "1": 130
-      },
-      "flags": {},
-      "order": 29,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "samples",
-          "type": "LATENT",
-          "link": 35
-        }
-      ],
-      "outputs": [
-        {
-          "name": "LATENT",
-          "type": "LATENT",
-          "links": [
-            40
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "LatentUpscale"
-      },
-      "widgets_values": [
-        "nearest-exact",
-        2048,
-        1024,
-        "disabled"
-      ]
     },
     {
       "id": 42,
@@ -1620,7 +1393,7 @@
         "1": 130
       },
       "flags": {},
-      "order": 52,
+      "order": 51,
       "mode": 0,
       "inputs": [
         {
@@ -1662,7 +1435,7 @@
         "1": 130
       },
       "flags": {},
-      "order": 57,
+      "order": 56,
       "mode": 0,
       "inputs": [
         {
@@ -1704,7 +1477,7 @@
         "1": 130
       },
       "flags": {},
-      "order": 60,
+      "order": 59,
       "mode": 0,
       "inputs": [
         {
@@ -1746,7 +1519,7 @@
         "1": 130
       },
       "flags": {},
-      "order": 58,
+      "order": 57,
       "mode": 0,
       "inputs": [
         {
@@ -1788,7 +1561,7 @@
         "1": 130
       },
       "flags": {},
-      "order": 61,
+      "order": 60,
       "mode": 0,
       "inputs": [
         {
@@ -1830,7 +1603,7 @@
         "1": 130
       },
       "flags": {},
-      "order": 59,
+      "order": 58,
       "mode": 0,
       "inputs": [
         {
@@ -1874,7 +1647,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 62,
+      "order": 61,
       "mode": 0,
       "inputs": [
         {
@@ -1916,7 +1689,7 @@
         "1": 130
       },
       "flags": {},
-      "order": 50,
+      "order": 49,
       "mode": 0,
       "inputs": [
         {
@@ -1953,10 +1726,10 @@
         5501,
         966
       ],
-      "size": [
-        315,
-        262
-      ],
+      "size": {
+        "0": 315,
+        "1": 262
+      },
       "flags": {},
       "order": 69,
       "mode": 0,
@@ -1964,7 +1737,7 @@
         {
           "name": "model",
           "type": "MODEL",
-          "link": 168
+          "link": null
         },
         {
           "name": "positive",
@@ -1974,7 +1747,7 @@
         {
           "name": "negative",
           "type": "CONDITIONING",
-          "link": 143
+          "link": null
         },
         {
           "name": "latent_image",
@@ -1984,17 +1757,9 @@
         {
           "name": "seed",
           "type": "INT",
-          "link": 323,
+          "link": null,
           "widget": {
-            "name": "seed",
-            "config": [
-              "INT",
-              {
-                "default": 0,
-                "min": 0,
-                "max": 18446744073709552000
-              }
-            ]
+            "name": "seed"
           }
         }
       ],
@@ -2029,10 +1794,10 @@
         5858,
         973
       ],
-      "size": [
-        315,
-        262
-      ],
+      "size": {
+        "0": 315,
+        "1": 262
+      },
       "flags": {},
       "order": 70,
       "mode": 0,
@@ -2040,7 +1805,7 @@
         {
           "name": "model",
           "type": "MODEL",
-          "link": 170
+          "link": null
         },
         {
           "name": "positive",
@@ -2050,7 +1815,7 @@
         {
           "name": "negative",
           "type": "CONDITIONING",
-          "link": 153
+          "link": null
         },
         {
           "name": "latent_image",
@@ -2060,17 +1825,9 @@
         {
           "name": "seed",
           "type": "INT",
-          "link": 326,
+          "link": null,
           "widget": {
-            "name": "seed",
-            "config": [
-              "INT",
-              {
-                "default": 0,
-                "min": 0,
-                "max": 18446744073709552000
-              }
-            ]
+            "name": "seed"
           }
         }
       ],
@@ -2105,10 +1862,10 @@
         6193,
         642
       ],
-      "size": [
-        315,
-        262
-      ],
+      "size": {
+        "0": 315,
+        "1": 262
+      },
       "flags": {},
       "order": 68,
       "mode": 0,
@@ -2116,7 +1873,7 @@
         {
           "name": "model",
           "type": "MODEL",
-          "link": 171
+          "link": null
         },
         {
           "name": "positive",
@@ -2126,7 +1883,7 @@
         {
           "name": "negative",
           "type": "CONDITIONING",
-          "link": 155
+          "link": null
         },
         {
           "name": "latent_image",
@@ -2136,17 +1893,9 @@
         {
           "name": "seed",
           "type": "INT",
-          "link": 328,
+          "link": null,
           "widget": {
-            "name": "seed",
-            "config": [
-              "INT",
-              {
-                "default": 0,
-                "min": 0,
-                "max": 18446744073709552000
-              }
-            ]
+            "name": "seed"
           }
         }
       ],
@@ -2181,10 +1930,10 @@
         6202,
         977
       ],
-      "size": [
-        315,
-        262
-      ],
+      "size": {
+        "0": 315,
+        "1": 262
+      },
       "flags": {},
       "order": 71,
       "mode": 0,
@@ -2192,7 +1941,7 @@
         {
           "name": "model",
           "type": "MODEL",
-          "link": 172
+          "link": null
         },
         {
           "name": "positive",
@@ -2202,7 +1951,7 @@
         {
           "name": "negative",
           "type": "CONDITIONING",
-          "link": 156
+          "link": null
         },
         {
           "name": "latent_image",
@@ -2212,17 +1961,9 @@
         {
           "name": "seed",
           "type": "INT",
-          "link": 329,
+          "link": null,
           "widget": {
-            "name": "seed",
-            "config": [
-              "INT",
-              {
-                "default": 0,
-                "min": 0,
-                "max": 18446744073709552000
-              }
-            ]
+            "name": "seed"
           }
         }
       ],
@@ -2257,10 +1998,10 @@
         6554,
         972
       ],
-      "size": [
-        315,
-        262
-      ],
+      "size": {
+        "0": 315,
+        "1": 262
+      },
       "flags": {},
       "order": 72,
       "mode": 0,
@@ -2268,7 +2009,7 @@
         {
           "name": "model",
           "type": "MODEL",
-          "link": 174
+          "link": null
         },
         {
           "name": "positive",
@@ -2278,7 +2019,7 @@
         {
           "name": "negative",
           "type": "CONDITIONING",
-          "link": 158
+          "link": null
         },
         {
           "name": "latent_image",
@@ -2288,17 +2029,9 @@
         {
           "name": "seed",
           "type": "INT",
-          "link": 332,
+          "link": null,
           "widget": {
-            "name": "seed",
-            "config": [
-              "INT",
-              {
-                "default": 0,
-                "min": 0,
-                "max": 18446744073709552000
-              }
-            ]
+            "name": "seed"
           }
         }
       ],
@@ -2333,10 +2066,10 @@
         6552,
         643
       ],
-      "size": [
-        315,
-        262
-      ],
+      "size": {
+        "0": 315,
+        "1": 262
+      },
       "flags": {},
       "order": 73,
       "mode": 0,
@@ -2344,7 +2077,7 @@
         {
           "name": "model",
           "type": "MODEL",
-          "link": 173
+          "link": null
         },
         {
           "name": "positive",
@@ -2354,7 +2087,7 @@
         {
           "name": "negative",
           "type": "CONDITIONING",
-          "link": 157
+          "link": null
         },
         {
           "name": "latent_image",
@@ -2364,17 +2097,9 @@
         {
           "name": "seed",
           "type": "INT",
-          "link": 331,
+          "link": null,
           "widget": {
-            "name": "seed",
-            "config": [
-              "INT",
-              {
-                "default": 0,
-                "min": 0,
-                "max": 18446744073709552000
-              }
-            ]
+            "name": "seed"
           }
         }
       ],
@@ -2414,7 +2139,7 @@
         "1": 130
       },
       "flags": {},
-      "order": 64,
+      "order": 63,
       "mode": 0,
       "inputs": [
         {
@@ -2451,10 +2176,10 @@
         7045,
         1619
       ],
-      "size": [
-        315,
-        262
-      ],
+      "size": {
+        "0": 315,
+        "1": 262
+      },
       "flags": {},
       "order": 75,
       "mode": 0,
@@ -2462,7 +2187,7 @@
         {
           "name": "model",
           "type": "MODEL",
-          "link": 250
+          "link": null
         },
         {
           "name": "positive",
@@ -2472,7 +2197,7 @@
         {
           "name": "negative",
           "type": "CONDITIONING",
-          "link": 248
+          "link": null
         },
         {
           "name": "latent_image",
@@ -2482,17 +2207,9 @@
         {
           "name": "seed",
           "type": "INT",
-          "link": 334,
+          "link": null,
           "widget": {
-            "name": "seed",
-            "config": [
-              "INT",
-              {
-                "default": 0,
-                "min": 0,
-                "max": 18446744073709552000
-              }
-            ]
+            "name": "seed"
           }
         }
       ],
@@ -2686,7 +2403,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "MODEL",
+          "type": "*",
           "links": [
             19
           ],
@@ -2710,7 +2427,7 @@
         26
       ],
       "flags": {},
-      "order": 13,
+      "order": 12,
       "mode": 0,
       "inputs": [
         {
@@ -2722,7 +2439,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "INT",
+          "type": "*",
           "links": [
             317
           ],
@@ -2746,7 +2463,7 @@
         26
       ],
       "flags": {},
-      "order": 8,
+      "order": 7,
       "mode": 0,
       "inputs": [
         {
@@ -2758,7 +2475,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "INT",
+          "type": "*",
           "links": [
             316
           ],
@@ -2782,7 +2499,7 @@
         26
       ],
       "flags": {},
-      "order": 18,
+      "order": 17,
       "mode": 0,
       "inputs": [
         {
@@ -2794,9 +2511,8 @@
       "outputs": [
         {
           "name": "",
-          "type": "INT",
+          "type": "*",
           "links": [
-            318,
             319
           ],
           "slot_index": 0
@@ -2819,7 +2535,7 @@
         26
       ],
       "flags": {},
-      "order": 23,
+      "order": 22,
       "mode": 0,
       "inputs": [
         {
@@ -2831,9 +2547,8 @@
       "outputs": [
         {
           "name": "",
-          "type": "INT",
+          "type": "*",
           "links": [
-            320,
             321
           ],
           "slot_index": 0
@@ -2851,10 +2566,10 @@
         5502,
         643
       ],
-      "size": [
-        315,
-        262
-      ],
+      "size": {
+        "0": 315,
+        "1": 262
+      },
       "flags": {},
       "order": 66,
       "mode": 0,
@@ -2872,7 +2587,7 @@
         {
           "name": "negative",
           "type": "CONDITIONING",
-          "link": 142
+          "link": null
         },
         {
           "name": "latent_image",
@@ -2882,17 +2597,9 @@
         {
           "name": "seed",
           "type": "INT",
-          "link": 322,
+          "link": null,
           "widget": {
-            "name": "seed",
-            "config": [
-              "INT",
-              {
-                "default": 0,
-                "min": 0,
-                "max": 18446744073709552000
-              }
-            ]
+            "name": "seed"
           }
         }
       ],
@@ -2932,7 +2639,7 @@
         26
       ],
       "flags": {},
-      "order": 28,
+      "order": 27,
       "mode": 0,
       "inputs": [
         {
@@ -2944,10 +2651,8 @@
       "outputs": [
         {
           "name": "",
-          "type": "INT",
+          "type": "*",
           "links": [
-            322,
-            323,
             324
           ],
           "slot_index": 0
@@ -2965,10 +2670,10 @@
         5854,
         646
       ],
-      "size": [
-        315,
-        262
-      ],
+      "size": {
+        "0": 315,
+        "1": 262
+      },
       "flags": {},
       "order": 67,
       "mode": 0,
@@ -2986,7 +2691,7 @@
         {
           "name": "negative",
           "type": "CONDITIONING",
-          "link": 154
+          "link": null
         },
         {
           "name": "latent_image",
@@ -2996,17 +2701,9 @@
         {
           "name": "seed",
           "type": "INT",
-          "link": 325,
+          "link": null,
           "widget": {
-            "name": "seed",
-            "config": [
-              "INT",
-              {
-                "default": 0,
-                "min": 0,
-                "max": 18446744073709552000
-              }
-            ]
+            "name": "seed"
           }
         }
       ],
@@ -3046,7 +2743,7 @@
         26
       ],
       "flags": {},
-      "order": 33,
+      "order": 32,
       "mode": 0,
       "inputs": [
         {
@@ -3058,10 +2755,8 @@
       "outputs": [
         {
           "name": "",
-          "type": "INT",
+          "type": "*",
           "links": [
-            325,
-            326,
             327
           ],
           "slot_index": 0
@@ -3084,7 +2779,7 @@
         26
       ],
       "flags": {},
-      "order": 38,
+      "order": 37,
       "mode": 0,
       "inputs": [
         {
@@ -3096,10 +2791,8 @@
       "outputs": [
         {
           "name": "",
-          "type": "INT",
+          "type": "*",
           "links": [
-            328,
-            329,
             330
           ],
           "slot_index": 0
@@ -3122,7 +2815,7 @@
         26
       ],
       "flags": {},
-      "order": 43,
+      "order": 42,
       "mode": 0,
       "inputs": [
         {
@@ -3134,10 +2827,8 @@
       "outputs": [
         {
           "name": "",
-          "type": "INT",
+          "type": "*",
           "links": [
-            331,
-            332,
             333
           ],
           "slot_index": 0
@@ -3160,7 +2851,7 @@
         26
       ],
       "flags": {},
-      "order": 56,
+      "order": 55,
       "mode": 0,
       "inputs": [
         {
@@ -3172,10 +2863,8 @@
       "outputs": [
         {
           "name": "",
-          "type": "INT",
-          "links": [
-            334
-          ],
+          "type": "*",
+          "links": [],
           "slot_index": 0
         }
       ],
@@ -3196,7 +2885,7 @@
         "1": 130
       },
       "flags": {},
-      "order": 63,
+      "order": 62,
       "mode": 0,
       "inputs": [
         {
@@ -3262,12 +2951,12 @@
         1146,
         459
       ],
-      "size": [
-        315,
-        262
-      ],
+      "size": {
+        "0": 315,
+        "1": 262
+      },
       "flags": {},
-      "order": 9,
+      "order": 8,
       "mode": 0,
       "inputs": [
         {
@@ -3295,15 +2984,7 @@
           "type": "INT",
           "link": 314,
           "widget": {
-            "name": "seed",
-            "config": [
-              "INT",
-              {
-                "default": 0,
-                "min": 0,
-                "max": 18446744073709552000
-              }
-            ]
+            "name": "seed"
           }
         }
       ],
@@ -3331,34 +3012,6 @@
       ]
     },
     {
-      "id": 167,
-      "type": "ComponentInput",
-      "pos": [
-        648,
-        618
-      ],
-      "size": {
-        "0": 178,
-        "1": 26
-      },
-      "flags": {},
-      "order": 1,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "positive",
-          "type": "CONDITIONING",
-          "links": [
-            265
-          ],
-          "slot_index": 0,
-          "label": "negative"
-        }
-      ],
-      "title": "4. Component Input",
-      "properties": {}
-    },
-    {
       "id": 166,
       "type": "ComponentInput",
       "pos": [
@@ -3370,7 +3023,7 @@
         "1": 26
       },
       "flags": {},
-      "order": 2,
+      "order": 1,
       "mode": 0,
       "outputs": [
         {
@@ -3399,7 +3052,7 @@
         "1": 26
       },
       "flags": {},
-      "order": 3,
+      "order": 2,
       "mode": 0,
       "outputs": [
         {
@@ -3428,7 +3081,7 @@
         "1": 26
       },
       "flags": {},
-      "order": 4,
+      "order": 3,
       "mode": 0,
       "outputs": [
         {
@@ -3468,6 +3121,225 @@
         }
       ],
       "properties": {}
+    },
+    {
+      "id": 35,
+      "type": "KSampler",
+      "pos": [
+        3123,
+        498
+      ],
+      "size": {
+        "0": 315,
+        "1": 262
+      },
+      "flags": {},
+      "order": 38,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": null
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 43
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 342,
+          "slot_index": 2
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 41
+        },
+        {
+          "name": "seed",
+          "type": "INT",
+          "link": null,
+          "widget": {
+            "name": "seed"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            49,
+            50,
+            51,
+            73,
+            74,
+            75,
+            76,
+            203,
+            291
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "KSampler"
+      },
+      "widgets_values": [
+        1110838681723842,
+        "fixed",
+        20,
+        8,
+        "dpmpp_2s_ancestral",
+        "karras",
+        0.5200012207031256
+      ]
+    },
+    {
+      "id": 186,
+      "type": "ComponentInput",
+      "pos": [
+        644,
+        624
+      ],
+      "size": {
+        "0": 178,
+        "1": 26
+      },
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "links": [
+            341
+          ],
+          "slot_index": 0,
+          "label": "negative"
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 29,
+      "type": "LatentUpscale",
+      "pos": [
+        2524,
+        492
+      ],
+      "size": {
+        "0": 315,
+        "1": 130
+      },
+      "flags": {},
+      "order": 28,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 35
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            40
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LatentUpscale"
+      },
+      "widgets_values": [
+        "nearest-exact",
+        2048,
+        1024,
+        "disabled"
+      ]
+    },
+    {
+      "id": 32,
+      "type": "Reroute",
+      "pos": [
+        2995,
+        372
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 24,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 38
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "CONDITIONING",
+          "links": [
+            137,
+            342
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 111,
+      "type": "Reroute",
+      "pos": [
+        5337,
+        374
+      ],
+      "size": [
+        75,
+        27.626588593750057
+      ],
+      "flags": {},
+      "order": 29,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 137
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "CONDITIONING",
+          "links": [
+            144
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
     }
   ],
   "links": [
@@ -3552,14 +3424,6 @@
       "CONDITIONING"
     ],
     [
-      31,
-      23,
-      0,
-      25,
-      0,
-      "MODEL"
-    ],
-    [
       35,
       25,
       0,
@@ -3608,28 +3472,12 @@
       "LATENT"
     ],
     [
-      42,
-      32,
-      0,
-      35,
-      2,
-      "CONDITIONING"
-    ],
-    [
       43,
       31,
       0,
       35,
       1,
       "CONDITIONING"
-    ],
-    [
-      44,
-      30,
-      0,
-      35,
-      0,
-      "MODEL"
     ],
     [
       49,
@@ -3816,22 +3664,6 @@
       "*"
     ],
     [
-      142,
-      111,
-      0,
-      93,
-      2,
-      "CONDITIONING"
-    ],
-    [
-      143,
-      111,
-      0,
-      105,
-      2,
-      "CONDITIONING"
-    ],
-    [
       144,
       111,
       0,
@@ -3878,54 +3710,6 @@
       122,
       0,
       "*"
-    ],
-    [
-      153,
-      117,
-      0,
-      106,
-      2,
-      "CONDITIONING"
-    ],
-    [
-      154,
-      117,
-      0,
-      102,
-      2,
-      "CONDITIONING"
-    ],
-    [
-      155,
-      120,
-      0,
-      103,
-      2,
-      "CONDITIONING"
-    ],
-    [
-      156,
-      120,
-      0,
-      107,
-      2,
-      "CONDITIONING"
-    ],
-    [
-      157,
-      123,
-      0,
-      104,
-      2,
-      "CONDITIONING"
-    ],
-    [
-      158,
-      123,
-      0,
-      108,
-      2,
-      "CONDITIONING"
     ],
     [
       159,
@@ -4000,58 +3784,10 @@
       "MODEL"
     ],
     [
-      168,
-      109,
-      0,
-      105,
-      0,
-      "MODEL"
-    ],
-    [
       169,
       113,
       0,
       102,
-      0,
-      "MODEL"
-    ],
-    [
-      170,
-      113,
-      0,
-      106,
-      0,
-      "MODEL"
-    ],
-    [
-      171,
-      114,
-      0,
-      103,
-      0,
-      "MODEL"
-    ],
-    [
-      172,
-      114,
-      0,
-      107,
-      0,
-      "MODEL"
-    ],
-    [
-      173,
-      115,
-      0,
-      104,
-      0,
-      "MODEL"
-    ],
-    [
-      174,
-      115,
-      0,
-      108,
       0,
       "MODEL"
     ],
@@ -4104,28 +3840,12 @@
       "*"
     ],
     [
-      248,
-      161,
-      0,
-      158,
-      2,
-      "CONDITIONING"
-    ],
-    [
       249,
       159,
       0,
       158,
       1,
       "CONDITIONING"
-    ],
-    [
-      250,
-      160,
-      0,
-      158,
-      0,
-      "MODEL"
     ],
     [
       257,
@@ -4158,14 +3878,6 @@
       3,
       1,
       "CONDITIONING"
-    ],
-    [
-      265,
-      167,
-      0,
-      12,
-      0,
-      "*"
     ],
     [
       279,
@@ -4336,28 +4048,12 @@
       "*"
     ],
     [
-      318,
-      177,
-      0,
-      25,
-      4,
-      "INT"
-    ],
-    [
       319,
       177,
       0,
       178,
       0,
       "*"
-    ],
-    [
-      320,
-      178,
-      0,
-      35,
-      4,
-      "INT"
     ],
     [
       321,
@@ -4368,44 +4064,12 @@
       "*"
     ],
     [
-      322,
-      179,
-      0,
-      93,
-      4,
-      "INT"
-    ],
-    [
-      323,
-      179,
-      0,
-      105,
-      4,
-      "INT"
-    ],
-    [
       324,
       179,
       0,
       180,
       0,
       "*"
-    ],
-    [
-      325,
-      180,
-      0,
-      102,
-      4,
-      "INT"
-    ],
-    [
-      326,
-      180,
-      0,
-      106,
-      4,
-      "INT"
     ],
     [
       327,
@@ -4416,22 +4080,6 @@
       "*"
     ],
     [
-      328,
-      181,
-      0,
-      103,
-      4,
-      "INT"
-    ],
-    [
-      329,
-      181,
-      0,
-      107,
-      4,
-      "INT"
-    ],
-    [
       330,
       181,
       0,
@@ -4440,36 +4088,12 @@
       "*"
     ],
     [
-      331,
-      182,
-      0,
-      104,
-      4,
-      "INT"
-    ],
-    [
-      332,
-      182,
-      0,
-      108,
-      4,
-      "INT"
-    ],
-    [
       333,
       182,
       0,
       183,
       0,
       "*"
-    ],
-    [
-      334,
-      183,
-      0,
-      158,
-      4,
-      "INT"
     ],
     [
       335,
@@ -4486,6 +4110,22 @@
       170,
       0,
       "LATENT"
+    ],
+    [
+      341,
+      186,
+      0,
+      12,
+      0,
+      "*"
+    ],
+    [
+      342,
+      32,
+      0,
+      35,
+      2,
+      "CONDITIONING"
     ]
   ],
   "groups": [],
