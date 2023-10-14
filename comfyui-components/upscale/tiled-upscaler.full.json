@@ -1919,97 +1919,6 @@
       }
     },
     {
-      "id": 253,
-      "type": "Sum",
-      "pos": [
-        4407,
-        818
-      ],
-      "size": {
-        "0": 315,
-        "1": 82
-      },
-      "flags": {
-        "collapsed": true
-      },
-      "order": 55,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "Value_A",
-          "type": "FLOAT",
-          "link": 588,
-          "widget": {
-            "name": "Value_A"
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "FLOAT",
-          "type": "FLOAT",
-          "links": [
-            589
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "title": "Denoise 3 start calc",
-      "properties": {
-        "Node name for S&R": "Sum"
-      },
-      "widgets_values": [
-        1,
-        1
-      ]
-    },
-    {
-      "id": 277,
-      "type": "Floor",
-      "pos": [
-        4412,
-        860
-      ],
-      "size": {
-        "0": 210,
-        "1": 40.363216400146484
-      },
-      "flags": {
-        "collapsed": true
-      },
-      "order": 57,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "Value",
-          "type": "FLOAT",
-          "link": 589,
-          "widget": {
-            "name": "Value"
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "INT",
-          "type": "INT",
-          "links": [
-            590
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "title": "Denoise 3 start",
-      "properties": {
-        "Node name for S&R": "Floor"
-      },
-      "widgets_values": [
-        1
-      ]
-    },
-    {
       "id": 210,
       "type": "KSamplerAdvanced",
       "pos": [
@@ -2684,6 +2593,97 @@
         10000,
         "disable",
         "enable"
+      ]
+    },
+    {
+      "id": 277,
+      "type": "Floor",
+      "pos": [
+        4413,
+        867
+      ],
+      "size": {
+        "0": 210,
+        "1": 40.363216400146484
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 57,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Value",
+          "type": "FLOAT",
+          "link": 589,
+          "widget": {
+            "name": "Value"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            590
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "Denoise 3 start",
+      "properties": {
+        "Node name for S&R": "Floor"
+      },
+      "widgets_values": [
+        1
+      ]
+    },
+    {
+      "id": 253,
+      "type": "Sum",
+      "pos": [
+        4413,
+        756
+      ],
+      "size": {
+        "0": 315,
+        "1": 82
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 55,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Value_A",
+          "type": "FLOAT",
+          "link": 588,
+          "widget": {
+            "name": "Value_A"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            589
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "Denoise 3 start calc",
+      "properties": {
+        "Node name for S&R": "Sum"
+      },
+      "widgets_values": [
+        1,
+        1
       ]
     }
   ],

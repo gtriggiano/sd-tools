@@ -1,13 +1,13 @@
 {
   "last_node_id": 304,
-  "last_link_id": 729,
+  "last_link_id": 730,
   "nodes": [
     {
       "id": 229,
       "type": "Floor",
       "pos": [
-        1518.5206845953412,
-        894.7417803606611
+        1508.3254135015918,
+        903.9976245012857
       ],
       "size": {
         "0": 210,
@@ -435,103 +435,6 @@
       ]
     },
     {
-      "id": 258,
-      "type": "Floor",
-      "pos": [
-        2994,
-        947
-      ],
-      "size": {
-        "0": 315,
-        "1": 58
-      },
-      "flags": {
-        "collapsed": true
-      },
-      "order": 54,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "Value",
-          "type": "FLOAT",
-          "link": 479,
-          "widget": {
-            "name": "Value"
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "INT",
-          "type": "INT",
-          "links": null,
-          "shape": 3
-        }
-      ],
-      "title": "Denoise 2 end",
-      "properties": {
-        "Node name for S&R": "Floor"
-      },
-      "widgets_values": [
-        1
-      ]
-    },
-    {
-      "id": 257,
-      "type": "Sum",
-      "pos": [
-        2994,
-        897
-      ],
-      "size": {
-        "0": 315,
-        "1": 82
-      },
-      "flags": {
-        "collapsed": true
-      },
-      "order": 52,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "Value_A",
-          "type": "FLOAT",
-          "link": 480,
-          "widget": {
-            "name": "Value_A"
-          }
-        },
-        {
-          "name": "Value_B",
-          "type": "FLOAT",
-          "link": 478,
-          "widget": {
-            "name": "Value_B"
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "FLOAT",
-          "type": "FLOAT",
-          "links": [
-            479,
-            588
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "title": "Denoise 2 end calc",
-      "properties": {
-        "Node name for S&R": "Sum"
-      },
-      "widgets_values": [
-        1,
-        1
-      ]
-    },
-    {
       "id": 246,
       "type": "Tuple multiply",
       "pos": [
@@ -685,8 +588,8 @@
       "id": 227,
       "type": "Multiply",
       "pos": [
-        1517.3102597906536,
-        797.472004970036
+        1507.1149886969042,
+        806.7278491106606
       ],
       "size": {
         "0": 247.7947235107422,
@@ -1273,8 +1176,8 @@
       "id": 255,
       "type": "Int to float",
       "pos": [
-        1937,
-        1034
+        1926.804728906251,
+        1043.255844140625
       ],
       "size": {
         "0": 315,
@@ -1341,8 +1244,7 @@
           "name": "",
           "type": "INT",
           "links": [
-            675,
-            705
+            675
           ],
           "slot_index": 0
         }
@@ -1376,7 +1278,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "INT",
+          "type": "*",
           "links": [
             678,
             706
@@ -1393,8 +1295,8 @@
       "id": 224,
       "type": "Int to float",
       "pos": [
-        1518.5206845953412,
-        718.7417803606609
+        1508.3254135015918,
+        727.9976245012855
       ],
       "size": {
         "0": 210,
@@ -1543,7 +1445,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "FLOAT",
+          "type": "*",
           "links": [
             680,
             709
@@ -1798,7 +1700,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "INT",
+          "type": "*",
           "links": [
             718
           ],
@@ -1834,7 +1736,7 @@
       "outputs": [
         {
           "name": "",
-          "type": "FLOAT",
+          "type": "*",
           "links": [
             719
           ],
@@ -1919,107 +1821,16 @@
       }
     },
     {
-      "id": 253,
-      "type": "Sum",
-      "pos": [
-        4407,
-        818
-      ],
-      "size": {
-        "0": 315,
-        "1": 82
-      },
-      "flags": {
-        "collapsed": true
-      },
-      "order": 55,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "Value_A",
-          "type": "FLOAT",
-          "link": 588,
-          "widget": {
-            "name": "Value_A"
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "FLOAT",
-          "type": "FLOAT",
-          "links": [
-            589
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "title": "Denoise 3 start calc",
-      "properties": {
-        "Node name for S&R": "Sum"
-      },
-      "widgets_values": [
-        1,
-        1
-      ]
-    },
-    {
-      "id": 277,
-      "type": "Floor",
-      "pos": [
-        4412,
-        860
-      ],
-      "size": {
-        "0": 210,
-        "1": 40.363216400146484
-      },
-      "flags": {
-        "collapsed": true
-      },
-      "order": 57,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "Value",
-          "type": "FLOAT",
-          "link": 589,
-          "widget": {
-            "name": "Value"
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "INT",
-          "type": "INT",
-          "links": [
-            590
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "title": "Denoise 3 start",
-      "properties": {
-        "Node name for S&R": "Floor"
-      },
-      "widgets_values": [
-        1
-      ]
-    },
-    {
       "id": 210,
       "type": "KSamplerAdvanced",
       "pos": [
-        1518.5206845953412,
-        977.7417803606612
+        1508.3254135015918,
+        986.9976245012857
       ],
-      "size": [
-        315,
-        334
-      ],
+      "size": {
+        "0": 315,
+        "1": 334
+      },
       "flags": {
         "collapsed": false
       },
@@ -2219,10 +2030,10 @@
         2173,
         762
       ],
-      "size": [
-        315,
-        58
-      ],
+      "size": {
+        "0": 315,
+        "1": 58
+      },
       "flags": {
         "collapsed": false
       },
@@ -2298,10 +2109,10 @@
         3624,
         747
       ],
-      "size": [
-        315,
-        58
-      ],
+      "size": {
+        "0": 315,
+        "1": 58
+      },
       "flags": {
         "collapsed": false
       },
@@ -2370,154 +2181,28 @@
       "properties": {}
     },
     {
-      "id": 207,
-      "type": "BNK_TiledKSamplerAdvanced",
+      "id": 304,
+      "type": "ComponentOutput",
       "pos": [
-        2794.5773515036567,
-        1002.8496870127971
+        5246,
+        920
       ],
       "size": {
-        "0": 751.765380859375,
-        "1": 366
+        "0": 178,
+        "1": 26
       },
       "flags": {},
-      "order": 56,
+      "order": 60,
       "mode": 0,
       "inputs": [
         {
-          "name": "model",
-          "type": "MODEL",
-          "link": 647,
-          "slot_index": 0
-        },
-        {
-          "name": "positive",
-          "type": "CONDITIONING",
-          "link": 652
-        },
-        {
-          "name": "negative",
-          "type": "CONDITIONING",
-          "link": 655
-        },
-        {
-          "name": "latent_image",
-          "type": "LATENT",
-          "link": 446
-        },
-        {
-          "name": "noise_seed",
-          "type": "INT",
-          "link": 705,
-          "widget": {
-            "name": "noise_seed"
-          }
-        },
-        {
-          "name": "tile_width",
-          "type": "INT",
-          "link": 462,
-          "widget": {
-            "name": "tile_width"
-          }
-        },
-        {
-          "name": "tile_height",
-          "type": "INT",
-          "link": 463,
-          "widget": {
-            "name": "tile_height"
-          }
-        },
-        {
-          "name": "steps",
-          "type": "INT",
-          "link": 706,
-          "widget": {
-            "name": "steps"
-          }
-        },
-        {
-          "name": "cfg",
-          "type": "FLOAT",
-          "link": 709,
-          "widget": {
-            "name": "cfg"
-          }
-        },
-        {
-          "name": "sampler_name",
-          "type": "COMBO",
-          "link": 710,
-          "widget": {
-            "name": "sampler_name"
-          }
-        },
-        {
-          "name": "scheduler",
-          "type": "COMBO",
-          "link": 711,
-          "widget": {
-            "name": "scheduler"
-          }
-        },
-        {
-          "name": "start_at_step",
-          "type": "INT",
-          "link": 452,
-          "widget": {
-            "name": "start_at_step"
-          }
-        },
-        {
-          "name": "end_at_step",
-          "type": "INT",
-          "link": 458,
-          "widget": {
-            "name": "end_at_step"
-          }
-        },
-        {
-          "name": "tiling_strategy",
-          "type": "COMBO",
-          "link": 459,
-          "widget": {
-            "name": "tiling_strategy"
-          },
-          "slot_index": 13
-        }
-      ],
-      "outputs": [
-        {
           "name": "LATENT",
           "type": "LATENT",
-          "links": [
-            469
-          ],
-          "shape": 3,
-          "slot_index": 0
+          "link": 729,
+          "label": null
         }
       ],
-      "title": "Denoise 2",
-      "properties": {
-        "Node name for S&R": "BNK_TiledKSamplerAdvanced"
-      },
-      "widgets_values": [
-        "disable",
-        0,
-        "randomize",
-        512,
-        512,
-        "random",
-        20,
-        8,
-        "euler",
-        "normal",
-        0,
-        10000,
-        "enable",
-        "disable"
-      ]
+      "properties": {}
     },
     {
       "id": 262,
@@ -2659,32 +2344,349 @@
         0,
         10000,
         "disable",
+        "enable"
+      ]
+    },
+    {
+      "id": 257,
+      "type": "Sum",
+      "pos": [
+        2999,
+        896
+      ],
+      "size": {
+        "0": 315,
+        "1": 82
+      },
+      "flags": {
+        "collapsed": true
+      },
+      "order": 52,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Value_A",
+          "type": "FLOAT",
+          "link": 480,
+          "widget": {
+            "name": "Value_A"
+          }
+        },
+        {
+          "name": "Value_B",
+          "type": "FLOAT",
+          "link": 478,
+          "widget": {
+            "name": "Value_B"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            479,
+            588
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "Denoise 2 end calc",
+      "properties": {
+        "Node name for S&R": "Sum"
+      },
+      "widgets_values": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": 258,
+      "type": "Floor",
+      "pos": [
+        2995,
+        938
+      ],
+      "size": [
+        210,
+        34
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 54,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Value",
+          "type": "FLOAT",
+          "link": 479,
+          "widget": {
+            "name": "Value"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            730
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "Denoise 2 end",
+      "properties": {
+        "Node name for S&R": "Floor"
+      },
+      "widgets_values": [
+        1
+      ]
+    },
+    {
+      "id": 207,
+      "type": "BNK_TiledKSamplerAdvanced",
+      "pos": [
+        2782,
+        1016
+      ],
+      "size": {
+        "0": 751.765380859375,
+        "1": 366
+      },
+      "flags": {},
+      "order": 56,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 647,
+          "slot_index": 0
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 652
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 655
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 446
+        },
+        {
+          "name": "noise_seed",
+          "type": "INT",
+          "link": 730,
+          "widget": {
+            "name": "noise_seed"
+          }
+        },
+        {
+          "name": "tile_width",
+          "type": "INT",
+          "link": 462,
+          "widget": {
+            "name": "tile_width"
+          }
+        },
+        {
+          "name": "tile_height",
+          "type": "INT",
+          "link": 463,
+          "widget": {
+            "name": "tile_height"
+          }
+        },
+        {
+          "name": "steps",
+          "type": "INT",
+          "link": 706,
+          "widget": {
+            "name": "steps"
+          }
+        },
+        {
+          "name": "cfg",
+          "type": "FLOAT",
+          "link": 709,
+          "widget": {
+            "name": "cfg"
+          }
+        },
+        {
+          "name": "sampler_name",
+          "type": "COMBO",
+          "link": 710,
+          "widget": {
+            "name": "sampler_name"
+          }
+        },
+        {
+          "name": "scheduler",
+          "type": "COMBO",
+          "link": 711,
+          "widget": {
+            "name": "scheduler"
+          }
+        },
+        {
+          "name": "start_at_step",
+          "type": "INT",
+          "link": 452,
+          "widget": {
+            "name": "start_at_step"
+          }
+        },
+        {
+          "name": "end_at_step",
+          "type": "INT",
+          "link": 458,
+          "widget": {
+            "name": "end_at_step"
+          }
+        },
+        {
+          "name": "tiling_strategy",
+          "type": "COMBO",
+          "link": 459,
+          "widget": {
+            "name": "tiling_strategy"
+          },
+          "slot_index": 13
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            469
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "Denoise 2",
+      "properties": {
+        "Node name for S&R": "BNK_TiledKSamplerAdvanced"
+      },
+      "widgets_values": [
+        "disable",
+        0,
+        "randomize",
+        512,
+        512,
+        "random",
+        20,
+        8,
+        "euler",
+        "normal",
+        0,
+        10000,
+        "enable",
         "disable"
       ]
     },
     {
-      "id": 304,
-      "type": "ComponentOutput",
+      "id": 253,
+      "type": "Sum",
       "pos": [
-        5246,
-        920
+        4411,
+        753
       ],
       "size": {
-        "0": 178,
-        "1": 26
+        "0": 315,
+        "1": 82
       },
-      "flags": {},
-      "order": 60,
+      "flags": {
+        "collapsed": false
+      },
+      "order": 55,
       "mode": 0,
       "inputs": [
         {
-          "name": "LATENT",
-          "type": "LATENT",
-          "link": 729,
-          "label": null
+          "name": "Value_A",
+          "type": "FLOAT",
+          "link": 588,
+          "widget": {
+            "name": "Value_A"
+          }
         }
       ],
-      "properties": {}
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            589
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "Denoise 3 start calc",
+      "properties": {
+        "Node name for S&R": "Sum"
+      },
+      "widgets_values": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": 277,
+      "type": "Floor",
+      "pos": [
+        4416,
+        888
+      ],
+      "size": {
+        "0": 210,
+        "1": 40.363216400146484
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 57,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Value",
+          "type": "FLOAT",
+          "link": 589,
+          "widget": {
+            "name": "Value"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            590
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "Denoise 3 start",
+      "properties": {
+        "Node name for S&R": "Floor"
+      },
+      "widgets_values": [
+        1
+      ]
     }
   ],
   "links": [
@@ -3225,14 +3227,6 @@
       "*"
     ],
     [
-      705,
-      178,
-      0,
-      207,
-      4,
-      "INT"
-    ],
-    [
       706,
       237,
       0,
@@ -3391,14 +3385,22 @@
       304,
       0,
       "*"
+    ],
+    [
+      730,
+      258,
+      0,
+      207,
+      4,
+      "INT"
     ]
   ],
   "groups": [
     {
       "title": "First Denoise",
       "bounding": [
-        1482,
-        628,
+        1472,
+        637,
         647,
         690
       ],
